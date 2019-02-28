@@ -1,5 +1,17 @@
 # Mac 鼠须管 Rime 输入法 安装五笔输入法 教程
 
+
+> 相关链接
+>
+> **极点五笔方案(github)**： https://github.com/KyleBing/rime-wubi86-jidan
+> 
+> RIME 官网：          https://rime.im/
+> RIME github 地址：   https://github.com/rime
+> RIME 输入方案集合：  https://github.com/rime/plum
+> RIME 官方五笔码表：  https://github.com/rime/rime-wubi
+> RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
+
+
 ## 前言
 
 Rime 是一款跨平台的优秀输入法的内核。
