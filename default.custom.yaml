@@ -12,6 +12,7 @@ patch:
     - schema: luna_pinyin_simp
     #- schema: luna_pinyin_fluency
     - schema: wubi86
+    - schema: wubi86_jidian
 
 
   # Menu
@@ -19,9 +20,9 @@ patch:
     page_size: 3
   switcher:
     hotkeys:
-      - "Control+Shift+1"
+      - "Control+Shift+`"
     abbreviate_options: true
-    caption: "[ Setup ]"
+    caption: "[ 输入法设置 ]"
     option_list_separator: "｜"
 
   key_binder:

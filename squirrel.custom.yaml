@@ -24,7 +24,7 @@ patch:
     name: "简约白／Clean White"
     text_color: 0x808080
 
-  # App specify
+  # 特定程序定义初始状态的英文输入
   app_options:
     # Add
     com.hegenberg.BetterTouchTool:
