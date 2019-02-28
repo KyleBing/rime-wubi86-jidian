@@ -1,0 +1,32 @@
+# default.custom.yaml
+# save it to: 
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
+
+
+patch:
+  schema_list:
+    #- schema: luna_pinyin
+    - schema: luna_pinyin_simp
+    #- schema: luna_pinyin_fluency
+    - schema: wubi86
+
+
+  # Menu
+  menu:
+    page_size: 3
+  switcher:
+    hotkeys:
+      - "Control+Shift+1"
+    abbreviate_options: true
+    caption: "[ Setup ]"
+    option_list_separator: "｜"
+
+  key_binder:
+    bindings:
+      - {accept: semicolon, send: 2, when: has_menu} #候选2 用分号
+      - {accept: apostrophe, send: 3, when: has_menu} #候选3 用单引号
+      - {accept: bracketleft, send: Page_Up, when: paging}
+      - {accept: bracketright, send: Page_Down, when: has_menu}
