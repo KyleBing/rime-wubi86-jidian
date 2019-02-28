@@ -4,9 +4,13 @@
 > 相关链接
 > 
 > RIME 官网：          https://rime.im/
+
 > RIME github 地址：   https://github.com/rime
+
 > RIME 输入方案集合：  https://github.com/rime/plum
+
 > RIME 官方五笔码表：  https://github.com/rime/rime-wubi
+
 > RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
 
 
