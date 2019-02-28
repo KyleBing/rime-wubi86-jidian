@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi86_jidian
-  name: "五笔86"
+  name: "极点五笔86"
   version: "0.21"
   author:
     - 创始人 王永民先生
@@ -48,11 +48,14 @@ speller:
   delimiter: " ;'"
   # 四码上屏
   max_code_length: 4
+  auto_select: true
+  auto_select_unique_candidate: true #无重码自动上屏
 
 translator:
   dictionary: wubi86
   enable_charset_filter: true
-  enable_sentence: true
+  enable_sentence: true   #开关语句模式
+  enable_user_dict: false #禁止词序调整
   enable_encoder: true
   encode_commit_history: true
   max_phrase_length: 4
