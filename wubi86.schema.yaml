@@ -6,11 +6,11 @@ schema:
   name: "五笔86"
   version: "0.21"
   author:
-    - 發明人 王永民先生
+    - 创始人 王永民先生
   description: |
-    五筆字型86版
-    碼表源自 ibus-table
-    敲 z 鍵進入拼音反查
+    五笔字形 86 版
+    码表源自 ibus-table
+    用 z 开头进入拼音反查
   dependencies:
     - pinyin_simp
 
@@ -21,7 +21,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
-    states: [ 常用, 增廣 ]
+    states: [ 常用, 增强 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 

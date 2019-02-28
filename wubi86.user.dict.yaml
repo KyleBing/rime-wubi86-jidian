@@ -1,6 +1,7 @@
 ---
 name: wubi86.user
 version: "2019-01-20"
+last_edit_time: "2019-02-28"
 sort: by_weight #by_weight/权重 original/原始
 use_preset_vocabulary: true
 ...
