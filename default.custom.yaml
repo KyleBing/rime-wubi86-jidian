@@ -9,17 +9,8 @@
 patch:
   schema_list:
     - schema: wubi86_jidian
-    - schema: wubi86
     - schema: luna_pinyin_simp
 
-#  ascii_composer:
-#    good_old_caps_lock": false
-#    switch_key":
-#      Caps_Lock: noop
-#      Control_L: noop
-#      Control_R: noop
-#      Shift_L: commit_code #左Shift中英切换
-#      Shift_R: noop
 
   # Menu
   menu:
@@ -33,17 +24,83 @@ patch:
 
   key_binder:
     bindings:
-#     - {accept: comma, send: 2, when: has_menu} #候选2 用逗号选择 （修改的时候不要多加或少加空格，跟前面的对齐就好了）
-#     - {accept: period, send: 3, when: has_menu} #候选3 用句号选择
+      #     - {accept: comma, send: 2, when: has_menu} #候选2 用逗号选择 （修改的时候不要多加或少加空格，跟前面的对齐就好了）
+      #     - {accept: period, send: 3, when: has_menu} #候选3 用句号选择
       - {accept: semicolon, send: 2, when: has_menu} #候选2 用分号
       - {accept: apostrophe, send: 3, when: has_menu} #候选3 用单引号
       - {accept: bracketleft, send: Page_Up, when: paging}
       - {accept: bracketright, send: Page_Down, when: has_menu}
 
-#  punctuator:
-#    full_shape:
-#
-#    half_shape:
-#      import_preset: symbols
-#      "[": {commit: "【"}
-#      "]": {commit: "】"}
+  punctuator:
+    full_shape:
+      " ": {commit: "　"}
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": ["＃", "⌘"]
+      "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+      "%": ["％", "°", "℃"]
+      "&": "＆"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["＊", "·", "・", "×", "※", "❂"]
+      "+": "＋"
+      ",": {commit: "，"}
+      "-": "－"
+      .: {commit: "。"}
+      "/": ["／", "÷"]
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": ["《", "〈", "«", "‹"]
+      "=": "＝"
+      ">": ["》", "〉", "»", "›"]
+      "?": {commit: "？"}
+      "@": ["＠", "☯"]
+      "[": ["「", "【", "〔", "［"]
+      "\\": ["、", "＼"]
+      "]": ["」", "】", "〕", "］"]
+      "^": {commit: "……"}
+      _: "——"
+      "`": "｀"
+      "{": ["『", "〖", "｛"]
+      "|": ["·", "｜", "§", "¦"]
+      "}": ["』", "〗", "｝"]
+      "~": "～"
+    half_shape:
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+      "%": ["%", "％", "°", "℃"]
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["*", "＊", "·", "・", "×", "※", "❂"]
+      "+": "+"
+      ",": {commit: "，"}
+      "-": "-"
+      .: {commit: "。"}
+      "/": ["、", "/", "／", "÷"]
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": {commit: "《"}
+      "=": "="
+      ">": {commit: "》"}
+      "?": {commit: "？"}
+      "@": "@"
+      "[": {commit: "【"}
+      "\\": {commit: "、"}
+      "]": {commit: "】"}
+      "^": {commit: "……"}
+      _: "——"
+      "`": "`"
+      "{": ["『", "〖", "｛"]
+      "|": ["·", "|", "｜", "§", "¦"]
+      "}": ["』", "〗", "｝"]
+      "~": ["~", "～"]
+  recognizer:
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"

@@ -3,7 +3,7 @@
 name: wubi86_jidian
 version: "4.3"
 sort: orininal #by_weight/权重 original/原始
-import_tables:
+import_tables: #此处是添加用户自定义词库的地方
   - wubi86_jidian_user
 columns: #码表格式
   - text #文字
