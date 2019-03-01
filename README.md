@@ -3,19 +3,16 @@
 
 > 相关链接
 
->
+> 
 > **极点五笔方案(github)**： https://github.com/KyleBing/rime-wubi86-jidan
 > 
-
 > RIME 官网：          https://rime.im/
-
 > RIME github 地址：   https://github.com/rime
-
 > RIME 输入方案集合：  https://github.com/rime/plum
-
 > RIME 官方五笔码表：  https://github.com/rime/rime-wubi
-
 > RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
+> 
+> RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 
 
 ## 前言

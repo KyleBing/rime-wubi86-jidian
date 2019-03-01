@@ -3,10 +3,10 @@
 name: wubi86
 version: "0.6"
 sort: original
-columns:
-  - text
-  - code
-  - weight
+columns: #码表格式
+  - text #文字
+  - code #输入码
+  - weight #权重
   - stem
 encoder:
   exclude_patterns:
