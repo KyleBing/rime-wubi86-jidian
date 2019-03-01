@@ -52,7 +52,7 @@ speller:
 
 translator:
   dictionary: wubi86_jidian #翻译器将调取此字典文件
-  user_dict: wubi86_jidian.user
+  user_dict: wubi86_jidian_user
   enable_charset_filter: true
   enable_sentence: false #开关语句模式
   enable_user_dict: false #是否开启用户词典（用户词典记录动态字词频，用户词）
