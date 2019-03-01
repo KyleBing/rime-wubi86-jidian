@@ -39,3 +39,11 @@ patch:
       - {accept: apostrophe, send: 3, when: has_menu} #候选3 用单引号
       - {accept: bracketleft, send: Page_Up, when: paging}
       - {accept: bracketright, send: Page_Down, when: has_menu}
+
+#  punctuator:
+#    full_shape:
+#
+#    half_shape:
+#      import_preset: symbols
+#      "[": {commit: "【"}
+#      "]": {commit: "】"}

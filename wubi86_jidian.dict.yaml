@@ -1,8 +1,10 @@
 
 ---
 name: wubi86_jidian
-version: "0.6"
+version: "4.3"
 sort: orininal #by_weight/权重 original/原始
+import_tables:
+  - wubi86_jidian_user
 columns: #码表格式
   - text #文字
   - code #输入码

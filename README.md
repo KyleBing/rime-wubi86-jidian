@@ -60,17 +60,16 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ```bash
 .
-├── README.md                   # 当前说明文档
-├── default.custom.yaml         # 用记自定义的一些输入方式或方向
-├── pinyin_simp.dict.yaml       # 简体拼音码表 - 五笔中拼音输入需要的
-├── pinyin_simp.schema.yaml     # 简体拼音解释器
-├── squirrel.custom.yaml        # 输入法候选词界面
-├── wubi86.dict.yaml            # 官方五笔码表
-├── wubi86.schema.yaml          # 五笔解释器
-├── wubi86_jidian.dict.yaml     # 极点 - 五笔码表
-├── wubi86_jidian.schema.yaml   # 极点 - 五笔码表解释器
-├── wubi_pinyin.schema.yaml     # 五笔拼音混输
-└── wubi_trad.schema.yaml       # 五笔简入繁出
+├── README.md                       # 当前说明文档
+├── default.custom.yaml             # 用记自定义的一些输入方式或方向
+├── pinyin_simp.dict.yaml           # 简体拼音码表 - 五笔中拼音输入需要的
+├── pinyin_simp.schema.yaml         # 简体拼音解释器
+├── squirrel.custom.yaml            # 输入法候选词界面
+├── wubi86_jidian.dict.yaml         # 极点 - 五笔码表
+├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
+├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户自定义词
+├── wubi_pinyin.schema.yaml         # 五笔拼音混输
+└── wubi_trad.schema.yaml           # 五笔简入繁出
 ```
 
 ## 目前的功能特点
@@ -93,4 +92,11 @@ macOS 上的 刀须管 设置目录是 `~/Library/Rime`
 
 # 关于自定义一些功能
 
-< 这个等有时间再写吧 >
+所有配置说明都在配置文件中说明了
+
+```bash
+├── squirrel.custom.yaml            # 输入法候选词界面
+├── default.custom.yaml             # 用记自定义的一些输入方式或方向
+├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
+├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户扩展词库
+```
