@@ -26,9 +26,9 @@ patch:
     page_size: 3
   switcher:
     hotkeys:
-      - "Control+1"
+      - "Control+0"
     abbreviate_options: true
-    caption: "[ 输入法设置 ]"
+    caption: "【 输入法设置 】"
     option_list_separator: "｜"
 
   key_binder:

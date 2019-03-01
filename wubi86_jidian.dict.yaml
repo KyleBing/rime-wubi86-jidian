@@ -20,8 +20,8 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
-工	a
-戈	a
+工	a 99%
+戈	a 90%
 式	aa
 戒	aa
 工	aaa
@@ -44,7 +44,6 @@ encoder:
 茕茕孑立	aabu
 戒除	aabw
 落落难合	aacw
-式	aad
 葚	aad
 匞	aad
 工友	aadc
@@ -41194,8 +41193,8 @@ encoder:
 同义词	myyn
 凡庸	myyv
 风度翩翩	myyy
-民	n
-已	n
+民	n 99%
+已	n 88%
 民	na
 民工	naaa
 展期	naad

@@ -52,9 +52,9 @@ speller:
 
 translator:
   dictionary: wubi86_jidian #翻译器将调取此字典文件
-  user_dict: wubi86_jidian.user
+#  user_dict: wubi86_jidian.user
   enable_charset_filter: true
-  enable_sentence: true #开关语句模式
+  enable_sentence: false #开关语句模式
   enable_user_dict: false #是否开启用户词典（用户词典记录动态字词频，用户词）
   enable_encoder: true #自动造词
   encode_commit_history: false #是否对已上屏的词自动上屏
@@ -67,7 +67,7 @@ reverse_lookup:
   dictionary: pinyin_simp
   prefix: "z"
   suffix: "'"
-  tips: 【拼音】
+  tips: 【 拼音 】
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

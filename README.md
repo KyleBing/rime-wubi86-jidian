@@ -1,15 +1,19 @@
 # Mac 鼠须管 Rime 输入法 安装五笔输入法 教程
 
 
-**相关链接**
+## 相关链接
+
+相关资源链接
 
 - 极点五笔方案(github)： https://github.com/KyleBing/rime-wubi86-jidan
-- RIME 官网：          https://rime.im/
-
 - RIME github 地址：   https://github.com/rime
 - RIME 输入方案集合：  https://github.com/rime/plum
 - RIME 官方五笔码表：  https://github.com/rime/rime-wubi
 - RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
+
+相关配置教程链接
+
+- RIME 官网：   https://rime.im/
 - RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 
 
@@ -71,7 +75,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ## 目前的功能特点
 
-- control + 1 呼出设置菜单（在有些应用中可能会失效，换个应用就好）
+- control + ~ 呼出设置菜单（在有些应用中可能会失效，换个应用就好）
 - 显示 3 个候选词
 - 分号`；` 和 引号`‘` 作为二三候选的快捷键
 - 4 码唯一时直接上屏
