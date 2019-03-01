@@ -4,7 +4,7 @@
 schema:
   schema_id: wubi86_jidian
   name: "极点五笔86"
-  version: "0.21"
+  version: "1.0"
   author:
     - 创始人 王永民先生
   description: |
@@ -19,7 +19,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
-    states: [ 常用, 增强 ]
+    states: [ 常用, 扩展 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -45,20 +45,20 @@ engine:
     - table_translator
 
 speller:
-  delimiter: " ;'"
-  # 四码上屏
-  max_code_length: 4
-  auto_select: true
+
+  max_code_length: 4 #四码上屏
+  auto_select: true #自动上屏
   auto_select_unique_candidate: true #无重码自动上屏
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi86_jidian
+  user_dict: wubi86_jidian.user
   enable_charset_filter: true
-  enable_sentence: true   #开关语句模式
+  enable_sentence: true #开关语句模式
   enable_user_dict: false #禁止词序调整
-  enable_encoder: true
-  encode_commit_history: true
-  max_phrase_length: 4
+  enable_encoder: true #自动造词
+  encode_commit_history: false #是否对已上屏的词自动上屏
+  max_phrase_length: 4 #
   disable_user_dict_for_patterns:
     - "^z.*$"
 
@@ -66,7 +66,7 @@ reverse_lookup:
   dictionary: pinyin_simp
   prefix: "z"
   suffix: "'"
-  tips: 〔拼音〕
+  tips: 【拼音】
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
