@@ -1,6 +1,6 @@
 
 ---
-name: wubi86
+name: wubi86_jidian
 version: "0.6"
 sort: original
 columns: #码表格式
@@ -20,8 +20,8 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
-工	a 99%
-戈	a 90%
+工	a 1
+戈	a 2
 式	aa
 戒	aa
 工	aaa
