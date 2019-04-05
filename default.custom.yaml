@@ -94,12 +94,12 @@ patch:
       "^": {commit: "……"}
       _: "——"
       "`": "`"
-      "{": ["『", "〖", "｛"]
+      "{": "『"
       "|": "|"
-      "}": ["』", "〗", "｝"]
+      "}": "』"
       "~": "~"
   recognizer:
     patterns:
-      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      email: "^[-_.0-9A-Za-z]*@.*$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
