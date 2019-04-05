@@ -27,6 +27,8 @@ patch:
   # --- 特定程序定义初始状态的英文输入 ---
   app_options:
     # Add
+#    com.apple.launchpad.launcher: # 启动面板，目前不起作用
+#        ascii_mode: true
     com.hegenberg.BetterTouchTool:
       ascii_mode: true
     com.jetbrains.PhpStorm:
