@@ -1,5 +1,6 @@
+!.gitattributes
 !.gitignore
-.*
+.git/*
 build/*
 installation.yaml
 user.yaml
