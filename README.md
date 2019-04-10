@@ -3,20 +3,6 @@
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
-## 相关链接
-
-相关资源链接
-
-- 极点五笔方案(github)： https://github.com/KyleBing/rime-wubi86-jidan
-- RIME github 地址：   https://github.com/rime
-- RIME 输入方案集合：  https://github.com/rime/plum
-- RIME 官方五笔码表：  https://github.com/rime/rime-wubi
-- RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
-
-相关配置教程链接
-
-- RIME 官网：   https://rime.im/
-- RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 
 
 ## 前言
@@ -32,13 +18,13 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 高度自定义的特性也使得入门的门槛比较高一些。如果想自定义方案，需要有一定的编程基础，至少有一定的程序语言基础。
 
 
-## 用极点输入法的原因
+__用极点输入法的原因__
 
 用久了五笔的都知道，喜欢五笔的因为是五笔的重码率少，如果码表太多重码就体验很差了。
 
 这里导入的极点版是重码很少的，打起字来很爽的。而且对标点的支持也很好。之前用的 `清歌输入法`，但该输入法有个弊端，对于我这种前端工程师来说，会在工作中用到数字左边那个键 `~`，而清歌输入法把这个键作为临时拼音输入的入口，用起来就各种麻烦。现在换成 RIME 简直爽翻了。 好久没有这么爽的打过字了。
 
-![Rime五笔输入法输入样子](https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif)
+<img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif" width=600 title="Rime五笔输入法输入样子">
 
 
 
@@ -73,13 +59,9 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```
 
 
-### 目前的功能特点
+## 皮肤
 
-- control + 0 呼出设置菜单（在有些应用中可能会失效，换个应用就好）
-- 显示 3 个候选词
-- 分号`；` 和 引号`‘` 作为二三候选的快捷键
-- 4 码唯一时直接上屏
-- `[` `]` 翻页
+<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=300>
 
 
 ## 设置五笔输入法
@@ -90,6 +72,22 @@ Rime 输入法的设置方式：
 macOS 上的 刀须管 设置目录是 `~/Library/Rime`
 
 把上面下载的文件移到该目录中，点击 `部署` 即可。
+
+
+## 相关链接
+
+相关资源链接
+
+- 极点五笔方案(github)： https://github.com/KyleBing/rime-wubi86-jidan
+- RIME github 地址：   https://github.com/rime
+- RIME 输入方案集合：  https://github.com/rime/plum
+- RIME 官方五笔码表：  https://github.com/rime/rime-wubi
+- RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
+
+相关配置教程链接
+
+- RIME 官网：   https://rime.im/
+- RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 
 
 
