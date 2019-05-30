@@ -99,7 +99,7 @@ __用极点输入法的原因__
 
 ```bash
 ├── squirrel.custom.yaml            # 输入法候选词界面
-├── default.custom.yaml             # 用记自定义的一些输入方式或方向
+├── default.custom.yaml             # 用于自定义的一些输入方式，符号什么的
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户扩展词库
 ```
