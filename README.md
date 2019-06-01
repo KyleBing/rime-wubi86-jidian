@@ -68,6 +68,23 @@ __用极点输入法的原因__
 1. macOS 上的 鼠须管 设置目录是 `~/Library/Rime` 
 2. 把上面下载的文件移到该目录中，点击 `部署` 即可。
 
+放的时候目录结构是这样的：
+
+```bash
+~/Library/
+└── Rime
+    ├── README.md
+    ├── default.custom.yaml
+    ├── pinyin_simp.dict.yaml
+    ├── pinyin_simp.schema.yaml
+    ├── squirrel.custom.yaml
+    ├── wubi86_jidian.dict.yaml
+    ├── wubi86_jidian.schema.yaml
+    ├── wubi86_jidian_user.schema.yaml
+    ├── wubi_pinyin.schema.yaml 
+    └── wubi_trad.schema.yaml   
+```
+
 > 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
