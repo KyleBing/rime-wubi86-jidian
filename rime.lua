@@ -9,6 +9,7 @@ function date_translator(input, seg)
    end
 end
 
+--- 过滤器：单字在先
 function single_char_first_filter(input)
    local l = {}
    for cand in input:iter() do

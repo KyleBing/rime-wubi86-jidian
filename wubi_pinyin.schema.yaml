@@ -50,7 +50,7 @@ speller:
   #max_code_length: 4  # 四碼頂字上屏
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi86_jidian
   prism: wubi_pinyin
   enable_charset_filter: true
   enable_sentence: true
