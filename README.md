@@ -47,6 +47,7 @@ __用极点输入法的原因__
 ```bash
 .
 ├── README.md                       # 当前说明文档
+├── rime.lua                        # 可以输出系统变量的函数
 ├── default.custom.yaml             # 用记自定义的一些输入方式或方向
 ├── pinyin_simp.dict.yaml           # 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml         # 简体拼音解释器
@@ -96,8 +97,17 @@ macOS 上的 刀须管 设置目录是 `~/Library/Rime`
 所有配置说明都在配置文件中说明了
 
 ```bash
+├── rime.lua                        # 可以输出系统变量的函数
 ├── squirrel.custom.yaml            # 输入法候选词界面
 ├── default.custom.yaml             # 用记自定义的一些输入方式或方向
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户扩展词库
 ```
+
+
+## 输出系统变量
+
+自 v0.13之后可自定义输出系统变量，如日期等
+
+文件 `rime.lua` 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine` 字段添加一些东西。
+具体参阅这里： https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua

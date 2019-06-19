@@ -43,6 +43,9 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
+    - lua_translator@date_translator # 自定义系统变量输出
+  filters:
+    - lua_filter@single_char_first_filter
 
 speller:
 
@@ -52,7 +55,6 @@ speller:
 
 translator:
   dictionary: wubi86_jidian #翻译器将调取此字典文件
-  user_dict: wubi86_jidian_user
   enable_charset_filter: true
   enable_sentence: false #开关语句模式
   enable_user_dict: false #是否开启用户词典（用户词典记录动态字词频，用户词）
@@ -62,6 +64,7 @@ translator:
   db_class: tabledb # userdb - 二进制 / tabledb - 人类语言
   disable_user_dict_for_patterns: # z开头的输入忽略，对应下面的拼音反查，
     - "^z.*$"
+
 
 reverse_lookup:
   dictionary: pinyin_simp

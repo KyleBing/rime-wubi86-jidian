@@ -1,6 +1,8 @@
 !.gitattributes
 !.gitignore
+.idea/*
 .git/*
+.DS_Store
 build/*
 installation.yaml
 user.yaml
