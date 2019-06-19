@@ -14,6 +14,7 @@ Rime 是一款跨平台的优秀输入法的内核。
 - macOS - 鼠须管
 - Linux - ibus-rime
 
+目前本人已知的 Rime 在 windows 和 macOS 平台上的词库配置是相同的。
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
 高度自定义的特性也使得入门的门槛比较高一些。如果想自定义方案，需要有一定的编程基础，至少有一定的程序语言基础。
 
@@ -28,19 +29,16 @@ __用极点输入法的原因__
 
 
 
-## 安装 鼠须管
+## 安装 鼠须管(macOS) 或 小狼毫(Windows)
 
-去 [官网下载](https://rime.im/download/)，或者直接点这里下载文章发布时的 [鼠须管 最新版 `0.11`](https://dl.bintray.com/rime/squirrel/Squirrel-0.11.0.zip)
-- 官网下载 (https://rime.im/download/)
-- 鼠须管 最新版 `0.11` (https://dl.bintray.com/rime/squirrel/Squirrel-0.11.0.zip)
-
+去 [官网下载](https://rime.im/download/)
 下载后按照步骤安装即可
 
 
 ## 下载 五笔配置文件
 
 也就是当前库，直接下载即可
-> 五笔输入法-极点版： https://github.com/KyleBing/rime-wubi86-jidan
+> 五笔输入法-极点版： https://github.com/KyleBing/rime-wubi86-jidian
 
 其中的文件列表有：
 
@@ -51,7 +49,8 @@ __用极点输入法的原因__
 ├── default.custom.yaml             # 用记自定义的一些输入方式或方向
 ├── pinyin_simp.dict.yaml           # 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml         # 简体拼音解释器
-├── squirrel.custom.yaml            # 输入法候选词界面
+├── squirrel.custom.yaml            # 鼠须管（for macOS）输入法候选词界面
+├── weasel.custom.yaml              # 小狼毫（for Windows）输入法候选词界面
 ├── wubi86_jidian.dict.yaml         # 极点 - 五笔码表
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户自定义词
@@ -60,19 +59,55 @@ __用极点输入法的原因__
 ```
 
 
+## 设置五笔输入法
+
+### macOS 鼠须管
+
+把配置文件放到配置目录，在状态栏的输入法中选择 `鼠须管`，执行一下 `部署` 就好了。
+
+1. macOS 上的 鼠须管 设置目录是 `~/Library/Rime` 
+2. 把上面下载的文件移到该目录中，点击 `部署` 即可。
+
+放的时候目录结构是这样的：
+
+```bash
+~/Library/
+└── Rime
+    ├── README.md
+    ├── default.custom.yaml
+    ├── pinyin_simp.dict.yaml
+    ├── pinyin_simp.schema.yaml
+    ├── squirrel.custom.yaml
+    ├── wubi86_jidian.dict.yaml
+    ├── wubi86_jidian.schema.yaml
+    ├── wubi86_jidian_user.schema.yaml
+    ├── wubi_pinyin.schema.yaml 
+    └── wubi_trad.schema.yaml   
+```
+
+> 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
+
+
+### Windows 小狼毫
+
+<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime_setup_windows_start.png" width=300>
+
+1. 点击【开始】
+2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
+3. 把该项目中的文件复制到里面
+4. 点击开始菜单中的【部署】即可
+
+
+
 ## 皮肤
+
+macOS
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=300>
 
+Windows
 
-## 设置五笔输入法
-
-Rime 输入法的设置方式：
-把配置文件放到配置目录，在状态栏的输入法中选择 `鼠须管`，执行一下 `部署` 就好了。
-
-macOS 上的 刀须管 设置目录是 `~/Library/Rime`
-
-把上面下载的文件移到该目录中，点击 `部署` 即可。
+<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime_skin_windows.png" width=300>
 
 
 ## 相关链接
@@ -97,9 +132,9 @@ macOS 上的 刀须管 设置目录是 `~/Library/Rime`
 所有配置说明都在配置文件中说明了
 
 ```bash
-├── rime.lua                        # 可以输出系统变量的函数
-├── squirrel.custom.yaml            # 输入法候选词界面
-├── default.custom.yaml             # 用记自定义的一些输入方式或方向
+├── squirrel.custom.yaml            # macOS 鼠须管输入法候选词界面
+├── weasel.custom.yaml              # windows 小狼毫输入法候选词界面
+├── default.custom.yaml             # 用于自定义的一些输入方式，符号什么的
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户扩展词库
 ```

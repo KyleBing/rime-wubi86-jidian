@@ -1,0 +1,71 @@
+patch:
+
+  # ------  候选框样式  --------
+  style:
+    border_height: 0
+    border_width: 0
+    color_scheme: clean_white
+    font_point: 12
+    corner_radius: 5
+    horizontal: true
+    inline_preedit: true
+    line_spacing: 5
+    spacing: 10
+    back_color: 0xeeeeee
+    candidate_format: "%c %@ "
+    candidate_text_color: 0x000000
+    comment_text_color: 0x808080
+    hilited_candidate_back_color: 0xeeeeee
+    hilited_candidate_label_color: 0xa0c98915
+    hilited_candidate_text_color: 0xc98915
+    hilited_text_color: 0x000000
+    label_color: 0x888888
+    label_font_point: 12
+    name: "简约白／Clean White"
+    text_color: 0x808080
+
+  # --- 特定程序定义初始状态的英文输入 ---
+  app_options:
+    # Add
+#    com.apple.launchpad.launcher: # 启动面板，目前不起作用
+#        ascii_mode: true
+    com.hegenberg.BetterTouchTool:
+      ascii_mode: true
+    com.jetbrains.PhpStorm:
+      ascii_mode: true
+    # original
+    co.zeit.hyper:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.barebones.textwrangler:
+      ascii_mode: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
+    com.github.atom:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.macromates.TextMate.preview:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    "com.runningwithcrayons.Alfred-2":
+      ascii_mode: true
+    com.sublimetext.2:
+      ascii_mode: true
+    org.gnu.Aquamacs:
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
+      no_inline: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
