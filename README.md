@@ -101,7 +101,7 @@ __用极点输入法的原因__
 
 ## 皮肤
 
-macOS系统的相应参数还不是很了解，windows的我知道，如果有知道的，肯请告知一二，谢谢  kylebing@163.com
+macOS系统的相应参数还不是很了解，windows的我知道，如果有知道的，肯请告知一二，谢谢 点此 https://github.com/KyleBing/rime-wubi86-jidian/issues/5
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png">
 
