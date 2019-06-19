@@ -7,3 +7,4 @@ build/*
 installation.yaml
 user.yaml
 sync/*
+luna_pinyin.userdb/*
