@@ -45,7 +45,7 @@ engine:
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
   filters:
-    - lua_filter@single_char_first_filter
+    - lua_filter@single_char_first_filter # 方法
 
 speller:
 
