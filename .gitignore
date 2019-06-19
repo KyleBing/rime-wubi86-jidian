@@ -6,3 +6,4 @@
 build/*
 installation.yaml
 user.yaml
+sync/*
