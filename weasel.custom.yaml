@@ -2,30 +2,27 @@ patch:
 
   # ------  候选框样式  --------
   style:
-    name: "clean_white_plus"
-    #color_scheme: clean_white                 # 这是内置的一个方案，也挺好看
-    color_scheme: clean_white_plus            # 写当前名，也就是上面的 name 内容
-    border_height: 5                          # 边距 - 面板上下
-    border_width: 5                           # 边距 - 面板左右
-    border_color: 0x8E8E93                    # 颜色 - 边框
-    back_color: 0xEFEFF4                      # 颜色 - 面板背景
-    label_color: 0x8E8E93                     # 颜色 - 候选序号
-    font_point: 18                            # 字体大小 - 候选
-    label_font_point: 18                      # 字体大小 - 候选序号
-    corner_radius: 5                          # 大小 - 圆角
-    horizontal: true                          # 是否横向 true 或 false
-    line_spacing: 10                          # horizental 为 false 时，上下候选的间隔大小
-    inline_preedit: true                      # 输入的编码是否直接写入编辑器中，如果为 false，未上屏的编码就会写在候选框中
-    spacing: 0                                # --- 未知
-    candidate_format: "%c %@ "                # 候选词格式，后面多个空格是为了增加候选词之间的距离
-    text_color: 0x000000                      # 颜色 - 输入中 - 文字
-    hilited_text_color: 0x8E8E93              # 颜色 - 输入中 - 编码
-    hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
-    hilited_candidate_text_color: 0xffffff    # 颜色 - 首选候选词 - 文字
-    hilited_candidate_back_color: 0x8E8E93    # 颜色 - 首选候选词 - 背景
-    hilited_candidate_label_color: 0xffffff   # --- 未知
-    candidate_text_color: 0x000000            # 颜色 - 其它候选词 - 文字
-    comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
+    border_height: 0
+    border_width: 0
+    color_scheme: clean_white
+    font_point: 12
+    corner_radius: 5
+    horizontal: true
+    inline_preedit: true
+    line_spacing: 5
+    spacing: 10
+    back_color: 0xeeeeee
+    candidate_format: "%c %@ "
+    candidate_text_color: 0x000000
+    comment_text_color: 0x808080
+    hilited_candidate_back_color: 0xeeeeee
+    hilited_candidate_label_color: 0xa0c98915
+    hilited_candidate_text_color: 0xc98915
+    hilited_text_color: 0x000000
+    label_color: 0x888888
+    label_font_point: 12
+    name: "简约白／Clean White"
+    text_color: 0x808080
 
   # --- 特定程序定义初始状态的英文输入 ---
   app_options:
