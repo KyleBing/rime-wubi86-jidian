@@ -53,7 +53,7 @@ __用极点输入法的原因__
 ├── weasel.custom.yaml              # 小狼毫（for Windows）输入法候选词界面
 ├── wubi86_jidian.dict.yaml         # 极点 - 五笔码表
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户自定义词
+├── wubi86_jidian_user.dict.yaml    # 极点 - 五笔用户自定义词
 ├── wubi_pinyin.schema.yaml         # 五笔拼音混输
 └── wubi_trad.schema.yaml           # 五笔简入繁出
 ```
@@ -137,7 +137,7 @@ Windows
 ├── weasel.custom.yaml              # windows 小狼毫输入法候选词界面
 ├── default.custom.yaml             # 用于自定义的一些输入方式，符号什么的
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.schema.yaml  # 极点 - 五笔用户扩展词库
+├── wubi86_jidian_user.dict.yaml    # 极点 - 五笔用户扩展词库
 ```
 
 输出系统时间和日期用：
