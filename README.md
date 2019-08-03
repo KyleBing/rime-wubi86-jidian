@@ -1,4 +1,4 @@
-
+# 
 ![最好用的五笔输入法](https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/2019-03-02%2012-34-37.2019-03-02%2012_44_17.gif)
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
@@ -14,7 +14,7 @@ Rime 是一款跨平台的优秀输入法的内核。
 - macOS - 鼠须管
 - Linux - ibus-rime
 
-目前本人已知的 Rime 在 windows 和 macOS 平台上的词库配置是相同的。
+目前本人已知的 Rime 在 windows 和 macOS 平台上的词库配置是相同的，只是配置文件的名字不一样。
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
 高度自定义的特性也使得入门的门槛比较高一些。如果想自定义方案，需要有一定的编程基础，至少有一定的程序语言基础。
 
@@ -27,6 +27,14 @@ __用极点输入法的原因__
 
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif" width=600 title="Rime五笔输入法输入样子">
 
+
+## 使用前的一些用户习惯说明
+
+中英文切换采用 `Caps` 键切换
+> 有需要 shift 键切换中英文的，手动修改 `default.custom.yaml` 文件，里面有修改说明
+
+`control` + `0` 弹出菜单
+> 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
 
 
 ## 安装 鼠须管(macOS) 或 小狼毫(Windows)
@@ -125,6 +133,7 @@ Windows
 
 - RIME 官网：   https://rime.im/
 - RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+- 中英切换自定义：https://gist.github.com/lotem/2981316
 
 
 
@@ -135,7 +144,7 @@ Windows
 ```bash
 ├── squirrel.custom.yaml            # macOS 鼠须管输入法候选词界面
 ├── weasel.custom.yaml              # windows 小狼毫输入法候选词界面
-├── default.custom.yaml             # 用于自定义的一些输入方式，符号什么的
+├── default.custom.yaml             # 用于自定义的一些输入方式，符号，中英文切换
 ├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.dict.yaml    # 极点 - 五笔用户扩展词库
 ```

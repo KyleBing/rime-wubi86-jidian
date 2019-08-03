@@ -1,5 +1,5 @@
 # default.custom.yaml
-# save it to: 
+# save it to:
 #   ~/.config/ibus/rime  (linux)
 #   ~/Library/Rime       (macos)
 #   %APPDATA%\Rime       (windows)
@@ -20,6 +20,25 @@ patch:
     abbreviate_options: true
     caption: "【 输入法设置 】"
     option_list_separator: "｜"
+
+  #-----------------------------------------------
+  # 中英文切换自定义
+  #-----------------------------------------------
+  # inline_ascii  在输入法的临时英文编辑区内输入字母，数字，符号，空格等，回车上屏后自动复位到中文
+  # commit_text   已输入的候选文字上屏并切换至英文输入模式
+  # commit_code   已输入的编码字符上屏并切换至英文输入模式
+  # -----------------------------------------------
+  # 参考链接： https://gist.github.com/lotem/2981316
+
+  ascii_composer:
+    good_old_caps_lock: false       # true: 在保持 cap 键原有的特征， false: 点击不会切换大小写
+    switch_key:
+      Caps_Lock: commit_code        # 如果想用 cap 键切换中英文输入，就修改为上面三种的任一一种，否则用 noop
+      Shift_L: noop                 # macOs 上 shift 键不区别左右，设置参数同上
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
+
 
   key_binder:
     bindings:
