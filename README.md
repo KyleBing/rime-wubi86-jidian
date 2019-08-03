@@ -55,7 +55,7 @@ __用极点输入法的原因__
 .
 ├── README.md                       # 当前说明文档
 ├── rime.lua                        # 可以输出系统变量的函数
-├── default.custom.yaml             # 用记自定义的一些输入方式或方向
+├── default.custom.yaml             # 用户自定义的一些输入方式或方向
 ├── pinyin_simp.dict.yaml           # 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml         # 简体拼音解释器
 ├── squirrel.custom.yaml            # 鼠须管（for macOS）输入法候选词界面
