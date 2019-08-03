@@ -62,8 +62,6 @@ patch:
 #        ascii_mode: true
     com.hegenberg.BetterTouchTool:
       ascii_mode: true
-    com.jetbrains.PhpStorm:
-      ascii_mode: true
     # original
     co.zeit.hyper:
       ascii_mode: true
