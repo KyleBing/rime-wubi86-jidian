@@ -57,7 +57,7 @@ speller:
   #max_code_length: 4
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi86_jidian
   prism: wubi_trad
   enable_charset_filter: true
   disable_user_dict_for_patterns:
@@ -69,7 +69,7 @@ abc_segmentor:
 
 reverse_lookup:
   dictionary: pinyin_simp
-  prefix: "`"
+  prefix: "z"
   suffix: "'"
   tips: 〔拼音〕
   preedit_format:

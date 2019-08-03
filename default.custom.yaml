@@ -9,7 +9,8 @@
 patch:
   schema_list:
     - schema: wubi86_jidian
-    - schema: luna_pinyin_simp
+    - schema: wubi_pinyin
+    - schema: wubi_trad
 
   # Menu
   menu:
