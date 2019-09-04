@@ -30,12 +30,24 @@ __用极点输入法的原因__
 
 ## 使用前的一些用户习惯说明
 
-中英文切换采用 `Caps` 键切换
+#### 中英文切换采用 `Caps` 键切换
 > 有需要 shift 键切换中英文的，手动修改 `default.custom.yaml` 文件，里面有修改说明
 > 目前发现在 PHPSTORM 中按这个还是大写的
 
-`control` + `0` 弹出菜单
+#### `control` + `0` 弹出菜单
 > 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
+
+ #### 自造词配置：默认只能输入码表中的字词
+> 如果需要打开自造词，请自行修改 `wubi86_jidian.schema.yaml` 下面对应字段值
+
+```yaml
+speller:
+#  max_code_length: 4       # 在该行前面添加 '#' 注释掉该行 
+translator:
+  enable_sentence: true     # 设为true
+  enable_user_dict: true    # 设为true
+  enable_encoder: true      # 设为true
+```
 
 
 ## 安装 鼠须管(macOS) 或 小狼毫(Windows)
