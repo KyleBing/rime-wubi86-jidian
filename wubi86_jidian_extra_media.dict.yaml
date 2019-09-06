@@ -1,0 +1,37 @@
+---
+name: wubi86_jidian_extra_brand
+note: "专业名词"
+version: "2019-09-06"
+last_edit_time: "2019-09-06"
+
+sort: original
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+# ----- 码表开始 -----
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释，所以可以随便分类了
+# 注释只能另起一行写，不能在词条后面写
+
+...
+
+
+# ----- 影视 -----
+黑镜	lfqu
+危情三日	qndj
+时间旅行者的妻子	juyb
+星际穿越	jbpf
+无敌破坏王	ftdg
+
+# ----- 漫威 -----
+漫威	ijdg
+复联	tjbu
+复仇者联盟	twfj
+灭霸	gofa
+钢铁侠	qqgu
+蜘蛛侠	jjwg
+
+# ----- 歌名 -----
+寄居蟹	pnqe
+斑马	gycn

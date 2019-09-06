@@ -5,6 +5,16 @@ version: "4.3"
 sort: orininal #by_weight/权重 original/原始
 import_tables: #此处是添加用户自定义词库的地方
   - wubi86_jidian_user
+  - wubi86_jidian_extra_english       # 英文常用词
+  - wubi86_jidian_extra_brand         # 品牌名
+  - wubi86_jidian_extra_people        # 名人
+  - wubi86_jidian_extra_location      # 地名
+  - wubi86_jidian_extra_pro           # 专业名词
+  - wubi86_jidian_extra_media         # 影音名
+
+
+
+
 columns: #码表格式
   - text #文字
   - code #输入码
@@ -1365,6 +1375,7 @@ encoder:
 媐	ahkv
 卧车	ahlg
 雅思	ahln
+雅迪	ahmp
 蓾	ahlo
 卧轨	ahlv
 雅典	ahma
@@ -3369,6 +3380,7 @@ encoder:
 攻打	atrs
 莪	atrt
 营私舞弊	atru
+斯特拉	arru
 攻势	atrv
 医护	atry
 东躲西藏	atsa
@@ -5031,6 +5043,7 @@ encoder:
 丞相	bish
 隲	bitc
 函告	bitf
+孙尚香	bitj
 函复	bitj
 阴沟翻船	bitt
 隙间	biuj
@@ -6811,7 +6824,7 @@ encoder:
 畚箕	cdta
 参透	cdte
 参选	cdtf
-参赞	cdtf
+骑行	cdtf
 鸡犬升天	cdtg
 骑射	cdtm
 骑乘	cdtu
@@ -13214,6 +13227,7 @@ encoder:
 爱吃	epkt
 受罪	epld
 爱国	eplg
+爱思	epln
 腪	eplh
 受困	epls
 受力	eplt
@@ -14578,6 +14592,7 @@ encoder:
 动因	fcld
 运转	fclf
 盍	fclf
+动车	fclg
 直通车	fclg
 支架	fclk
 劫	fcln
@@ -14618,6 +14633,7 @@ encoder:
 劫案	fcpv
 动容	fcpw
 运销	fcqi
+动铁	fcqr
 云锦	fcqr
 劫狱	fcqt
 未能免俗	fcqw
@@ -17479,6 +17495,7 @@ encoder:
 无极	fqse
 元配	fqsg
 均可	fqsk
+元歌	fwsk
 无机	fqsm
 无核	fqsy
 无私	fqtc
@@ -19322,6 +19339,7 @@ encoder:
 天外	gdqh
 天象	gdqj
 吞金	gdqq
+天猫	gdqt
 天狗	gdqt
 球面镜	gdqu
 天煞	gdqv
@@ -19606,6 +19624,7 @@ encoder:
 于	gf
 球茎	gfac
 球鞋	gfaf
+王者荣耀	gfai
 球菌	gfal
 球艺	gfan
 不求甚解	gfaq
@@ -20294,6 +20313,7 @@ encoder:
 下周	ghmf
 下贱	ghmg
 下帖	ghmh
+正则	ghmj
 颪	ghmj
 下岗	ghmm
 下山	ghmm
@@ -23933,6 +23953,7 @@ encoder:
 瞁	hhdy
 上服	hheb
 上肥	hhec
+止盈	hhec
 上月	hhee
 上肢	hhef
 上膛	hhei
@@ -24054,6 +24075,7 @@ encoder:
 上报	hhrb
 上年	hhrh
 上操	hhrk
+止损	hhrk
 上扬	hhrn
 目的	hhrq
 上手	hhrt
@@ -28129,6 +28151,7 @@ encoder:
 甞	ipkf
 学号	ipkg
 常	ipkh
+深蹲	ipkh
 演唱	ipkj
 劏	ipkj
 嘗	ipkj
@@ -28635,6 +28658,7 @@ encoder:
 渔市	iqym
 逃亡	iqyn
 光亮	iqyp
+小狼毫	iqyp
 沟底	iqyq
 沟床	iqys
 光谱	iqyu
@@ -31901,6 +31925,7 @@ encoder:
 电稿	jnty
 电瓶	jnua
 电疗	jnub
+电熨斗	jnuf
 电冶	jnuc
 电站	jnuh
 电闸	jnul
@@ -33954,6 +33979,7 @@ encoder:
 踊	khc
 跑垒	khcc
 跨骑	khcd
+中通	khce
 忠勇	khce
 踊	khce
 跳台	khck
@@ -44360,6 +44386,7 @@ encoder:
 羽扇纶巾	nyxm
 迟疑	nyxt
 翠绿	nyxv
+以纯	nyxg
 心弦	nyxy
 怰	nyxy
 忟	nyy
@@ -57067,6 +57094,7 @@ encoder:
 探秘	rptn
 探悉	rpto
 控管	rptp
+捷安特	rptr
 探物	rptr
 挥笔	rptt
 近乎	rptu
@@ -58429,6 +58457,7 @@ encoder:
 拉美	ruug
 接站	ruuh
 拼音	ruuj
+抖音	ruuj
 抱头痛哭	ruuk
 拉闸	ruul
 挂羊头卖狗肉	ruum
@@ -58932,6 +58961,7 @@ encoder:
 失算	rwth
 推衍	rwti
 失利	rwtj
+携程	rwtk
 失和	rwtk
 失血	rwtl
 推向	rwtm
@@ -61903,6 +61933,7 @@ encoder:
 郴	ssbh
 样板戏	ssca
 木马	sscn
+森马	sscn
 梦魇	ssdd
 辳	ssde
 梦想成真	ssdf
@@ -68001,6 +68032,7 @@ encoder:
 答礼	twpy
 答错	twqa
 签名	twqk
+重命名	twqk
 自作多情	twqn
 稚拙	twrb
 答拜	twrd
@@ -70150,6 +70182,7 @@ encoder:
 音耗	ujdi
 单面	ujdm
 竟成	ujdn
+韵达	ujdp
 竟达	ujdp
 意愿	ujdr
 单帮	ujdt
@@ -71554,6 +71587,7 @@ encoder:
 闲时	usjf
 尊师	usjg
 新昌	usjj
+新日	usjj
 闲暇	usjn
 亲昵	usjn
 亲临	usjt
@@ -71745,6 +71779,7 @@ encoder:
 痴	utdk
 首页	utdm
 颜面	utdm
+美利达	utdp
 产	ute
 閁	ute
 道服	uteb
@@ -73263,6 +73298,7 @@ encoder:
 奶酪	vesg
 退查	vesj
 婇	vesy
+鼠须管	vetp
 退敌	vetd
 退租	vete
 婬	vetf
@@ -73451,6 +73487,7 @@ encoder:
 那般	vfte
 寻租	vfte
 建造	vftf
+建行	vftf
 姸	vftf
 那片	vfth
 媎	vftj
@@ -75011,6 +75048,7 @@ encoder:
 代考	waft
 侥幸	wafu
 代替	wafw
+仰卧起坐	wafw
 仜	wag
 代开	waga
 休斯顿	wagb
@@ -76913,6 +76951,7 @@ encoder:
 僺	wkks
 儼	wkkt
 合唱团	wklf
+公路车	wklg
 保甲	wklh
 保驾	wklk
 保罗	wklq
@@ -78940,6 +78979,7 @@ encoder:
 豅	wwkd
 豂	wwke
 谷	wwkf
+公众号	wwkg
 鹆	wwkg
 从中	wwkh
 任人唯贤	wwkj
@@ -82205,6 +82245,7 @@ encoder:
 緥	xwks
 纵轴	xwlm
 绘图	xwlt
+给力	xwlt
 红领巾	xwmh
 纪念册	xwmm
 缑	xwn
@@ -82241,6 +82282,7 @@ encoder:
 维生	xwtg
 维和	xwtk
 纵向	xwtm
+引体向上	xwth
 纵身	xwtm
 维系	xwtx
 纷繁	xwtx
@@ -83177,6 +83219,7 @@ encoder:
 议而不决	ydgu
 哀而不伤	ydgw
 望而止步	ydhh
+高大上	ydhh
 緳	ydhi
 譿	ydhn
 廈	ydht
@@ -84725,6 +84768,7 @@ encoder:
 高矮	ymtd
 高等	ymtf
 高处	ymth
+高德	ymtf
 高利	ymtj
 諷	ymtj
 调和	ymtk

@@ -65,18 +65,24 @@ translator:
 
 ```bash
 .
-├── README.md                       # 当前说明文档
-├── rime.lua                        # 可以输出系统变量的函数
-├── default.custom.yaml             # 用记自定义的一些输入方式或方向
-├── pinyin_simp.dict.yaml           # 简体拼音码表 - 五笔中拼音输入需要的
-├── pinyin_simp.schema.yaml         # 简体拼音解释器
-├── squirrel.custom.yaml            # 鼠须管（for macOS）输入法候选词界面
-├── weasel.custom.yaml              # 小狼毫（for Windows）输入法候选词界面
-├── wubi86_jidian.dict.yaml         # 极点 - 五笔码表
-├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.dict.yaml    # 极点 - 五笔用户自定义词
-├── wubi_pinyin.schema.yaml         # 五笔拼音混输
-└── wubi_trad.schema.yaml           # 五笔简入繁出
+├── README.md                               # 当前说明文档
+├── rime.lua                                # 可以输出系统变量的函数
+├── default.custom.yaml                     # 用记自定义的一些输入方式或方向
+├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
+├── pinyin_simp.schema.yaml                 # 简体拼音解释器
+├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
+├── weasel.custom.yaml                      # 小狼毫（for Windows）输入法候选词界面
+├── wubi86_jidian.dict.yaml                 # 极点 - 五笔码表
+├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
+├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户自定义词
+├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
+├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
+├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
+├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
+├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
+├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
+├── wubi_pinyin.schema.yaml                 # 五笔拼音混输
+└── wubi_trad.schema.yaml                   # 五笔简入繁出
 ```
 
 
@@ -102,6 +108,12 @@ translator:
     ├── wubi86_jidian.dict.yaml
     ├── wubi86_jidian.schema.yaml
     ├── wubi86_jidian_user.schema.yaml
+    ├── wubi86_jidian_extra_brand.dict.yaml
+    ├── wubi86_jidian_extra_english.dict.yaml
+    ├── wubi86_jidian_extra_location.dict.yaml
+    ├── wubi86_jidian_extra_media.dict.yaml
+    ├── wubi86_jidian_extra_people.dict.yaml
+    ├── wubi86_jidian_extra_pro.dict.yaml
     ├── wubi_pinyin.schema.yaml 
     └── wubi_trad.schema.yaml   
 ```
@@ -154,11 +166,17 @@ Windows
 所有配置说明都在配置文件中说明了
 
 ```bash
-├── squirrel.custom.yaml            # macOS 鼠须管输入法候选词界面
-├── weasel.custom.yaml              # windows 小狼毫输入法候选词界面
-├── default.custom.yaml             # 用于自定义的一些输入方式，符号，中英文切换
-├── wubi86_jidian.schema.yaml       # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.dict.yaml    # 极点 - 五笔用户扩展词库
+├── squirrel.custom.yaml                    # macOS 鼠须管输入法候选词界面
+├── weasel.custom.yaml                      # windows 小狼毫输入法候选词界面
+├── default.custom.yaml                     # 用于自定义的一些输入方式，符号，中英文切换
+├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
+├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户扩展词库
+├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
+├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
+├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
+├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
+├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
+├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
 ```
 
 输出系统时间和日期用：

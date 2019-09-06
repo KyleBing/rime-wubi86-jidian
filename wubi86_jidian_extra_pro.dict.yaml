@@ -1,0 +1,46 @@
+---
+name: wubi86_jidian_extra_brand
+note: "专业名词"
+version: "2019-09-06"
+last_edit_time: "2019-09-06"
+
+sort: original
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+# ----- 码表开始 -----
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释，所以可以随便分类了
+# 注释只能另起一行写，不能在词条后面写
+
+
+...
+
+# 计算机相关
+传参	wfcd
+适配	tdsg
+推送	rwud
+卡顿	hhgb
+回调	lkym
+数据类型	orog
+默认值	lwwf
+数据线	orxg
+阿里云	bjfc
+json	json
+java	java
+php	php
+javascript	java
+html	html
+PhpStorm	phps
+IDEA	idea
+vue	vue
+跨域	khfa
+键帽	qvmh
+应用程序	yety
+翻墙	toff
+增删改查  fmns
+
+
+# 金融
+火币	ootm

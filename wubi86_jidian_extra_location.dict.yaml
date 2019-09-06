@@ -1,0 +1,29 @@
+---
+name: wubi86_jidian_extra_location
+note: "地名"
+version: "2019-09-06"
+last_edit_time: "2019-09-06"
+
+sort: original
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+# ----- 码表开始 -----
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释，所以可以随便分类了
+# 注释只能另起一行写，不能在词条后面写
+
+...
+
+# ----- 地名 -----
+万达	dndp
+泉城广场	rfyf
+莒县	akeg
+果庄	jsyf
+下屯	ghgb
+孙家庄	ipyf
+沂水	irii
+马家	cnpe
+马家小区	cpia
+台儿庄	cqyf
