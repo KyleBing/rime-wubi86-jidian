@@ -4,7 +4,7 @@ name: wubi86_jidian
 version: "4.3"
 sort: orininal #by_weight/权重 original/原始
 import_tables: #此处是添加用户自定义词库的地方
-  - wubi86_jidian_user
+  - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra_english       # 英文常用词
   - wubi86_jidian_extra_brand         # 品牌名
   - wubi86_jidian_extra_people        # 名人
@@ -20168,6 +20168,7 @@ encoder:
 琥	gha
 正式	ghaa
 下期	ghad
+下划	ghaj
 瓛	ghad
 璩	ghae
 正巧	ghag
@@ -23923,6 +23924,7 @@ encoder:
 卡式	hhaa
 上期	hhad
 上菜	hhae
+上划	hhaj
 瞒上欺下	hhag
 瞋目切齿	hhah
 矑	hhal
