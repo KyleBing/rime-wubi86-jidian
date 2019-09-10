@@ -42,11 +42,13 @@ __用极点输入法的原因__
 
 ```yaml
 speller:
-#  max_code_length: 4       # 在该行前面添加 '#' 注释掉该行 
+#  max_code_length: 4             # 在该行前面添加 '#' 注释掉该行 
 translator:
-  enable_sentence: true     # 设为true
-  enable_user_dict: true    # 设为true
-  enable_encoder: true      # 设为true
+  enable_sentence: true           # 设为true
+  enable_user_dict: true          # 设为true
+  enable_encoder: true            # 设为true
+  encode_commit_history: true     # 设为true
+
 ```
 
 
