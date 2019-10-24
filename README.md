@@ -131,10 +131,13 @@ translator:
 
 ## 皮肤
 
-**macOS系统**
+macOS系统
+
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
 
-**Windows**
+
+Windows
+
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime_skin_windows.png" width=300>
 
 
