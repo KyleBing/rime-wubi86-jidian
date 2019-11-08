@@ -8,11 +8,14 @@ schema:
   author:
     - 创始人 王永民先生
   description: |
-    五笔字形 86 极点极爽版
+    五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
     - pinyin_simp
 
 switches:
+  - name: zh_trad
+    reset: 0    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
+    states: [ 简体, 繁体 ]
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
@@ -45,6 +48,8 @@ engine:
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
   filters:
+    - simplifier
+    - uniquifier
 #    - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
@@ -65,6 +70,9 @@ translator:
   disable_user_dict_for_patterns:       # z开头的输入忽略，对应下面的拼音反查，
     - "^z.*$"
 
+abc_segmentor:
+  extra_tags:
+    - reverse_lookup
 
 reverse_lookup:
   dictionary: pinyin_simp
@@ -75,6 +83,10 @@ reverse_lookup:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+
+simplifier:    # 简入繁出，如果出不来，可能需要安装 opencc 简繁字转换库，github地址：https://github.com/BYVoid/OpenCC
+  opencc_config: s2t.json
+  option_name: zh_trad
 
 punctuator:
   import_preset: default
