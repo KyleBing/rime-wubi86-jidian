@@ -86,8 +86,8 @@ translator:
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
 ├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
 ├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
-├── wubi_pinyin.schema.yaml                 # 五笔拼音混输
-└── wubi_trad.schema.yaml                   # 五笔简入繁出
+├── wubi86_jidian_pinyin.schema.yaml        # 五笔拼音混输
+└── wubi86_jidian_trad.schema.yaml          # 五笔简入繁出
 ```
 
 
@@ -119,8 +119,8 @@ translator:
     ├── wubi86_jidian_extra_media.dict.yaml
     ├── wubi86_jidian_extra_people.dict.yaml
     ├── wubi86_jidian_extra_pro.dict.yaml
-    ├── wubi_pinyin.schema.yaml 
-    └── wubi_trad.schema.yaml   
+    ├── wubi86_jidian_pinyin.schema.yaml
+    └── wubi86_jidian_trad.schema.yaml  
 ```
 
 > 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
