@@ -2,25 +2,24 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi_pinyin
-  name: "五笔·拼音"
+  schema_id: wubi86_jidian_pinyin
+  name: "极点五笔拼音混输"
   version: "0.9"
   author:
-    - 發明人 王永民先生
+    - 发明人 王永民先生
   description: |
-    五筆字型86版＋漢語拼音混合輸入。
-    碼表源自 ibus-table
+    极点五笔86＋汉语拼音混合输入
   dependencies:
     - pinyin_simp
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [ 中文, 英文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
-    states: [ 常用, 增廣 ]
+    states: [ 常用, 扩展 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -51,7 +50,7 @@ speller:
 
 translator:
   dictionary: wubi86_jidian
-  prism: wubi_pinyin
+  prism: wubi86_jidian
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true
@@ -68,7 +67,7 @@ reverse_lookup:
   dictionary: pinyin_simp
   prefix: "`"
   suffix: "'"
-  tips: 〔拼音〕
+  tips: [拼音]
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

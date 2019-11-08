@@ -3,11 +3,11 @@
 
 schema:
   schema_id: wubi86_jidian
-  name: "极点五笔86繁体"
+  name: "极点五笔繁体"
   version: "1.0"
   author:
     - 创始人 王永民先生
-  description: |
+  description:
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
     - pinyin_simp
