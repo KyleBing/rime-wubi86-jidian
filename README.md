@@ -29,10 +29,15 @@ __用极点输入法的原因__
 
 ## 使用前的一些用户习惯说明
 
-#### `control` + `0` 弹出菜单
-> 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
+**`control` + `0` 弹出菜单**
 
- #### 自造词配置：默认只能输入码表中的字词
+> 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
+弹的菜单中第一位的名字就是当前使用的输入法方案，其后跟着的就是该方法中的输入法菜单，有【半角 - 全角】【简 - 繁】等功能菜单，再后面的就是其它可选的输入法方案，对应 `default.custom.yaml` 中 `schema_list` 字段内容
+
+**添加【简入繁出】支持**
+c`control` + `0` 呼出菜单，第二位就是 【简入繁出】功能，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
+
+**自造词配置：默认只能输入码表中的字词**
 > 如果需要打开自造词，请自行修改 `wubi86_jidian.schema.yaml` 下面对应字段值
 
 ```yaml
@@ -43,7 +48,6 @@ translator:
   enable_user_dict: true          # 设为true
   enable_encoder: true            # 设为true
   encode_commit_history: true     # 设为true
-
 ```
 
 

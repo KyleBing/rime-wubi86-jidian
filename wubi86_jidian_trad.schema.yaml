@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi86_jidian
-  name: "极点五笔86"
+  name: "极点五笔86繁体"
   version: "1.0"
   author:
     - 创始人 王永民先生
@@ -13,7 +13,10 @@ schema:
     - pinyin_simp
 
 switches:
-#  - name: ascii_mode # 这个菜单没什么用几乎
+  - name: zh_trad
+    reset: 1    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
+    states: [ 简体, 繁体 ]
+#  - name: ascii_mode
 #    reset: 0
 #    states: [ 中文, 西文 ]
   - name: full_shape
@@ -45,6 +48,8 @@ engine:
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
   filters:
+    - simplifier
+    - uniquifier
 #    - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
@@ -78,7 +83,11 @@ reverse_lookup:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-    -
+
+simplifier:    # 简入繁出，如果出不来，可能需要安装 opencc 简繁字转换库，github地址：https://github.com/BYVoid/OpenCC
+  opencc_config: s2t.json
+  option_name: zh_trad
+
 punctuator:
   import_preset: default
 
