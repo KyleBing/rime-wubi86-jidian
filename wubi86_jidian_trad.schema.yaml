@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi86_jidian
+  schema_id: wubi86_jidian_trad
   name: "极点五笔繁体"
   version: "1.0"
   author:
