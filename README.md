@@ -39,7 +39,7 @@ __用极点输入法的原因__
 ![简入繁出](https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime-tradition-output.gif)
 
 是以切换输入方案的形式实现的，之前用菜单实现有个弊端：在切换应用后繁体输出的设置并没有保留，也就是说不是全局的，以输入方案的形式就可以实现全局繁体输入。
-`control` + `0` 呼出菜单，选择`极点五笔-简入繁出`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
+`control` + `0` 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
 
 **自造词配置：默认只能输入码表中的字词**
 > 如果需要打开自造词，请自行修改 `wubi86_jidian.schema.yaml` 下面对应字段值
