@@ -112,7 +112,7 @@ translator:
     ├── squirrel.custom.yaml
     ├── wubi86_jidian.dict.yaml
     ├── wubi86_jidian.schema.yaml
-    ├── wubi86_jidian_user.schema.yaml
+    ├── wubi86_jidian_user.dict.yaml
     ├── wubi86_jidian_extra_brand.dict.yaml
     ├── wubi86_jidian_extra_english.dict.yaml
     ├── wubi86_jidian_extra_location.dict.yaml

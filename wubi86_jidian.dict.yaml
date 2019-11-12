@@ -4529,6 +4529,7 @@ encoder:
 娶	bcvf
 取代	bcwa
 聚会	bcwf
+取值	bcwf
 取舍	bcwf
 联欢会	bcwf
 聚合	bcwg
@@ -34604,8 +34605,8 @@ encoder:
 响当当	kiiv
 器小易盈	kije
 吵嘴	kikh
-吵骂	kikk
 吸尘器	kikk
+吵骂	kikk
 唢呐	kikm
 跳跃	kikt
 嗨哟	kikx
@@ -86870,6 +86871,7 @@ encoder:
 夜视	ywpy
 认错	ywqa
 夜色	ywqc
+文件名	ywqk
 座钟	ywqk
 腐蚀	ywqn
 变化多端	ywqu
