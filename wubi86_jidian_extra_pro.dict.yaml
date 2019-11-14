@@ -1,5 +1,5 @@
 ---
-name: wubi86_jidian_extra_brand
+name: wubi86_jidian_extra_pro
 note: "专业名词"
 version: "2019-09-06"
 last_edit_time: "2019-09-06"
@@ -39,7 +39,7 @@ vue	vue
 键帽	qvmh
 应用程序	yety
 翻墙	toff
-增删改查  fmns
+增删改查	fmns
 
 # 媒体
 爱范儿	eaqt
