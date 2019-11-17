@@ -78,7 +78,7 @@ reverse_lookup:
   dictionary: pinyin_simp
   prefix: "z"
   suffix: "'"
-  tips: 【 拼音 】
+  tips: [拼音]
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

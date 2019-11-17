@@ -10,7 +10,7 @@ schema:
   description: |
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
-    - pinyin_simp
+#    - pinyin_simp
 
 switches:
 #  - name: ascii_mode # 这个菜单没什么用几乎
@@ -73,7 +73,7 @@ reverse_lookup:
   dictionary: pinyin_simp
   prefix: "z"
   suffix: "'"
-  tips: 【 拼音 】
+  tips: [拼音]
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
