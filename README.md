@@ -186,6 +186,36 @@ translator:
 - time 输出时间，格式 `10:00`
 
 
+## 开启五笔模式下的自动造词功能
+
+默认是没有开启的，如果想开启需要手机编辑 `wubi86_jidian.schema.yaml` 文件，里面也有相关的说明
+
+除了把文件中自动造词部分都设为 `true` 之外，还需要把 `speller` 那段的都注释掉，因为那里都是直接上屏的，直接上屏就无法造词了，所以需要注释掉。
+造词功能是这样的，在输入一次之后，输入法会记住这个连词，打的时候后面会有图标指示，下次再输入这个词的时候，就会固定这个词，并在用户词典中新增这个词的词条。
+
+你修改后的配置应该是这样的：
+
+```yaml
+speller:
+#  max_code_length: 4                    # 四码上屏
+#  auto_select: true                     # 自动上屏
+#  auto_select_unique_candidate: true    # 无重码自动上屏
+
+translator:
+  # 开启自动造词相关设置
+  enable_sentence: ture                # 是否开启自动造词
+  enable_user_dict: ture               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: ture                 # 自动造词
+  encode_commit_history: ture          # 是否对已上屏的词自动造词
+```
+
+效果如图：
+
+<img title="1" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-1.png">
+<img title="2" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-2.png">
+<img title="3" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-3.png">
+<img title="4" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/wubi-auto-4.png">
+
 ## 输出系统变量
 
 自 v0.13之后可自定义输出系统变量，如日期等
