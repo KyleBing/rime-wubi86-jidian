@@ -13,9 +13,9 @@ schema:
 #    - pinyin_simp
 
 switches:
-#  - name: ascii_mode # 这个菜单没什么用几乎
-#    reset: 0
-#    states: [ 中文, 西文 ]
+  # - name: ascii_mode # 这个菜单没什么用几乎
+  #   reset: 0
+  #   states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset

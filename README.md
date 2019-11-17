@@ -3,7 +3,6 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 
-
 ## 前言
 
 Rime 是一款跨平台的优秀输入法的内核。
@@ -18,7 +17,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 高度自定义的特性也使得入门的门槛比较高一些。如果想自定义方案，需要有一定的编程基础，至少有一定的程序语言基础。
 
 
-__用极点输入法的原因__
+**用极点输入法的原因**
 
 用久了五笔的都知道，喜欢五笔的因为是五笔的重码率少，如果码表太多重码就体验很差了。
 
@@ -34,6 +33,7 @@ __用极点输入法的原因__
 > 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
 弹的菜单中第一位的名字就是当前使用的输入法方案，其后跟着的就是该方法中的输入法菜单，有【半角 - 全角】【简 - 繁】等功能菜单，再后面的就是其它可选的输入法方案，对应 `default.custom.yaml` 中 `schema_list` 字段内容
 
+
 **关于【简入繁出】支持**
 
 ![简入繁出](https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime-tradition-output.gif)
@@ -41,7 +41,9 @@ __用极点输入法的原因__
 是以切换输入方案的形式实现的，之前用菜单实现有个弊端：在切换应用后繁体输出的设置并没有保留，也就是说不是全局的，以输入方案的形式就可以实现全局繁体输入。
 `control` + `0` 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
 
+
 **自造词配置：默认只能输入码表中的字词**
+
 > 如果需要打开自造词，请自行修改 `wubi86_jidian.schema.yaml` 下面对应字段值
 
 ```yaml
@@ -59,7 +61,7 @@ translator:
 ```
 
 
-## 安装 鼠须管(macOS) 或 小狼毫(Windows)
+## 安装 鼠须管(macOS)
 
 去 [官网下载](https://rime.im/download/)
 下载后按照步骤安装即可
@@ -95,9 +97,7 @@ translator:
 ```
 
 
-## 设置五笔输入法
-
-### macOS 鼠须管
+## 设置五笔输入法 macOS 鼠须管
 
 把配置文件放到配置目录，在状态栏的输入法中选择 `鼠须管`，执行一下 `部署` 就好了。
 
@@ -129,7 +129,7 @@ translator:
 
 > 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
-
+<!-- 
 ### Windows 小狼毫
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime_setup_windows_start.png" width=300>
@@ -139,18 +139,12 @@ translator:
 3. 把该项目中的文件复制到里面
 4. 点击开始菜单中的【部署】即可
 
+ -->
 
 
-## 皮肤
-
-macOS系统
+## 皮肤 macOS系统
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
-
-
-Windows
-
-<img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime_skin_windows.png" width=300>
 
 
 ## 相关链接
@@ -170,6 +164,7 @@ Windows
 
 
 # 关于自定义一些功能
+
 所有配置说明都在配置文件中说明了
 
 ```bash
