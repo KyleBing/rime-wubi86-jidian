@@ -52,6 +52,10 @@ translator:
   enable_user_dict: true          # 设为true
   enable_encoder: true            # 设为true
   encode_commit_history: true     # 设为true
+  max_phrase_length: 10           # 自动生成词的最大长度
+  user_dict: user                 # 用户词典名
+  db_class: tabledb               # 用户词典类型 
+
 ```
 
 
