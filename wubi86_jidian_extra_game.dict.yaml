@@ -1,0 +1,51 @@
+---
+name: wubi86_jidian_extra_game
+note: "游戏相关"
+version: "2019-11-30"
+last_edit_time: "2019-11-30"
+
+sort: original
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+# ----- 码表开始 -----
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释，所以可以随便分类了
+# 注释只能另起一行写，不能在词条后面写
+
+...
+
+
+# 游戏名
+刺客信条	gpwt
+极品飞车	sknl
+
+
+# 王者荣耀
+元歌	fqsk
+典韦	mafn
+钟无艳	qfdh
+赵云	fhfc
+关羽	udnn
+杨戬	sngo
+露娜	fkvv
+兰陵王	ubgg
+程咬金	tkqq
+白起	rrfh
+牛魔	rhys
+亚瑟	gogg
+夏侯惇	dwny
+韩信	fjwy
+老夫子	ffbb
+宫本武藏	psga
+阿轲	bsls
+不知火舞	gtor
+武则天	gmgd
+王昭君	gjvt
+高渐离	yiyb
+东皇太一	ardg
+狄仁杰	qwso
+鲁班七号	qgak
+百里守约	djpx
+百里玄策	djyt

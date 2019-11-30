@@ -11,6 +11,8 @@ import_tables: #此处是添加用户自定义词库的地方
   - wubi86_jidian_extra_location      # 地名
   - wubi86_jidian_extra_pro           # 专业名词
   - wubi86_jidian_extra_media         # 影音名
+  - wubi86_jidian_extra_game          # 游戏相关
+
 
 
 
@@ -21466,6 +21468,7 @@ encoder:
 再者	gmft
 専	gmfu
 瑞雪	gmfv
+正则表达式	gmga
 现形	gmga
 遭到	gmgc
 两天	gmgd
@@ -34958,6 +34961,7 @@ encoder:
 口袋	kkwa
 口供	kkwa
 串供	kkwa
+唯品会	kkwf
 口传	kkwf
 器件	kkwr
 品位	kkwu
@@ -45727,6 +45731,7 @@ encoder:
 烽	otd
 烽	otdh
 燆	otdk
+糗百	otdj
 粉身碎骨	otdm
 炸成	otdn
 熢	otdp
@@ -56107,6 +56112,7 @@ encoder:
 担任	rjwt
 提价	rjww
 提货	rjwx
+投影仪	rjwy
 拽住	rjwy
 拽	rjx
 提级	rjxe
@@ -61244,7 +61250,6 @@ encoder:
 可图	sklt
 歌曲	skma
 可见	skmq
-极品飞车	sknl
 可惜	skna
 歌剧	sknd
 可怕	sknr
