@@ -92,6 +92,7 @@ translator:
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
 ├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
 ├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
+├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏相关
 ├── wubi86_jidian_pinyin.schema.yaml        # 五笔拼音混输
 └── wubi86_jidian_trad.schema.yaml          # 五笔简入繁出
 ```
@@ -123,6 +124,7 @@ translator:
     ├── wubi86_jidian_extra_media.dict.yaml
     ├── wubi86_jidian_extra_people.dict.yaml
     ├── wubi86_jidian_extra_pro.dict.yaml
+    ├── wubi86_jidian_extra_game.dict.yaml
     ├── wubi86_jidian_pinyin.schema.yaml
     └── wubi86_jidian_trad.schema.yaml  
 ```
@@ -179,6 +181,7 @@ translator:
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
 ├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
 ├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
+├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏相关
 ```
 
 输出系统时间和日期用：
