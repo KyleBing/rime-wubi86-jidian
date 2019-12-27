@@ -1,1 +1,1 @@
-*.yaml linguist-language=Yaml
+*.lua linguist-vendored
