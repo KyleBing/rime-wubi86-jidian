@@ -8,20 +8,23 @@
 Rime 是一款跨平台的优秀输入法的内核。
 该输入法在不同平台的名字也不同
 
-- Windows - 小狼毫
-- macOS - 鼠须管
-- Linux - ibus-rime
+- `Windows` - 小狼毫
+- `macOS` - 鼠须管
+- `Linux` - ibus-rime
 
-目前本人已知的 Rime 在 windows 和 macOS 平台上的词库配置是相同的，只是配置文件的名字不一样。
+目前本人已知的 Rime 在 `windows` 和 `macOS` 平台上的词库配置是相同的，只是配置文件的名字不一样。
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
 高度自定义的特性也使得入门的门槛比较高一些。如果想自定义方案，需要有一定的编程基础，至少有一定的程序语言基础。
 
 
 **用极点输入法的原因**
 
-用久了五笔的都知道，喜欢五笔的因为是五笔的重码率少，如果码表太多重码就体验很差了。
+用久了五笔的都知道，喜欢五笔的因为是五笔的重码少，如果码表太多重码体验就很差了。
+好词库的特点是：减少特殊词的数量，增加通用词的频率。
 
-这里导入的极点版是重码很少的，打起字来很爽的。而且对标点的支持也很好。之前用的 `清歌输入法`，但该输入法有个弊端，对于我这种前端工程师来说，会在工作中用到数字左边那个键 `~`，而清歌输入法把这个键作为临时拼音输入的入口，用起来就各种麻烦。现在换成 RIME 简直爽翻了。 好久没有这么爽的打过字了。
+极点版是重码很少的，打起字来很爽，而且对标点的支持也很好。
+之前用的 `清歌输入法`，但该输入法有个弊端，对于我这种前端工程师来说，会在工作中用到数字左边那个键 `~`，而清歌输入法把这个键作为临时拼音输入的入口，用起来就各种麻烦。
+现在换成 Rime 简直爽翻了，好久没有这么爽的打过字了。
 
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/Rime%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.gif" width=600 title="Rime五笔输入法输入样子">
 
@@ -42,25 +45,6 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 `control` + `0` 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
 
 
-**自造词配置：默认只能输入码表中的字词**
-
-> 如果需要打开自造词，请自行修改 `wubi86_jidian.schema.yaml` 下面对应字段值
-
-```yaml
-speller:
-#  max_code_length: 4             # 在该行前面添加 '#' 注释掉该行 
-translator:
-  enable_sentence: true           # 设为true
-  enable_user_dict: true          # 设为true
-  enable_encoder: true            # 设为true
-  encode_commit_history: true     # 设为true
-  max_phrase_length: 10           # 自动生成词的最大长度
-  user_dict: user                 # 用户词典名
-  db_class: tabledb               # 用户词典类型 
-
-```
-
-
 ## 安装 鼠须管(macOS)
 
 去 [官网下载](https://rime.im/download/)
@@ -69,8 +53,7 @@ translator:
 
 ## 下载 五笔配置文件
 
-也就是当前库，直接下载即可
-> 五笔输入法-极点版： https://github.com/KyleBing/rime-wubi86-jidian
+也就是当前库，直接下载即可 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
 其中的文件列表有：
 
@@ -82,7 +65,6 @@ translator:
 ├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml                 # 简体拼音解释器
 ├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
-├── weasel.custom.yaml                      # 小狼毫（for Windows）输入法候选词界面
 ├── wubi86_jidian.dict.yaml                 # 极点 - 五笔码表
 ├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户自定义词
@@ -100,10 +82,9 @@ translator:
 
 ## 设置五笔输入法 macOS 鼠须管
 
-把配置文件放到配置目录，在状态栏的输入法中选择 `鼠须管`，执行一下 `部署` 就好了。
-
-1. macOS 上的 鼠须管 设置目录是 `~/Library/Rime` 
+1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
 2. 把上面下载的文件移到该目录中，点击 `部署` 即可。
+
 
 放的时候目录结构是这样的：
 
@@ -129,7 +110,8 @@ translator:
     └── wubi86_jidian_trad.schema.yaml  
 ```
 
-> 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
+> 注意：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
+> 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 <!-- 
 ### Windows 小狼毫
@@ -144,24 +126,24 @@ translator:
  -->
 
 
-## 皮肤 macOS系统
+## 皮肤
 
 <img title="skin" src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/skin.png" width=500>
 
 
 ## 相关链接
 
-**相关资源链接**
-- 极点五笔方案(github)： https://github.com/KyleBing/rime-wubi86-jidan
-- RIME github 地址：   https://github.com/rime
-- RIME 输入方案集合：  https://github.com/rime/plum
-- RIME 官方五笔码表：  https://github.com/rime/rime-wubi
-- RIME 简拼输入方案：  https://github.com/rime/rime-pinyin-simp
+**资源链接**
+- 极点五笔方案(github)： [https://github.com/KyleBing/rime-wubi86-jidan](https://github.com/KyleBing/rime-wubi86-jidan)
+- Rime github 地址：   [https://github.com/rime]( https://github.com/rime)
+- Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
+- Rime 官方五笔码表：  [https://github.com/rime/rime-wubi](https://github.com/rime/rime-wubi)
+- Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
 
-**相关配置教程链接**
-- RIME 官网：   https://rime.im/
-- RIME 输入方案参数详解：  https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
-- 中英切换自定义：https://gist.github.com/lotem/2981316
+**配置教程链接**
+- Rime 官网：   [https://rime.im/](https://rime.im/)
+- Rime 输入方案参数详解：  [https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
+- 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 
 
 
@@ -171,7 +153,6 @@ translator:
 
 ```bash
 ├── squirrel.custom.yaml                    # macOS 鼠须管输入法候选词界面
-├── weasel.custom.yaml                      # windows 小狼毫输入法候选词界面
 ├── default.custom.yaml                     # 用于自定义的一些输入方式，符号，中英文切换
 ├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
 ├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户扩展词库
@@ -184,17 +165,17 @@ translator:
 ├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏相关
 ```
 
-输出系统时间和日期用：
-- date 输出日期，格式 `2019年06月19日`
-- time 输出时间，格式 `10:00`
+输出系统 `时间` 和 `日期` 输入：
+- `date` 输出日期，格式 `2019年06月19日` `2019-06-19`
+- `time` 输出时间，格式 `10:00` `10:00:00`
 
 
 ## 开启五笔模式下的自动造词功能
 
 默认是没有开启的，如果想开启需要手动编辑 `wubi86_jidian.schema.yaml` 文件，里面也有相关的说明
 
-除了把文件中自动造词部分都设为 `true` 之外，还需要把 `speller` 那段的都注释掉，因为那里都是直接上屏的，直接上屏就无法造词了，所以需要注释掉。
-造词功能是这样的，在输入一次之后，输入法会记住这个连词，打的时候后面会有图标指示，下次再输入这个词的时候，就会固定这个词，并在用户词典中新增这个词的词条。
+> 除了把文件中自动造词部分都设为 `true` 之外，还需要把 `speller` 那段的都注释掉，因为那里都是直接上屏的，直接上屏就无法造词了，所以需要注释掉。
+> 造词功能是这样的，在输入一次之后，输入法会记住这个连词，打的时候后面会有图标指示，下次再输入这个词的时候，就会固定这个词，并在用户词典中新增这个词的词条。
 
 你修改后的配置应该是这样的：
 
@@ -221,7 +202,7 @@ translator:
 
 ## 输出系统变量
 
-自 v0.13之后可自定义输出系统变量，如日期等
+自 `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 `rime.lua` 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine` 字段添加一些东西，可以参阅本库的 `wubi86_jidian.schema.yaml` 文件。
 具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
