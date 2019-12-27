@@ -1,5 +1,5 @@
 ---
-name: wubi86_jidian_extra_brand
+name: wubi86_jidian_extra_media
 note: "专业名词"
 version: "2019-09-06"
 last_edit_time: "2019-09-06"
@@ -24,6 +24,12 @@ sort: original
 星际穿越	jbpf
 无敌破坏王	ftdg
 
+
+
+铁齿铜牙纪晓岚	qhqm
+纪晓岚	xjmm
+和珅	tkgj
+
 # ----- 漫威 -----
 漫威	ijdg
 复联	tjbu
@@ -31,7 +37,10 @@ sort: original
 灭霸	gofa
 钢铁侠	qqgu
 蜘蛛侠	jjwg
+黑寡妇	lpvv
+
 
 # ----- 歌名 -----
 寄居蟹	pnqe
 斑马	gycn
+醉清风	simq

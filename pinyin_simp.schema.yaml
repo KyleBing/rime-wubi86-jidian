@@ -3,7 +3,7 @@
 
 schema:
   schema_id: pinyin_simp
-  name: 袖珍简化字拼音
+  name: '简体拼音'
   version: "0.8"
   author:
     - 佚名
