@@ -223,5 +223,5 @@ translator:
 
 自 v0.13之后可自定义输出系统变量，如日期等
 
-文件 `rime.lua` 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine` 字段添加一些东西。
-具体参阅这里： https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua
+文件 `rime.lua` 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine` 字段添加一些东西，可以参阅本库的 `wubi86_jidian.schema.yaml` 文件。
+具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
