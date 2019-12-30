@@ -8,9 +8,9 @@
 Rime 是一款跨平台的优秀输入法的内核。
 该输入法在不同平台的名字也不同
 
-- `Windows` - 小狼毫
-- `macOS` - 鼠须管
-- `Linux` - ibus-rime
+- `Windows` - 小狼毫 (weasel)
+- `macOS` - 鼠须管 (squirrel)
+- `Linux` - 中州韵 (ibus-rime)
 
 目前本人已知的 Rime 在 `windows` 和 `macOS` 平台上的词库配置是相同的，只是配置文件的名字不一样。
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
