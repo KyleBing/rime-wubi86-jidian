@@ -31,7 +31,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ## 使用前的一些用户习惯说明
 
-**<kdb>control</kbd> + <kdb>0</kbd> 弹出菜单**
+**<kbd>control</kbd> + <kbd>0</kbd> 弹出菜单**
 
 > 如果不弹出，应该是目前的软件环境屏蔽了这个组合键（如：MWeb），换个软件再按就可以了
 弹的菜单中第一位的名字就是当前使用的输入法方案，其后跟着的就是该方法中的输入法菜单，有【半角 - 全角】【简 - 繁】等功能菜单，再后面的就是其它可选的输入法方案，对应 `default.custom.yaml` 中 `schema_list` 字段内容
@@ -42,7 +42,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 <img src="https://github.com/KyleBing/rime-wubi86-jidan/blob/master/imgs/rime-tradition-output.gif" width=500 title="简入繁出">
 
 是以切换输入方案的形式实现的，之前用菜单实现有个弊端：在切换应用后繁体输出的设置并没有保留，也就是说不是全局的，以输入方案的形式就可以实现全局繁体输入。
-<kdb>control</kbd> + <kdb>0</kbd> 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
+<kbd>control</kbd> + <kbd>0</kbd> 呼出菜单，选择`极点五笔繁体`，目前在 `Mac` 上测试正常，不知道 `Windows` 上如何，如果不能实现简入繁出的效果，可能需要安装 `OpenCC`[[链接地址](https://github.com/BYVoid/OpenCC)] 库支持，具体不知道怎么操作，因为我配好 `schema` 后就可以用了，没有安装 `OpenCC`
 
 
 ## 安装 鼠须管(macOS)
@@ -83,7 +83,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ## 设置五笔输入法 macOS 鼠须管
 
 1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
-2. 把上面下载的文件移到该目录中，点击 <kdb>部署</kbd> 即可。
+2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
 
 
 放的时候目录结构是这样的：
