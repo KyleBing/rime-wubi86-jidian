@@ -61,22 +61,22 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 .
 ├── README.md                               # 当前说明文档
 ├── rime.lua                                # 可以输出系统变量的函数
-├── default.custom.yaml                     # 用记自定义的一些输入方式或方向
+├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
 ├── pinyin_simp.dict.yaml                   # 简体拼音码表 - 五笔中拼音输入需要的
-├── pinyin_simp.schema.yaml                 # 简体拼音解释器
+├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
 ├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
 ├── wubi86_jidian.dict.yaml                 # 极点 - 五笔码表
-├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户自定义词
+├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
+├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
 ├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
 ├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
 ├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
 ├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
 ├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
-├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏相关
-├── wubi86_jidian_pinyin.schema.yaml        # 五笔拼音混输
-└── wubi86_jidian_trad.schema.yaml          # 五笔简入繁出
+├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
+├── wubi86_jidian_pinyin.schema.yaml        # 输入方案 - 五笔拼音混输
+└── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
 ```
 
 
@@ -152,20 +152,23 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 所有配置说明都在配置文件中说明了
 
 ```bash
-├── squirrel.custom.yaml                    # macOS 鼠须管输入法候选词界面
-├── default.custom.yaml                     # 用于自定义的一些输入方式，符号，中英文切换
-├── wubi86_jidian.schema.yaml               # 极点 - 五笔码表解释器
-├── wubi86_jidian_user.dict.yaml            # 极点 - 五笔用户扩展词库
+├── squirrel.custom.yaml                    # 鼠须管（for macOS）输入法候选词界面
+├── default.custom.yaml                     # 自定义一些输入法的功能：标点，二三候选等
+├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
+├── wubi86_jidian_user.dict.yaml            # 扩展词库 - 用户个人词库
 ├── wubi86_jidian_extra_brand.dict.yaml     # 扩展词库 - 品牌
 ├── wubi86_jidian_extra_english.dict.yaml   # 扩展词库 - 常用英文
 ├── wubi86_jidian_extra_location.dict.yaml  # 扩展词库 - 地名
 ├── wubi86_jidian_extra_media.dict.yaml     # 扩展词库 - 影视名，音乐名
 ├── wubi86_jidian_extra_people.dict.yaml    # 扩展词库 - 名人
 ├── wubi86_jidian_extra_pro.dict.yaml       # 扩展词库 - 专业名词
-├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏相关
+├── wubi86_jidian_extra_game.dict.yaml      # 扩展词库 - 游戏
 ```
 
-输出系统 `时间` 和 `日期` 输入：
+
+## 输出系统 `时间` 和 `日期`
+
+输入对应词，获取当前日期和时间
 - `date` 输出日期，格式 `2019年06月19日` `2019-06-19`
 - `time` 输出时间，格式 `10:00` `10:00:00`
 
