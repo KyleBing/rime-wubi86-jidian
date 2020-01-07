@@ -1877,7 +1877,6 @@ encoder:
 草标	ajsf
 蓝本	ajsg
 草本	ajsg
-苹果机	ajsm
 草棉	ajsr
 草木	ajss
 鹊桥	ajst
@@ -4903,6 +4902,7 @@ encoder:
 耳听	bgkr
 卫国	bglg
 耳边	bglp
+耳罩	bglh
 耳软	bglq
 耳力	bglt
 耳畔	bglu
@@ -24093,6 +24093,7 @@ encoder:
 上镜	hhqu
 上报	hhrb
 上年	hhrh
+皮卡丘	hhrg
 上操	hhrk
 止损	hhrk
 上扬	hhrn
@@ -35927,6 +35928,7 @@ encoder:
 嗙	kupy
 咬	kuq
 嚪	kuqv
+听音乐	kuqi
 咬	kuqy
 咬掉	kurh
 中关村	kusf
@@ -36714,6 +36716,7 @@ encoder:
 圆鼓鼓	lffk
 围击	lffm
 转卖	lffn
+转场	lffn
 转过	lffp
 围堵	lfft
 畤	lffy
@@ -52252,6 +52255,7 @@ encoder:
 金杯	qqsg
 猕猴桃	qqsi
 多梦	qqss
+多想	qqsh
 金桥	qqst
 多样	qqsu
 乌鲁木齐	qqsy
@@ -55772,6 +55776,7 @@ encoder:
 牛刀	rhvn
 牛群	rhvt
 年代	rhwa
+年会	rhwf
 牛仔	rhwb
 年仅	rhwc
 年会	rhwf
@@ -56035,6 +56040,7 @@ encoder:
 揭晓	rjja
 捏紧	rjjc
 摄影师	rjjg
+看电影	rjjy
 提早	rjjh
 白晃晃	rjji
 白晶晶	rjjj
@@ -56592,6 +56598,7 @@ encoder:
 罇	rmuf
 掆	rmum
 投资	rmuq
+抽奖	rmuq
 抽闲	rmus
 投产	rmut
 制冷	rmuw
@@ -57624,6 +57631,7 @@ encoder:
 哲	rrkf
 啠	rrkf
 踅	rrkh
+折中	rrkh
 白喝	rrkj
 手舞足蹈	rrkk
 指挥员	rrkm
@@ -58179,6 +58187,7 @@ encoder:
 挺拔	rtrd
 手摇	rtre
 手持	rtrf
+插拔	rtrd
 拨乱反正	rtrg
 搬掉	rtrh
 手抄	rtri
@@ -64812,6 +64821,7 @@ encoder:
 稉	tgjq
 秤星	tgjt
 重归	tgjv
+重置	tglf
 重影	tgjy
 衙	tgk
 生路	tgkh
@@ -68268,6 +68278,7 @@ encoder:
 答疑解惑	txqa
 管弦乐	txqi
 繁多	txqq
+每句	txqk
 敏锐	txqu
 箹	txqy
 敏捷	txrg
@@ -78160,6 +78171,7 @@ encoder:
 保税区	wtaq
 余切	wtav
 作孽	wtaw
+人生苦短	wtat
 舍我其谁	wtay
 伥	wtay
 傻子	wtbb
