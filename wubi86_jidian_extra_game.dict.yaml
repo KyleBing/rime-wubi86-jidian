@@ -12,7 +12,7 @@ sort: original
 # ----- 码表开始 -----
 # 格式：字词 键码  权重 （中间是tab，不是空格）
 # '#'开头的只是注释，所以可以随便分类了
-# 注释只能另起一行写，不能在词条后面写
+# 注释只能另起一行写，不要在词条后面写
 
 ...
 
@@ -23,7 +23,24 @@ sort: original
 
 
 # 王者荣耀
+黄忠	amkh
+太乙真人	dnfw
+蔡文姬	ayva
+虞姬	hava
+李元芳	sfay
+刘备	yjtl
+橘右京	sdyi
+韩信	fjwy
+安琪拉	pgru
+项羽	adnn
+甄姬	sfva
+扁鹊	ynaj
+鲁班七号	qgak
+赢政	yngh
+妲己	vjnn
+小乔	ihtd
 元歌	fqsk
+娜可露露	vsff
 典韦	mafn
 钟无艳	qfdh
 赵云	fhfc
@@ -49,3 +66,29 @@ sort: original
 鲁班七号	qgak
 百里守约	djpx
 百里玄策	djyt
+上官婉儿	hpvq
+公孙离	wbyb
+马超	cnfh
+芈月	ghee
+干将莫邪	fuaa
+沈梦溪	isie
+盾山	rfmm
+蒙犽	apqt
+鲁班大师	qgdj
+云中君	fkvt
+盘古	tedg
+李信	sbwy
+伽罗	wllq
+司马懿	ncfp
+孙策	bitg
+米莱狄	oaqt
+狂铁	qtqr
+弈星	yojt
+裴擒虎	drha
+杨玉环	sggg
+明世隐	jabq
+梦奇	ssds
+苏烈	algq
+百里玄策	djyt
+大乔	ddtd
+
