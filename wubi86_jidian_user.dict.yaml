@@ -1,0 +1,21 @@
+---
+name: wubi86_jidian_user
+version: "2019-01-20"
+last_edit_time: "2019-02-28"
+
+sort: original
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+#use_preset_vocabulary: true # 是否引入【八股文】的词频词序
+...
+
+# ----- 码表开始 -----
+# 格式：字词 键码  权重 （中间是tab，不是空格）
+# '#'开头的只是注释，所以可以随便分类了
+# 注释只能另起一行写，不能在词条后面写
+
+
+
+

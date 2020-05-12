@@ -1,0 +1,92 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: wubi86_jidian_pinyin
+  name: "极点五笔拼音混输"
+  version: "0.9"
+  author:
+    - 发明人 王永民先生
+  description: |
+    五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
+  dependencies:
+    - pinyin_simp
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 常用, 扩展 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+
+speller:
+  delimiter: " ;'"
+  #max_code_length: 4  # 四碼頂字上屏
+
+translator:
+  dictionary: wubi86_jidian             # 翻译器将调取此字典文件
+  enable_charset_filter: true           # 开启字符集过滤
+  enable_completion: true               # 提前显示编码未输入完整的词条
+
+  # 开启自动造词相关设置，将下面四项都改为 true
+  enable_sentence: false                # 句子输入模式
+  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: true                  # 自动造词
+  encode_commit_history: false          # 是否对已上屏的词自动造词
+
+  max_phrase_length: 10                 # 自动生成词的最大长度
+  user_dict: user                       # 用户词典名
+  db_class: tabledb                     # 用户词典类型 userdb - 二进制 / tabledb - 人类语言
+  disable_user_dict_for_patterns:       # 不需要录入用户词典的编码
+    - "^z.*$"
+
+# 输入的编码同时进行拼音反查，实现五笔与拼音的混输
+abc_segmentor:
+  extra_tags:
+    - reverse_lookup
+
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "`"
+  suffix: "'"
+  tips: [拼音]
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

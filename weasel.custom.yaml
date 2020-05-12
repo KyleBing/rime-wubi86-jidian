@@ -1,0 +1,29 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun Jul 26 19:44:19 2015"
+  rime_version: 1.1.2
+  
+patch:
+  style:
+    color_scheme: WhiteAqua
+    display_tray_icon: false
+    horizontal: true    #横向排列候选
+    font_point: 13      #字号13
+    
+# -------------- WhiteAqua 主题方案 --------------
+  preset_color_schemes:
+    WhiteAqua:
+      name: WhiteAqua
+      author: "KyleBing <https://kylebing.cn>"
+      creat_time: "2015-07-26"
+      back_color: 0xFFFFFF
+      border_color: 0xD6D6D6
+      text_color: 0x000000
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x9BAD23
+      candidate_text_color: 0x000000
+      comment_text_color: 0xBBCC27
