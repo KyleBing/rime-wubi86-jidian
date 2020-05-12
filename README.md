@@ -172,9 +172,8 @@ __资源链接__
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
 
 __配置教程链接__
-- Rime 官网：   [https://rime.im/](https://rime.im/)
-- Rime 输入方案参数详解：  [https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
-- 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
+- [x] Rime 官网：   [https://rime.im/](https://rime.im/)
+- [x] 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 
 __本库 Wiki__
 - [x] [schema.yaml 详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/Schema.yaml-%E8%AF%A6%E8%A7%A3)
@@ -212,7 +211,7 @@ __本库 Wiki__
 <img width="703" alt="main" src="https://user-images.githubusercontent.com/12215982/80705752-8cbf1e00-8b19-11ea-8f0f-7134f3cd9585.png">
 
 
-### 5. 输出系统变量
+### 4. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
