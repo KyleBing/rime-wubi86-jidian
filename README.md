@@ -27,6 +27,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 <img src="https://user-images.githubusercontent.com/12215982/81524061-6f444c80-9382-11ea-9ecc-edb38a2cfc3f.gif" width=600 alt="Rime五笔输入法输入样子">
 
 
+
 ## 二、使用说明
 
 ### 1. 呼出菜单
