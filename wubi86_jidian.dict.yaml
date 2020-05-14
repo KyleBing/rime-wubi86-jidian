@@ -5338,7 +5338,7 @@ Apple	appl
 出手	bmrt
 出招	bmrv
 出格	bmst
-出栏	bmsu
+出样	bmsu
 出笼	bmtd
 出租	bmte
 出行	bmtf
@@ -12124,8 +12124,10 @@ Apple	appl
 砯	dyiy
 丈量	dyjg
 太早	dyjh
+太早	dyjh
 太晚	dyjq
 太监	dyjt
+太暗	dyju
 太贵	dykh
 感应器	dykk
 太史	dykq
@@ -12143,7 +12145,7 @@ Apple	appl
 大放异彩	dyne
 矿层	dynf
 碎屑	dyni
-万言书	dynn
+太快	dynn
 砨	dynn
 戍	dynt
 态	dynu
@@ -20038,6 +20040,7 @@ Apple	appl
 瑓	ggli
 一回	gglk
 一	ggll
+来来回回	ggll
 一边	gglp
 表现力	gglt
 一圈	gglu
@@ -20784,7 +20787,6 @@ Apple	appl
 不敌	gitd
 不透	gite
 不行	gitf
-不等	gitf
 不算	gith
 还算	gith
 不息	gith
@@ -21530,6 +21532,7 @@ Apple	appl
 瑞雪	gmfv
 正则表达式	gmga
 现形	gmga
+两顿	gmgb
 遭到	gmgc
 两天	gmgd
 珊瑚	gmgd
@@ -28249,6 +28252,7 @@ iPhone	ipho
 常常	ipip
 深沉	ipip
 沉淀	ipip
+尝尝	ipip
 赏光	ipiq
 党派	ipir
 学派	ipir
@@ -35837,6 +35841,7 @@ iPod	ipod
 遗臭万年	ktdr
 吃腻	ktea
 唀	kten
+咋地	ktfb
 响动	ktfc
 响彻云霄	ktff
 响起	ktfh
@@ -35981,6 +35986,7 @@ iPod	ipod
 唾余	ktwt
 咱们	ktwu
 吃人	ktww
+吃货	ktwx
 吃住	ktwy
 川红	ktxa
 啼笑皆非	ktxd
@@ -44371,6 +44377,7 @@ MacbookPro	mbp
 忙于	nygf
 居高不下	nygg
 以下	nygh
+忙不	nygi
 心理	nygj
 心事	nygk
 尽责	nygm
@@ -46987,6 +46994,7 @@ MacbookPro	mbp
 宝蓝	pgaj
 定苗	pgal
 定子	pgbb
+割麦子	pgbb
 富阳	pgbj
 写出	pgbm
 室	pgc
@@ -61107,6 +61115,8 @@ MacbookPro	mbp
 相吸	shke
 枮	shkg
 相距	shkh
+想听	shkr
+想吃	shkt
 可卡因	shld
 相国	shlg
 相加	shlk
@@ -83633,6 +83643,7 @@ Windows	wind
 诚	ydn
 应有尽有	ydnd
 庬	ydne
+太慢	ydnj
 请愿书	ydnn
 訧	ydnn
 诚	ydnt
