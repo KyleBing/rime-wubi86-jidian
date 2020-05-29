@@ -32,6 +32,7 @@ patch:
       label_font_point: 18                      # 字体大小 - 候选序号
       corner_radius: 5                          # 候选框圆角大小
 
+
       # %c 是候选序号 %@ 是候选词
       candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
 

@@ -16,7 +16,7 @@ patch:
 
   # Menu
   menu:
-    page_size: 5                    # 候选词数量
+    page_size: 3                    # 候选词数量
   switcher:
     hotkeys:
       - "Control+0"
