@@ -196,10 +196,11 @@ __本库 Wiki__
 
 ### 2. 编码提示
 照顾多数人的输入情况，默认是开启的，可以手动关闭
-如果想关闭，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `enable_completion` 改为 `false` 即可
+如果想关闭，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
 
 ```yaml
-  enable_completion: false               # 提前显示编码未输入完整的词条
+  comment_format:                       # 提示码自定义
+    - xform/.+//                        # 配置：消除所有候选词后的提示码
 ```
 
 ### 3. 关于手动造词功能
