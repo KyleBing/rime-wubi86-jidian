@@ -515,6 +515,7 @@ encoder:
 芸豆	afgk
 莆田	agll
 薄薄	aiai
+东营	aiap
 AirPods	airp
 AirPods Pro	airp
 AirPower	airp
@@ -4435,6 +4436,7 @@ Apple	appl
 子民	bbna
 孜孜以求	bbnf
 阴阳怪气	bbnr
+子类	bbod
 子宫	bbpk
 孤陋寡闻	bbpu
 耶稣	bbqg
@@ -7414,6 +7416,7 @@ Apple	appl
 岊	cmj
 观览	cmjt
 观照	cmjv
+观影	cmjy
 观景	cmjy
 駉	cmkg
 巴山蜀水	cmli
@@ -10564,6 +10567,7 @@ Apple	appl
 布袋	dmwa
 磮	dmwa
 威风八面	dmwd
+碘伏	dmwd
 面值	dmwf
 布什	dmwf
 碉堡	dmwk
@@ -12284,6 +12288,7 @@ Apple	appl
 腻烦	eaod
 朦	eap
 朦	eape
+爱范儿	eaqt
 膜拜	eard
 须菩提	earj
 腊梅	east
@@ -16755,6 +16760,7 @@ Apple	appl
 献丑	fmnf
 堝	fmnk
 垲	fmnn
+增删改查	fmns
 击发	fmnt
 南飞	fmnu
 鼓风炉	fmoy
@@ -18829,6 +18835,7 @@ Apple	appl
 开除	gabw
 与世隔绝	gabx
 开戏	gaca
+形参	gacd
 开通	gace
 开台	gack
 琪	gad
@@ -21831,6 +21838,7 @@ Apple	appl
 一心二用	gnfe
 死心塌地	gnff
 瓦块	gnfn
+开发者	gnft
 与	gng
 珝	gng
 于心不甘	gnga
@@ -31729,6 +31737,7 @@ iPod	ipod
 日下	jjgh
 蛳	jjgh
 蝭	jjgh
+电影天堂	jjgi
 日来	jjgo
 暘	jjgr
 蝪	jjgr
@@ -34260,6 +34269,7 @@ iPod	ipod
 趺	khf
 	khf
 路霸	khfa
+跨域	khfa
 踋	khfb
 踍	khfb
 跳动	khfc
@@ -45729,6 +45739,7 @@ MacbookPro	mbp
 火柱	oosy
 火舌	ootd
 火种	ootk
+火币	ootm
 爆炸物	ootr
 火箭	ootu
 炎	oou
@@ -48228,6 +48239,7 @@ MacbookPro	mbp
 裙子	pubb
 袜子	pubb
 襵	pubb
+被子	pubb
 实际	pubf
 实职	pubk
 袦	pubm
@@ -48235,6 +48247,7 @@ MacbookPro	mbp
 初阶	pubw
 衩	puc
 裰	pucc
+实参	pucd
 襂	puce
 审美观	pucm
 褬	pucs
@@ -48977,6 +48990,7 @@ MacbookPro	mbp
 空心	pwny
 穷尽	pwny
 窭	pwo
+实体类	pwod
 窲	pwof
 穿凿	pwog
 窝火	pwoo
@@ -53748,6 +53762,7 @@ MacbookPro	mbp
 危如累卵	qvlq
 争办	qvlw
 猫鼠同眠	qvmh
+键帽	qvmh
 银山	qvmm
 争购	qvmq
 鎻	qvmy
@@ -57681,6 +57696,7 @@ MacbookPro	mbp
 抱恨	rqnv
 掏心	rqny
 掬	rqo
+抽象类	rqod
 鬼精	rqog
 擼	rqoj
 掐断	rqon
@@ -66984,6 +67000,7 @@ T恤	tntl
 翻地	tofb
 翻动	tofc
 翻土	toff
+翻墙	toff
 秋雨	tofg
 翻越	tofh
 秋声	tofn
@@ -71346,6 +71363,7 @@ T恤	tntl
 暼	umij
 蟞	umij
 憋	umin
+羊肉汤	umin
 鱉	umio
 鷩	umio
 鐅	umiq
@@ -78292,6 +78310,7 @@ m³	uuyy
 低飞	wqnu
 伯尔尼	wqnx
 低烧	wqoa
+父类	wqod
 斧凿	wqog
 低迷	wqop
 儍	wqot
@@ -82487,6 +82506,7 @@ m³	uuyy
 终生	xttg
 疑处	xtth
 终身	xttm
+比特币	xttm
 乡愁	xtto
 绝处逢生	xttt
 纷繁复杂	xttv
@@ -83949,6 +83969,7 @@ m³	uuyy
 譌	yeto
 衣物	yetr
 衣箱	yets
+应用程序	yety
 哀	yeu
 衣	yeu
 哀痛	yeuc
@@ -84794,6 +84815,7 @@ m³	uuyy
 齐唱	yjkj
 充电器	yjkk
 谩骂	yjkk
+充电器	yjkk
 齐鸣	yjkq
 谩	yjl
 谩	yjlc
