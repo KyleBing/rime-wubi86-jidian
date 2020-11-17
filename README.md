@@ -1,8 +1,5 @@
 ![最好用的五笔输入法](https://user-images.githubusercontent.com/12215982/81521174-02788480-9379-11ea-84be-b56e0b5e72c9.gif)
 
-[![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-
 ## 一、前言
 
 Rime（中州韵） 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
