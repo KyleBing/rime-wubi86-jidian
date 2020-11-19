@@ -1,4 +1,4 @@
-![最好用的五笔输入法](https://user-images.githubusercontent.com/12215982/81521174-02788480-9379-11ea-84be-b56e0b5e72c9.gif)
+![Rime](https://user-images.githubusercontent.com/12215982/99625640-a1d6ac80-2a6b-11eb-91b0-ba55003bc3b1.png)
 
 ## 一、前言
 
@@ -64,19 +64,12 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
 
 
-| 键 | 对应值        |
-|-------------|------------|
-| 1234567890  | 壹贰叁肆伍陆柒捌玖零 |
-| wqbsjfd.     | 万仟佰拾角分第点    |
-| z           | 整之         |
-| y           | 元月亿        |
-
-| 键 (按住 shift)  | 对应值         |
-|------------|-------------|
-| 1234567890 | 一二三四五六七八九〇  |
-| wqbsjfd.    | 万千百十角分点     |
-| z          | 整之          |
-| y          | 元月亿         |
+| 键 | 对应值        | | 键 (按住 shift)  | 对应值         |
+|-------------|------------|---|------------|-------------|
+| 1234567890  | 壹贰叁肆伍陆柒捌玖零 | | 1234567890 | 一二三四五六七八九〇  |
+| wqbsjfd.     | 万仟佰拾角分第点    | | wqbsjfd.    | 万千百十角分点     |
+| z           | 整之         | | z          | 整之          |
+| y           | 元月亿        | | y          | 元月亿         |
 
 
 ## 四、安装
@@ -96,20 +89,9 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ```bash
 ~/Library/
 └── Rime
-    ├── README.md
-    ├── default.custom.yaml
-    ├── numbers.schema.yaml 
-    ├── pinyin_simp.dict.yaml
-    ├── pinyin_simp.schema.yaml
-    ├── squirrel.custom.yaml
-    ├── weasel.custom.yaml
-    ├── wubi86_jidian.dict.yaml
-    ├── wubi86_jidian.schema.yaml
-    ├── wubi86_jidian_user.dict.yaml
-    ├── wubi86_jidian_addition.dict.yaml
-    ├── wubi86_jidian_extra.dict.yaml
-    ├── wubi86_jidian_pinyin.schema.yaml
-    └── wubi86_jidian_trad.schema.yaml  
+    ├── 该项目中的文件
+    ├── ...
+    ├── ...
 ```
 > **注意**：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
