@@ -77,13 +77,10 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 ### 1. 安装 鼠须管(macOS)
 去 [官网下载](https://rime.im/download/)，按步骤安装即可
 
-#### a. 下载 五笔配置文件
-也就是当前库，直接下载即可 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
-
-
-#### b. 设置五笔输入法 macOS 鼠须管
-1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
-2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
+1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+2. 设置五笔输入法 macOS 鼠须管
+    1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
+    2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
 
 放的时候目录结构是这样的：
 ```bash
@@ -93,23 +90,12 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
     ├── ...
     ├── ...
 ```
+
 > **注意**：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
-#### c. 皮肤
-玫枫
-
-<img alt="skin maple magenta" src="https://user-images.githubusercontent.com/12215982/81521502-fa6d1480-9379-11ea-9ff2-4a730131ea52.png" width=500 />
-
-安静
-
-<img alt="calm" src="https://user-images.githubusercontent.com/12215982/81521185-060c0b80-9379-11ea-95eb-ad755394936e.png" width=500 />
-
-
 ### 2. 配置 小狼毫（Windows）
-
-<img alt="skin" src="https://user-images.githubusercontent.com/12215982/81521186-073d3880-9379-11ea-953f-0fca61e82c5d.png" width=300 />
 
 Windows 中的配置方法：
 1. 点击【开始】
