@@ -61,7 +61,7 @@ translator:
   preedit_format:                       # 上屏码自定义
 #    - xform/.+//
   comment_format:                       # 提示码自定义
-#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+    - xform/.+//                        # 配置：消除所有候选词后的提示码
 
 
 reverse_lookup:

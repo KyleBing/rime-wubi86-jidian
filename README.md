@@ -116,12 +116,11 @@ Windows 中的配置方法：
 ```
 
 ### 2. 编码提示
-照顾多数人的输入情况，默认是开启的，可以手动关闭
-如果想关闭，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
+默认是关闭的，可以手动开启，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
 
 ```yaml
-  comment_format:                       # 提示码自定义
-    - xform/.+//                        # 配置：消除所有候选词后的提示码
+  comment_format: 
+#    - xform/.+//                       # 注释掉该行，即可显示词条编码
 ```
 
 ### 3. 关于手动造词功能
