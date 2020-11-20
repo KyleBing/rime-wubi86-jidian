@@ -37,7 +37,39 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 └── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
 
-## 三、使用说明
+## 三、安装
+
+### 1. 安装 鼠须管(macOS)
+去 [官网下载](https://rime.im/download/)，按步骤安装即可
+
+1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+2. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime`，把上面下载的文件移到该目录中
+3. 点击状态栏上的输入法图标，下拉菜单中选择 <kbd>部署</kbd> (英文是<kbd>Deploy</kbd>），或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd>
+
+放的时候目录结构是这样的：
+```bash
+~/Library/
+└── Rime
+    ├── 该项目中的文件
+    ├── ...
+    ├── ...
+```
+
+> **注意**：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
+> 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
+
+
+### 2. 配置 小狼毫（Windows）
+
+Windows 中的配置方法：
+1. 点击【开始】
+2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
+3. 把该项目中的文件复制到里面
+4. 点击开始菜单中的【部署】即可
+
+
+
+## 四、使用说明
 
 ### 1. 呼出菜单
 在输入状态时，<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单
@@ -74,37 +106,6 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 | z           | 整之         | | z          | 整之          |
 | y           | 元月亿        | | y          | 元月亿         |
 
-
-## 四、安装
-
-### 1. 安装 鼠须管(macOS)
-去 [官网下载](https://rime.im/download/)，按步骤安装即可
-
-1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
-2. 设置五笔输入法 macOS 鼠须管
-    1. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime` 
-    2. 把上面下载的文件移到该目录中，点击 <kbd>部署</kbd> 即可。
-
-放的时候目录结构是这样的：
-```bash
-~/Library/
-└── Rime
-    ├── 该项目中的文件
-    ├── ...
-    ├── ...
-```
-
-> **注意**：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
-> 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
-
-
-### 2. 配置 小狼毫（Windows）
-
-Windows 中的配置方法：
-1. 点击【开始】
-2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
-3. 把该项目中的文件复制到里面
-4. 点击开始菜单中的【部署】即可
 
 
 ## 五、自定义功能
