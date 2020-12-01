@@ -80,7 +80,7 @@ Windows 中的配置方法：
 弹出的菜单中，处于第一位的是当前使用的输入法方案，其后跟着是该方案中的输入法菜单，有【半角 - 全角】【简 - 繁】等常见功能菜单，再后面是其它可选的输入法方案，对应 [`default.custom.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/default.custom.yaml) 中 `schema_list` 字段内容
 
 ### 3. 默认二三候选
-默认的二三候选是 `;` `'` 两个键
+默认的二三候选是 <kbd>;</kbd>，<kbd>'</kbd> 两个键
 
 ### 4. 候选翻页
 方向 <kbd>上</kbd><kbd>下</kbd>，<kbd>-</kbd> <kbd>=</kbd>，<kbd>[</kbd> <kbd>]</kbd>
