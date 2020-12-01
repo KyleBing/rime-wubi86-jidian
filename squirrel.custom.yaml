@@ -1,6 +1,6 @@
 patch:
   style:
-    color_scheme: maple_magenta              # 写当前名，也就是下面皮肤的 name 内容
+    color_scheme: roseo_maple               # 写当前名，也就是下面皮肤的 name 内容
 
   #-----------------#
   #    颜色使用说明   #
@@ -17,8 +17,8 @@ patch:
   # 一般字体不需要指定，指定后的字体可能会出现候选框被拉伸成过高的情况，因为不同字体的纵向高度不同，默认字体适配最好
 
   preset_color_schemes:
-    maple_magenta:
-      name: 玫枫 / Maple Magenta
+    roseo_maple:
+      name: 玫枫 / Roseo Maple
       author: "KyleBing <https://kylebing.cn>"
       alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
       border_height: 5                          # 边距 - 面板上下
