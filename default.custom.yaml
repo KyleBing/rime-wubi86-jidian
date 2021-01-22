@@ -12,6 +12,7 @@ patch:
     - schema: numbers
     - schema: wubi86_jidian_pinyin
     - schema: wubi86_jidian_trad
+    - schema: wubi86_jidian_trad_pinyin
     - schema: pinyin_simp
 
   # Menu

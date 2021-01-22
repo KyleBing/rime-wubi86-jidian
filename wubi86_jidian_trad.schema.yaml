@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi86_jidian_trad
-  name: "极点五笔繁体"
+  name: "繁体"
   version: "1.0"
   author:
     - 创始人 王永民先生
@@ -16,9 +16,6 @@ switches:
   - name: zh_trad
     reset: 1    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
     states: [ 简体, 繁体 ]
-#  - name: ascii_mode
-#    reset: 0
-#    states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
