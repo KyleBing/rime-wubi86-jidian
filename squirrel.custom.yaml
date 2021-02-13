@@ -22,8 +22,8 @@ patch:
       author: "KyleBing <https://kylebing.cn>"
       alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
       border_height: 5                          # 边距 - 面板上下
-      border_width: 5                           # 边距 - 面板左右地
-      border_color: 0xDAE0DA                    # 颜色 - 边框
+      border_width: 0                           # 宽度 - 边框
+      border_color: 0xffffff                    # 颜色 - 边框
       back_color: 0xF4F4F6                      # 颜色 - 面板背景
       label_color: 0xaaaaaa                     # 颜色 - 候选序号
 #      font_face: PingFang SC Semibold                    # 字体 - 候选文字
@@ -38,7 +38,9 @@ patch:
 
       horizontal: true                         # 是否横向 true 或 false
       line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
+      base_offset: 0                           # 文字基线调整
 
+      preedit_back_color: 0x364572
       hilited_corner_radius: 5                  # 圆角 - 首选候选词
       hilited_candidate_text_color: 0x4F11FA    # 颜色 - 首选候选词 - 文字
       hilited_candidate_back_color: 0xEDEDF9    # 颜色 - 首选候选词 - 背景  8位的前两位是颜色透明度，00就是透明，FF就是不透明
@@ -46,6 +48,8 @@ patch:
       hilited_comment_text_color: 0xF19C38      # 颜色 - 首选候选词 - 提示编码
       candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
       comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
+      comment_font_face: PingFang SC Thin       # 字体 - 候选词编码的提示
+      comment_font_point: 18                    # 字体大小 - 候选词编码的提示
 
       inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
       spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
