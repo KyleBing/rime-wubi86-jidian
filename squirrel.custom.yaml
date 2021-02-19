@@ -28,8 +28,8 @@ patch:
       label_color: 0xaaaaaa                     # 颜色 - 候选序号
 #      font_face: PingFang SC Semibold                    # 字体 - 候选文字
       font_point: 18                            # 字体大小 - 候选
-#      label_font_face: Skia                    # 字体 - 候选数字
-      label_font_point: 18                      # 字体大小 - 候选序号
+#      label_font_face: Skia                     # 字体 - 候选数字
+#      label_font_point: 18                      # 字体大小 - 候选序号
       corner_radius: 5                          # 候选框圆角大小
 
 
@@ -48,8 +48,8 @@ patch:
       hilited_comment_text_color: 0xF19C38      # 颜色 - 首选候选词 - 提示编码
       candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
       comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
-      comment_font_face: PingFang SC Thin       # 字体 - 候选词编码的提示
-      comment_font_point: 18                    # 字体大小 - 候选词编码的提示
+      comment_font_face: PingFang SC            # 字体 - 候选词编码的提示
+      comment_font_point: 16                    # 字体大小 - 候选词编码的提示
 
       inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
       spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
