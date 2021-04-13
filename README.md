@@ -154,7 +154,7 @@ Windows 中的配置方法：
 
 __注意__: 这样会关闭自动上屏，顶字上屏的功能。
 
-需要修改下面几个内容
+需要修改 `wubi86_jidian.schema.yaml` 下面几个内容
 
 ```bash
 speller:
