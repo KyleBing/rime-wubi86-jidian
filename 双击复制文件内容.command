@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 cd -- "$(dirname "$BASH_SOURCE")"
 
@@ -9,7 +9,7 @@ function show_menu() {
 
   if [[ $PWD = ~/Library/Rime ]]; then
       red "您已经在 ~/Library/Rime 目录, 请不要运行该脚本"
-      exit
+      exit 1
   fi
 }
 
