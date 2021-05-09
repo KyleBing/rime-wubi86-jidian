@@ -1,12 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
 cd -- "$(dirname "$BASH_SOURCE")"
 
 function show_menu() {
   echo "================================================"
   echo "  是否用当前文件夹内容覆盖 \033[31m~/Library/Rime\033[0m 目录？"
-  echo "  ( 已经在 ~/Library/Rime 目录时请不要运行这个 )"
   echo "================================================"
+
+  if [[ $PWD = ~/Library/Rime ]]; then
+      red "您已经在 ~/Library/Rime 目录, 请不要运行该脚本"
+      exit
+  fi
 }
 
 function red() {
@@ -46,6 +50,9 @@ y)
   fi
   cp -Rf ~/Library/Rime  ~/Desktop/备份的\ Rime\ 文件夹 &&
   cp -Rf ./* ~/Desktop/Rime/
+  rm -rf ~/Library/Rime
+  cp -a ~/Desktop/Rime ~/Library
+
   echo_result $? "复制文件到 ~/Library/Rime 目录"
   ;;
 n)
