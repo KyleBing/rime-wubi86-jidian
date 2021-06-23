@@ -49,6 +49,7 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 2. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime`，把下载后的`rime-wubi86-jidian`内的所有文件移到 `Rime` 目录中，
 3. 点击状态栏上的输入法图标，下拉菜单中选择 <kbd>部署</kbd> (英文是<kbd>Deploy</kbd>），或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd>
+**注意：**`Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
 
 放的时候目录结构是这样的：
 ```bash
@@ -77,7 +78,7 @@ Windows 中的配置方法：
 
 ## 四、使用说明
 
-### 1. 呼出菜单
+### 1. 选项菜单
 在输入状态时，<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单
 
 ### 2. 菜单内容
