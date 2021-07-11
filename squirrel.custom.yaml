@@ -84,5 +84,9 @@ patch:
 
 # --- 特定程序定义初始状态的英文输入 ---
 #  app_options:
-#    co.zeit.hyper:
-#      ascii_mode: true
+#    co.zeit.hyper: # 程序名
+#      ascii_mode: true # 对应的选项
+#    co.zeit.hyper: # 程序名
+#      ascii_mode: true # 对应的选项
+#    co.zeit.hyper: # 程序名
+#      ascii_mode: true # 对应的选项

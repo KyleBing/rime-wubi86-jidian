@@ -4,9 +4,9 @@
 
 Rime（中州韵） 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
-- `Windows` - 小狼毫 (weasel)
-- `macOS` - 鼠须管 (squirrel)
-- `Linux` - 中州韵 (ibus-rime)
+- `Windows` - 小狼毫 ( `weasel` )
+- `macOS` - 鼠须管 ( `squirrel` )
+- `Linux` - 中州韵 ( `ibus-rime` )
 
 Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
 
@@ -49,7 +49,8 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 2. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime`，把下载后的`rime-wubi86-jidian`内的所有文件移到 `Rime` 目录中，
 3. 点击状态栏上的输入法图标，下拉菜单中选择 <kbd>部署</kbd> (英文是<kbd>Deploy</kbd>），或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd>
-**注意：**`Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
+
+**注意：** `Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
 
 放的时候目录结构是这样的：
 ```bash
@@ -85,10 +86,10 @@ Windows 中的配置方法：
 弹出的菜单中，处于第一位的是当前使用的输入法方案，其后跟着是该方案中的输入法菜单，有【半角 - 全角】【简 - 繁】等常见功能菜单，再后面是其它可选的输入法方案，对应 [`default.custom.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/default.custom.yaml) 中 `schema_list` 字段内容
 
 ### 3. 默认二三候选
-默认的二三候选是 <kbd>;</kbd>，<kbd>'</kbd> 两个键
+默认的二三候选是 <kbd>;</kbd> <kbd>'</kbd> 两个键
 
 ### 4. 候选翻页
-方向 <kbd>上</kbd><kbd>下</kbd>，<kbd>-</kbd> <kbd>=</kbd>，<kbd>[</kbd> <kbd>]</kbd>
+方向 <kbd>上</kbd><kbd>下</kbd>、<kbd>-</kbd> <kbd>=</kbd>、<kbd>[</kbd> <kbd>]</kbd>
 
 ### 5. 临时拼音输入
 在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
@@ -116,7 +117,7 @@ Windows 中的配置方法：
 
 
 ## 五、自定义功能
-所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`，一定要 `@` 哟，不我看不到
+所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@青枫`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
 默认是关闭的

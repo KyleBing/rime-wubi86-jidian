@@ -19,7 +19,7 @@ patch:
   menu:
     page_size: 5                    # 候选词数量
   switcher:
-    hotkeys:
+    hotkeys:        # 弹出菜单的快捷键
       - "Control+0"
       - "Shift+Control+0"
     abbreviate_options: true
@@ -75,7 +75,7 @@ patch:
       - { when: composing, accept: Control+v, send: Page_Down }
 
   punctuator:
-    full_shape:
+    full_shape: # 全角符号
       " ": {commit: "　"}
       "!": {commit: "！"}
       "\"": {pair: ["“", "”"]}
@@ -92,7 +92,7 @@ patch:
       "-": "－"
       .: {commit: "。"}
       "/": ["／", "÷"]
-      ":": {commit: "："}
+      ":": {commit: "："}            # commit 的意思是这个符号输入时，会将当前处于第一位的候选词上屏
       ";": {commit: "；"}
       "<": ["《", "〈", "«", "‹"]
       "=": "＝"
@@ -109,7 +109,7 @@ patch:
       "|": ["·", "｜", "§", "¦"]
       "}": ["』", "〗", "｝"]
       "~": "～"
-    half_shape:
+    half_shape: # 半角符号
       "!": {commit: "！"}
       "\"": {pair: ["“", "”"]}
       "#": "#"
@@ -143,7 +143,7 @@ patch:
       "}": "」"
       "~": "~"
   recognizer:
-    patterns:
+    patterns:  # 一些常见的英文组合，当正则匹配到这些时，都不会生成候选词，而只输入英文
       email: "^[-_.0-9A-Za-z]+@.*$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:|localhost).*$|^[a-z]+[.].+$"

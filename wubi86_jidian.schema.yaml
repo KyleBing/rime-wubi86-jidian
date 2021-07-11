@@ -61,14 +61,15 @@ translator:
   preedit_format:                       # 上屏码自定义
 #    - xform/.+//
   comment_format:                       # 提示码自定义
-    - xform/.+//                        # 配置：消除所有候选词后的提示码
+    - xform/.+//                        # 当前默认不提示编码，消除所有候选词后的提示码
 
 
 reverse_lookup:
-  dictionary: pinyin_simp
-  prefix: "z"
-  suffix: "'"
-  tips: [拼音]
+  dictionary: pinyin_simp  # 反查使用的拼音词库
+  prefix: "z"              # 反查前缀，以它为起点
+  suffix: "'"              # 反查后缀，以它为结点
+  tips: [拼音]              # 反查时的提示信息
+
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -82,4 +83,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^z[a-z]*'?$"
+    reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
