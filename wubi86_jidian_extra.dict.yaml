@@ -12,13 +12,12 @@ sort: original
 
 ...
 
-# --- 影视 ---
-# 电视剧
+## 电视剧
 铁齿铜牙纪晓岚	qhqm
 纪晓岚	xjmm
 和珅	tkgj
 男人帮	lwdt
-# 影视
+## 影视
 黑镜	lfqu
 你好，李焕英	soam
 危情三日	qndj
@@ -32,7 +31,7 @@ sort: original
 阿凡达	bmdp
 切尔诺贝利	aqyt
 
-# 歌名
+## 歌名
 寄居蟹	pnqe
 斑马	gycn
 醉清风	simq
@@ -41,15 +40,14 @@ sort: original
 大天篷	dgtt
 
 
-# --- Brand ---
-# 品牌
+## 品牌
 美特斯邦威	utad
 凯迪拉克	mmrd
 迪卡侬	mhwp
 超意兴	fuiw
 迈森兰	dsuf
 捷酷	rgsg
-# 数码
+## 数码
 紫米	hxoy	5
 数字尾巴	opnc
 Vivo	vivo
@@ -57,9 +55,8 @@ Oppo	oppo
 金立	qquu
 
 
-# --- 人物 ---
-	
-# 喜剧人
+
+## 喜剧人
 郭德纲	ytmq
 于谦	gfyu
 小沈阳	iibj
@@ -71,7 +68,7 @@ Oppo	oppo
 
 
 
-# 歌手
+## 歌手
 谢春花	ydaw
 王筝	ggtq
 阿悄	bsni
@@ -92,7 +89,7 @@ Oppo	oppo
 郑源	udid
 
 
-# 演员
+## 演员
 周韵	mfuj
 姜文	ugyy
 姜武	ugga
@@ -105,8 +102,7 @@ Oppo	oppo
 王洛丹	gimy
 孙红雷	bxfl
 
-# 金融
-# 化妆品品牌
+## 化妆品品牌
 奥洛菲	tiad
 欧莱雅	aaah
 韩芬娜	favv
@@ -115,7 +111,7 @@ Oppo	oppo
 魅力可诗	rlsy
 美肌颜	ueut
 
-# --- 地名 ---
+## 地名
 万达	dndp
 泉城广场	rfyf
 莒县	akeg
@@ -127,11 +123,10 @@ Oppo	oppo
 马家小区	cpia
 台儿庄	cqyf
 
-# --- 游戏相关 ---
-# 游戏名
+## 游戏名
 刺客信条	gpwt
 极品飞车	sknl
-# 王者荣耀
+## 王者荣耀
 黄忠	amkh
 太乙真人	dnfw
 蔡文姬	ayva
@@ -201,7 +196,7 @@ Oppo	oppo
 百里玄策	djyt
 大乔	ddtd
 
-# --- 事件 ---
+## 事件
 新型冠状病毒	ugpg
 小汤山	iimm
 火神山	opmm
@@ -209,7 +204,7 @@ Oppo	oppo
 汶川	iykt
 N号房	nkyn
 
-# eMoji
+## emoji
 🙂	tmtt
 🙃	tmtt
 😆	ddtt
@@ -257,12 +252,11 @@ N号房	nkyn
 💩	ococ
 👻	rqc
 😈	ahgo
-
 ✌🏻	bbh
 🤦🏻‍♂️	kdb
 🙏🏻	pypy
 
-# 动物
+## emoji动物
 🐶	qtqk
 🐱	qtal
 🐭	vnu
@@ -339,7 +333,7 @@ N号房	nkyn
 🙈	rddm
 🦔	gmqt
 
-# 水果
+## emoji水果
 🍏	agjs
 🍎	agjs
 🍐	tjs
@@ -381,7 +375,7 @@ N号房	nkyn
 🥂	kjis
 🥮	eeqn
 
-# 运动
+## emoji运动
 ⚽️	khgf
 🏀	tjgf
 🏈	ssgf
