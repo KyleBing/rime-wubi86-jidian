@@ -18,7 +18,13 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ### 皮肤
 
+macOS
+
 <img width="435" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/101584309-56833e80-3a18-11eb-9b83-a43204ad363c.png">
+
+Windows
+
+<img width="300" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/126967080-924f8ae4-ac81-47e2-b6c8-9f415aa6ead8.jpg">
 
 ## 二、文件说明
 
@@ -139,7 +145,7 @@ Windows 中的配置方法：
 手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
-目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`  
+目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`
 
 <img width="703" alt="main" src="https://user-images.githubusercontent.com/12215982/80705752-8cbf1e00-8b19-11ea-8f0f-7134f3cd9585.png">
 
