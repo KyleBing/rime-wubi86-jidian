@@ -23,8 +23,18 @@ macOS
 <img width="435" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/101584309-56833e80-3a18-11eb-9b83-a43204ad363c.png">
 
 Windows
+皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
+```yaml
+patch:
+  style:
+    color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
+```
 
-<img width="300" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/126967080-924f8ae4-ac81-47e2-b6c8-9f415aa6ead8.jpg">
+<img width="300" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
+
+<img width="300" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
+
+<img width="300" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
 
 ## 二、文件说明
 
