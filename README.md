@@ -1,8 +1,10 @@
-![Rime](https://user-images.githubusercontent.com/12215982/99625640-a1d6ac80-2a6b-11eb-91b0-ba55003bc3b1.png)
+![rime_all](https://user-images.githubusercontent.com/12215982/128605745-15af04fb-8d0d-4603-9e5e-53d9724cca6e.png)
+
+该库是 Rime 办法的一个 86 版极点五笔的输入方案，支持多平台，并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 ## 一、前言
 
-Rime（中州韵） 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
+Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
 - `Windows` - 小狼毫 ( `weasel` )
 - `macOS` - 鼠须管 ( `squirrel` )
@@ -52,7 +54,7 @@ patch:
 ├── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
 ├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── wubi86_jidian.dict.yaml                 # 词库文件 - 极点五笔主码表
-├── wubi86_jidian_addition.dict.yaml        # 词库文件 - WubiBuddy 用户词添加工具主操作文件
+├── wubi86_jidian_addition.dict.yaml        # 词库文件 - 旧版 WubiBuddy 用户词添加工具主操作文件
 ├── wubi86_jidian_user.dict.yaml            # 词库文件 - 用户私人词库
 └── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
@@ -152,13 +154,13 @@ Windows 中的配置方法：
 ```
 
 ### 3. 关于手动造词功能
-手动往词库中添加词组，并重新布署
+一种方式是，手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
-目前 `macOS` 可以通过工具 [码表助手](https://github.com/KyleBing/WubiBuddy/releases) 来实现用户词的添加功能，仅支持 `macOS`
+另一种是使用工具。Rime 默认是没有词条管理工具的，所以就写了一个工具，基本满足日常需求，如果有什么其它需要的功能，可以跟我说。
+[五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
-<img width="703" alt="main" src="https://user-images.githubusercontent.com/12215982/80705752-8cbf1e00-8b19-11ea-8f0f-7134f3cd9585.png">
-
+<img width="712" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
 
 ### 4. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
