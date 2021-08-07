@@ -1,4 +1,4 @@
-![rime_all](https://user-images.githubusercontent.com/12215982/128605745-15af04fb-8d0d-4603-9e5e-53d9724cca6e.png)
+![rime_all](https://user-images.githubusercontent.com/12215982/128606213-b418558c-ff2e-4368-9fb3-f078ad3d3cde.png)
 
 该库是 Rime 办法的一个 86 版极点五笔的输入方案，支持多平台，并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
