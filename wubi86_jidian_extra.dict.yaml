@@ -3,20 +3,21 @@ name: wubi86_jidian_extra
 note: "扩展词库"
 version: "2019-09-06"
 last_edit_time: "2020-04-19"
-
+dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 sort: original
 # 码表的排序方式: by_weight 权重，original 原始顺序
 
 # 码长内容格式：字词 键码  权重 （中间是tab，不是空格）
-# 注释只能另起一行写，不能在词条后面写
+# '#'开头的只是注释， 注释只能另起一行写，不能在词条后面写
+# `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
-
 ## 电视剧
 铁齿铜牙纪晓岚	qhqm
 纪晓岚	xjmm
 和珅	tkgj
 男人帮	lwdt
+
 ## 影视
 黑镜	lfqu
 你好，李焕英	soam
@@ -39,7 +40,6 @@ sort: original
 无骨无花，无我无他	fmfw
 大天篷	dgtt
 
-
 ## 品牌
 美特斯邦威	utad
 凯迪拉克	mmrd
@@ -47,14 +47,13 @@ sort: original
 超意兴	fuiw
 迈森兰	dsuf
 捷酷	rgsg
+
 ## 数码
-紫米	hxoy	5
+紫米	hxoy
 数字尾巴	opnc
 Vivo	vivo
 Oppo	oppo
 金立	qquu
-
-
 
 ## 喜剧人
 郭德纲	ytmq
@@ -65,8 +64,6 @@ Oppo	oppo
 艾伦	aqww
 张小斐	xidj
 贾玲	smgw
-
-
 
 ## 歌手
 谢春花	ydaw
@@ -87,7 +84,6 @@ Oppo	oppo
 李荣浩	sait
 陈慧娴	bdus
 郑源	udid
-
 
 ## 演员
 周韵	mfuj
@@ -126,6 +122,7 @@ Oppo	oppo
 ## 游戏名
 刺客信条	gpwt
 极品飞车	sknl
+
 ## 王者荣耀
 黄忠	amkh
 太乙真人	dnfw
@@ -255,6 +252,7 @@ N号房	nkyn
 ✌🏻	bbh
 🤦🏻‍♂️	kdb
 🙏🏻	pypy
+⭐	ggjt
 
 ## emoji动物
 🐶	qtqk
@@ -401,3 +399,4 @@ N号房	nkyn
 🥋	kuut
 🎮	iyca
 🎮	rtwg
+
