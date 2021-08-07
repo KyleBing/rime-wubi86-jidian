@@ -25,7 +25,6 @@ encoder:
     - length_in_range: [4, 10]  # 对于四至十字词
       formula: "AaBaCaZa"       # 取第一字首码，第二字尾码、第三字首码、最后一字尾码
 ...
-
 工	a
 戈	a
 式	aa
@@ -65434,8 +65433,8 @@ MacbookPro	mbp
 生路	tgkh
 衙	tgkh
 重唱	tgkj
+管理器	tgkk
 处理器	tgkk
-生殖器	tgkk
 稫	tgkl
 管理员	tgkm
 垂吊	tgkm
@@ -67167,6 +67166,7 @@ MacbookPro	mbp
 处心积虑	tnth
 自导自演	tnti
 T恤	tntl
+生殖器	tgkk
 物以稀为贵	tntk
 秘	tntt
 知己知彼	tntt
@@ -79139,8 +79139,6 @@ m³	uuyy
 余杰	wtso
 人造棉	wtsr
 作梦	wtss
-人行横道	wtsu
-傻样	wtsu
 叙述	wtsy
 途径	wttc
 作乱	wttd
@@ -86948,6 +86946,8 @@ m³	uuyy
 放荒	ytay
 施	ytb
 YouTube	ytb
+任务栏	wtsu
+人行横道	wtsu
 旗子	ytbb
 诈取	ytbc
 州际	ytbf
