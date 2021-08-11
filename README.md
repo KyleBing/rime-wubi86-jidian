@@ -20,11 +20,12 @@ Rime 输入法的优势在于它高度的可自定义化，不单单可以定义
 
 ### 皮肤
 
-macOS
+__macOS__
 
 <img width="435" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/101584309-56833e80-3a18-11eb-9b83-a43204ad363c.png">
 
-Windows
+__Windows__
+
 皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
 ```yaml
 patch:
@@ -125,12 +126,12 @@ Windows 中的配置方法：
 在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
 
 
-| 键 | 对应值        | | 键 (按住 shift)  | 对应值         |
-|-------------|------------|---|------------|-------------|
-| 1234567890  | 壹贰叁肆伍陆柒捌玖零 | | 1234567890 | 一二三四五六七八九〇  |
-| wqbsjfd.     | 万仟佰拾角分第点    | | wqbsjfd.    | 万千百十角分点     |
-| z           | 整之         | | z          | 整之          |
-| y           | 元月亿        | | y          | 元月亿         |
+| 键           | 对应值             | | 键 (按住 shift) | 对应值            |
+|-------------|--------------------|---|-----------|-------------------|
+| 1234567890  | 壹贰叁肆伍陆柒捌玖零  | | 1234567890 | 一二三四五六七八九〇  |
+| wqbsjfd.    | 万仟佰拾角分第点     | | wqbsjfd.   | 万千百十角分点       |
+| z           | 整之               | | z          | 整之               |
+| y           | 元月亿             | | y          | 元月亿             |
 
 
 
@@ -160,7 +161,7 @@ Windows 中的配置方法：
 另一种是使用工具。Rime 默认是没有词条管理工具的，所以就写了一个工具，基本满足日常需求，如果有什么其它需要的功能，可以跟我说。
 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
-<img width="712" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
+<img width="600" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
 
 ### 4. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
@@ -190,8 +191,12 @@ translator:
 
 
 ## 六、其它相关链接
+
+__工具链接__
+- [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)
+
 __资源链接__
-- [x] Rime github 地址：   [https://github.com/rime]( https://github.com/rime)
+- [x] Rime github 地址：  [https://github.com/rime]( https://github.com/rime)
 - [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
 - [x] Rime 官方五笔码表：  [https://github.com/rime/rime-wubi](https://github.com/rime/rime-wubi)
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
