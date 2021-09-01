@@ -1,8 +1,11 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/128606213-b418558c-ff2e-4368-9fb3-f078ad3d3cde.png)
 
-该库是 Rime 办法的一个 86 版极点五笔的输入方案，支持多平台，并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
+该库是 Rime 输入法的一个 86 版极点五笔的输入方案，支持多平台（Windows macOS Linux）
+并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 ## 一、前言
+
+**什么是 Rime 输入法**
 
 Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
 
@@ -33,11 +36,17 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
 
-<img width="400" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
+<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
+
+
+__Linux: Ubuntu__
+<img width="400" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
+
+
 
 ## 二、文件说明
 
@@ -95,6 +104,14 @@ Windows 中的配置方法：
 4. 点击开始菜单中的【部署】即可
 
 
+### 3. 配置 ibus-rime (Ubuntu)
+
+执行下面指令安装 ibus-rime 输入法
+```bash
+sudo apt-get install ibus-rime
+```
+
+ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 
 ## 四、使用说明
 
