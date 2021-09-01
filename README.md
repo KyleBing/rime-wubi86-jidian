@@ -44,7 +44,8 @@ patch:
 
 
 __Linux: Ubuntu__
-<img width="400" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
+
+<img width="350" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
 
 
@@ -107,6 +108,7 @@ Windows 中的配置方法：
 ### 3. 配置 ibus-rime (Ubuntu)
 
 执行下面指令安装 ibus-rime 输入法
+
 ```bash
 sudo apt-get install ibus-rime
 ```
