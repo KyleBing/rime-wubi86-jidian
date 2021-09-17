@@ -133,7 +133,12 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
 
 ### 6. 支持 简入繁出
-是以切换输入方案的形式实现的，使用时，调出菜单，选择 `极点五笔繁体` 方案即可
+是以切换输入方案的形式实现的，使用时，调出菜单，选择 `繁体` 方案即可
+简繁转换的功能能实现：
+- 转繁体
+- 转香港繁体
+- 转台湾繁体
+具体可以看这个文件内的说明： [wubi86_jidian_trad.schema.yaml](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian_trad.schema.yaml)
 
 ### 7. 系统 `时间` 和 `日期`
 输入对应词，获取当前日期和时间
@@ -223,6 +228,7 @@ __资源链接__
 __配置教程链接__
 - [x] Rime 官网：   [https://rime.im/](https://rime.im/)
 - [x] 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
+- [x] 簡繁配置說明關於 OpenCC ：[https://github.com/rime/home/issues/420](https://github.com/rime/home/issues/420)
 
 __本库 Wiki__
 - [x] [schema.yaml 详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/Schema.yaml-%E8%AF%A6%E8%A7%A3)
