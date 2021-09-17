@@ -16,6 +16,9 @@ switches:
 #  - name: ascii_mode
 #    reset: 0
 #    states: [ 中文, 英文 ]
+  - name: zh_trad
+    reset: 0    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
+    states: [ 简体, 繁体 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: extended_charset
@@ -45,6 +48,7 @@ engine:
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
   filters:
+    - simplifier@tradition
     # - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
@@ -63,6 +67,22 @@ translator:
   comment_format:                       # 提示码自定义
     - xform/.+//                        # 当前默认不提示编码，消除所有候选词后的提示码
 
+
+# 简入繁出 通过 OpenCC 支持 github地址：https://github.com/BYVoid/OpenCC
+# 已集成在输入法程序中，在输入法程序目录的 opencc 目录下
+# 输入法程序中使用 OpenCC 简转繁的过程是这样：
+# 1. 先从简转繁体
+# 2. 如果配置了台湾繁体，就会将上一步生成的繁体进一步处理
+# 3. 根据这个文件：https://github.com/BYVoid/OpenCC/blob/master/data/dictionary/TWVariants.txt 把台湾与正常繁体不同的地方转成台湾版本的字，比如 “床”
+
+tradition:
+  #  opencc_config: s2t.json  # 简 -> 繁
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  #  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
+  opencc_config: s2twp.json  # 簡 -> 臺灣片語
+  option_name: zh_trad
 
 reverse_lookup:
   dictionary: pinyin_simp  # 反查使用的拼音词库
