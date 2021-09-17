@@ -86,10 +86,11 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
 
 simplifier:    # 简入繁出，如果出不来，可能需要安装 opencc 简繁字转换库，github地址：https://github.com/BYVoid/OpenCC
-#  opencc_config: s2t.json
+  opencc_config: s2t.json
 #  opencc_config: t2s.json   # 繁 -> 简【默认】
-  opencc_config: t2tw.json  # 繁 -> 台湾
+#  opencc_config: t2tw.json  # 繁 -> 台湾
 #  opencc_config: t2hk.json  # 繁 -> 香港
+#  opencc_config: s2twp.json  # 繁 -> 香港
 
   option_name: zh_trad
 
