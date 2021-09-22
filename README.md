@@ -158,6 +158,10 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 | z           | 整之               | | z          | 整之               |
 | y           | 元月亿             | | y          | 元月亿             |
 
+### 9. 特殊字符快捷输入
+默认是关闭的，具体可以查看 wiki [如何启用 ` /fh` 这种特殊符号输入](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-%60-fh%60-%E8%BF%99%E7%A7%8D%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7%E8%BE%93%E5%85%A5)
+
+<img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
 ## 五、自定义功能

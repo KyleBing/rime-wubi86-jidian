@@ -97,6 +97,9 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
 punctuator:
   import_preset: default
+#  import_preset: symbols
+# 开始快捷输入符号功能，前面留两个空格
+# 对应需要将下面 recognizer -> patterns 下面的 punct 字段的注释去掉
 
 key_binder:
   import_preset: default
@@ -104,4 +107,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
+#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
     reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
