@@ -62,6 +62,7 @@ translator:
   enable_sentence: false                # 句子输入模式
   enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
   enable_encoder: false
+  encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
   preedit_format:                       # 上屏码自定义
 #    - xform/.+//
   comment_format:                       # 提示码自定义
