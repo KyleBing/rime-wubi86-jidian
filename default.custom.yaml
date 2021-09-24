@@ -47,17 +47,21 @@ patch:
 
   key_binder:
     bindings:
-      #     - {accept: comma, send: 2, when: has_menu}  # 候选2 用逗号选择 （修改的时候不要多加或少加空格，跟前面的对齐就好了）
-      #     - {accept: period, send: 3, when: has_menu} # 候选3 用句号选择
-      - {accept: semicolon, send: 2, when: has_menu}  # 候选2 用分号
-      - {accept: apostrophe, send: 3, when: has_menu} # 候选3 用单引号
+#      - { when: has_menu, accept: comma, send: 2 }  # 候选2 用逗号选择 （修改的时候不要多加或少加空格，跟前面的对齐就好了）
+#      - { when: has_menu, accept: period, send: 3 } # 候选3 用句号选择
+      - { when: has_menu, accept: semicolon, send: 2 }  # 候选2 用分号
+      - { when: has_menu, accept: apostrophe, send: 3 } # 候选3 用单引号
+
       # 上下翻页 [ ]
-      - {accept: bracketleft, send: Page_Up, when: paging}
-      - {accept: bracketright, send: Page_Down, when: has_menu}
+      - { when: has_menu, accept: bracketleft, send: Page_Up }
+      - { when: has_menu, accept: bracketright, send: Page_Down }
+
       # 上下翻页 - =
-      - {accept: minus, send: Page_Up, when: paging}
-      - {accept: equal, send: Page_Down, when: has_menu}
-#      - {accept: Return, send: Escape, when: composing}   # 回车清码
+      - { when: has_menu, accept: minus, send: Page_Up }
+      - { when: has_menu, accept: equal, send: Page_Down }
+
+      # 回车清码
+#      - { when: composing, accept: Return, send: Escape }
 
       # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       - { when: composing, accept: Control+p, send: Up }
