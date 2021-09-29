@@ -13,6 +13,9 @@ schema:
     - pinyin_simp
 
 switches:
+#  - name: ascii_mode
+#    reset: 0
+#    states: [ 中文, 英文 ]
   - name: zh_trad
     reset: 1    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
     states: [ 简体, 繁体 ]
@@ -46,43 +49,26 @@ engine:
     - lua_translator@date_translator # 自定义系统变量输出
   filters:
     - simplifier@tradition
-    - uniquifier
-#    - lua_filter@single_char_first_filter # 单字优先方法
+    # - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
-  # 如果想要开启自动造词功能，把下面三项都注释掉，在前面添加 # 这个符号即可
   max_code_length: 4                    # 四码上屏
-  auto_select: true                     # 自动上屏
-  auto_select_unique_candidate: true    # 无重码自动上屏
+  auto_select: true                     # 四码唯一时，自动上屏
+  auto_clear: max_length                # 空码时自动清空
 
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
-  enable_completion: true               # 提前显示编码未输入完整的词条
-
-
-  # 开启自动造词相关设置，将下面四项都改为 true
+  enable_completion: true               # 是否显示编码未输入完整的词条
   enable_sentence: false                # 句子输入模式
   enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: true                  # 自动造词
-  encode_commit_history: false          # 是否对已上屏的词自动造词
+  enable_encoder: false
+  encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
+  preedit_format:                       # 上屏码自定义
+#    - xform/.+//
+  comment_format:                       # 提示码自定义
+    - xform/.+//                        # 当前默认不提示编码，消除所有候选词后的提示码
 
-
-  max_phrase_length: 10                 # 自动生成词的最大长度
-  user_dict: user                       # 用户词典名
-  db_class: tabledb                     # 用户词典类型 userdb - 二进制 / tabledb - 人类语言
-  disable_user_dict_for_patterns:       # 不需要录入用户词典的编码
-    - "^z.*$"
-
-reverse_lookup:
-  dictionary: pinyin_simp
-  prefix: "z"
-  suffix: "'"
-  tips: [拼音]
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
 
 # 简入繁出 通过 OpenCC 支持 github地址：https://github.com/BYVoid/OpenCC
 # 已集成在输入法程序中，在输入法程序目录的 opencc 目录下
@@ -101,8 +87,21 @@ tradition:
   #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
   option_name: zh_trad
 
+reverse_lookup:
+  dictionary: pinyin_simp  # 反查使用的拼音词库
+  prefix: "z"              # 反查前缀，以它为起点
+  suffix: "'"              # 反查后缀，以它为结点
+  tips: [拼音]              # 反查时的提示信息
+
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
 punctuator:
   import_preset: default
+#  import_preset: symbols
+# 开始快捷输入符号功能，前面留两个空格
+# 对应需要将下面 recognizer -> patterns 下面的 punct 字段的注释去掉
 
 key_binder:
   import_preset: default
@@ -110,4 +109,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^z[a-z]*'?$"
+#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
+    reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
