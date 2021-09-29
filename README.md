@@ -164,8 +164,8 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
-## 五、自定义功能
-所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（QQ群：878750538）讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
+## 五、常见自定义功能
+所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
 默认是关闭的
@@ -175,7 +175,13 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
      - {accept: Return, send: Escape, when: composing}   # 回车清码
 ```
 
-### 2. 编码提示
+### 2. 空码时自动清码
+默认配置是不会自动清的，修改文件  `wubi86_jidian.schema.yaml` 中 `speller` 这一栏，将前面的 `#` 号删除即可
+```yaml
+  auto_clear: max_length                # 空码时自动清空
+```
+
+### 3. 编码提示
 默认是关闭的，可以手动开启，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
 
 ```yaml
@@ -183,7 +189,7 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 #    - xform/.+//                       # 注释掉该行，即可显示词条编码
 ```
 
-### 3. 关于手动造词功能
+### 4. 关于手动造词功能
 一种方式是，手动往词库中添加词组，并重新布署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
@@ -192,13 +198,13 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 
 <img width="600" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
 
-### 4. 输出系统变量
+### 5. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
 具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
 
-### 5. 开启自动造词
+### 6. 开启自动造词
 
 <img width="463" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/114480534-4b922200-9c35-11eb-8d08-4c8eacb407a2.png">
 
