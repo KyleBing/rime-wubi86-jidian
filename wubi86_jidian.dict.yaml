@@ -1,12 +1,12 @@
-
 ---
 name: wubi86_jidian
 version: "4.3"
-sort: original #by_weight/权重 original/原始
-import_tables: #此处是添加用户自定义词库的地方
+sort: original # by_weight=权重 original=原始
+import_tables: # 此处是添加用户自定义词库的地方
   - wubi86_jidian_addition            # WubiBuddy用户词存储位置
   - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra               # 扩展词库
+#  - wubi86_jidian_english             # 常用英文词库 3w 词
 
 
 columns:    # 码表格式
@@ -22966,6 +22966,9 @@ u	copu
 正襟危坐	gpqw
 珍宝岛	gpqy
 GoPro	gpr
+防噪	bykk
+速溶	gkip
+两周	gmmf
 不客气	gprn
 瑸	gprw
 列宁格勒	gpsa
@@ -28532,6 +28535,8 @@ GoPro	gpr
 澧	imau
 淟	imaw
 IMAX	imax
+未成年	fdrh
+两张	gmxt
 小册子	imbb
 测出	imbm
 没了	imbn
@@ -28996,6 +29001,8 @@ IMAX	imax
 淡抹	iorg
 水煤气	iorn
 iOS	ios
+清零	igfw
+淡蓝	ioaj
 消火栓	iosw
 淡季	iotb
 消炎片	ioth
@@ -39928,6 +39935,8 @@ km/h	km
 曲子	mabb
 曲阳	mabj
 Macbook	macb
+水利局	itnn
+紧实	jcpu
 旺旺	jgjg
 macOS	maco
 曲	mad
@@ -40062,6 +40071,9 @@ macOS	maco
 邮发	mbnt
 邮戳	mbnw
 MacbookPro	mbp
+唉呀	kcka
+啥意思	kuln
+啥意思	kuln
 邮寄	mbpd
 邮包	mbqn
 邮报	mbrb
@@ -87686,6 +87698,8 @@ m³	uuyy
 放荒	ytay
 施	ytb
 YouTube	ytb
+触屏	qenu
+QQ	qq
 招商银行	ruqt
 竹海	ttit
 Ubuntu	ubun
@@ -88985,3 +88999,4 @@ Windows	wind
 言	yyyy
 方言	yyyy
 文言	yyyy
+计时器	yjkk
