@@ -1,4 +1,4 @@
-![rime_all](https://user-images.githubusercontent.com/12215982/128606213-b418558c-ff2e-4368-9fb3-f078ad3d3cde.png)
+![rime_all](https://user-images.githubusercontent.com/12215982/139872549-0b3f1195-188d-483d-ab66-4de9d3f48a73.png)
 
 该库是 Rime 输入法的一个 86 版极点五笔的输入方案，支持多平台（Windows macOS Linux）
 并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
@@ -36,12 +36,7 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078734-41584c0f-96b8-4630-8cd4-3522d9ce384e.jpg">
-
-<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078737-9b6fb1c9-3b32-42e9-970f-baeb68c024b0.jpg">
-
-<img width="400" alt="windows-skin" src="https://user-images.githubusercontent.com/12215982/127078741-c4eb7b20-2199-4eea-a6da-491ff620a695.jpg">
-
+![skin_windows@2x](https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png)
 
 __Linux: Ubuntu__
 
