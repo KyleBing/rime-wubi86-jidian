@@ -54,13 +54,12 @@ __Linux: Ubuntu__
 ├── squirrel.custom.yaml                    # 配置文件 - 鼠须管（for macOS）输入法候选词界面
 ├── weasel.custom.yaml                      # 配置文件 - 小狼毫（for Windows）输入法候选词界面
 ├── numbers.schema.yaml                     # 输入方案 - 大写数字
-├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
+├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml                 # 输入方案 - 简体拼音
 ├── wubi86_jidian_pinyin.schema.yaml        # 输入方案 - 五笔拼音混输
-├── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
-├── pinyin_simp.dict.yaml                   # 词库文件 - 简体拼音码表 - 五笔中拼音输入需要的
+├── wubi86_jidian.schema.yaml               # 输入方案 - 极点五笔
 ├── wubi86_jidian.dict.yaml                 # 词库文件 - 极点五笔主码表
-├── wubi86_jidian_addition.dict.yaml        # 词库文件 - 旧版 WubiBuddy 用户词添加工具主操作文件
+├── wubi86_jidian_trad.schema.yaml          # 输入方案 - 五笔简入繁出
 ├── wubi86_jidian_user.dict.yaml            # 词库文件 - 用户私人词库
 └── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
@@ -74,7 +73,7 @@ __Linux: Ubuntu__
 2. macOS 上的 鼠须管 配置文件存放目录是 `~/Library/Rime`，把下载后的`rime-wubi86-jidian`内的所有文件移到 `Rime` 目录中，
 3. 点击状态栏上的输入法图标，下拉菜单中选择 <kbd>部署</kbd> (英文是<kbd>Deploy</kbd>），或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd>
 
-**注意：** `Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
+> **注意：** `Rime` 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
 
 放的时候目录结构是这样的：
 ```bash
@@ -203,7 +202,7 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 
 <img width="463" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/114480534-4b922200-9c35-11eb-8d08-4c8eacb407a2.png">
 
-__注意__: 这样会关闭自动上屏，顶字上屏的功能。
+> **注意**: 这样会关闭自动上屏，顶字上屏的功能。
 
 需要修改 `wubi86_jidian.schema.yaml` 下面几个内容
 

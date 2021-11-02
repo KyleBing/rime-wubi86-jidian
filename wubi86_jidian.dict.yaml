@@ -3,7 +3,6 @@ name: wubi86_jidian
 version: "4.3"
 sort: original # by_weight=权重 original=原始
 import_tables: # 此处是添加用户自定义词库的地方
-  - wubi86_jidian_addition            # WubiBuddy用户词存储位置
   - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra               # 扩展词库
 #  - wubi86_jidian_english             # 常用英文词库 3w 词
