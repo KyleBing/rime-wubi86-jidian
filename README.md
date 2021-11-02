@@ -36,7 +36,7 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="435" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
+<img width="485" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
 
 __Linux: Ubuntu__
 
