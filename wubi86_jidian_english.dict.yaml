@@ -11,7 +11,6 @@ sort: original
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
-
 the	the
 of	of
 and	and

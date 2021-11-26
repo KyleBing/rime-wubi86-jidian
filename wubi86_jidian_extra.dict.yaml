@@ -12,6 +12,9 @@ sort: original
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
+## 应用名
+懂车帝	nlup
+
 ## 电视剧
 铁齿铜牙纪晓岚	qhqm
 纪晓岚	xjmm
@@ -47,7 +50,13 @@ sort: original
 迪卡侬	mhwp
 超意兴	fuiw
 迈森兰	dsuf
+赛羽	pfnn
 捷酷	rgsg
+舒尔	wfqi
+维迈通	xdce
+海澜之家	iipp
+戴森	fass
+格力	stlt
 
 ## 数码
 紫米	hxoy
@@ -68,6 +77,7 @@ Oppo	oppo
 
 ## 歌手
 谢春花	ydaw
+王贰浪	gaiy
 王筝	ggtq
 阿悄	bsni
 薛之谦	apyu
@@ -400,5 +410,4 @@ N号房	nkyn
 🥊	dwfm
 🥋	kuut
 🎮	iyca
-🎮	rtwg
 
