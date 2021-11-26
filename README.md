@@ -162,11 +162,12 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
-默认是关闭的
-打开 `default.custom.yaml` 文件，找到下面这行，把前面的 `#` 去掉，跟上面对齐即可开启回车清码功能
+默认是开启的
+打开 `default.custom.yaml` 文件，找到下面这行，在前面添加 `#` 即可
 
 ```yaml
-     - {accept: Return, send: Escape, when: composing}   # 回车清码
+      # 回车清码
+      - { when: composing, accept: Return, send: Escape }
 ```
 
 ### 2. 空码时自动清码
