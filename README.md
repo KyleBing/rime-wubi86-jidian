@@ -191,7 +191,7 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 另一种是使用工具。Rime 默认是没有词条管理工具的，所以就写了一个工具，基本满足日常需求，如果有什么其它需要的功能，可以跟我说。
 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
-<img width="600" alt="Screen Shot 2021-08-07 at 23 38 13" src="https://user-images.githubusercontent.com/12215982/128605586-47399a2e-c036-4729-aeef-8c67281b45ba.png">
+<img width="812" alt="Screen Shot 2021-11-22 at 19 22 45" src="https://user-images.githubusercontent.com/12215982/143464548-0458c637-ce41-450e-8faa-e826dd1fa5f3.png">
 
 ### 5. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
