@@ -1,12 +1,15 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
 
-该库是 Rime 输入法的一个 86版极点五笔的输入方案，支持多平台（Windows macOS Linux）
+该库是 Rime 输入法的一个 86版极点五笔的输入方案，支持多平台（Windows、macOS、Linux）
 
 ## 一、前言
 
 Rime 是个输入法集合，涵盖常用的三个平台 Windows、macOS、Linux，三个平台对应的输入法如上图。
+
 该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：全拼、双拼、五笔、仓颉，不同的输入习惯：二三候选、回车清码、z键拼音反查等等。
+
 正因为如此高的可自定义性，拉高了使用它的门槛，所以该库是 86五笔 常用的输入方案，使用习惯上比较接近于之前的极点五笔，码表也是使用的极点五笔的码表。
+
 由于三个平台使用的码表配置文件都是一样的，所以能在多个平台保持同一种输入习惯，用五笔的人都知道有一个自己熟悉的码表打起字来是多么舒服。
 
 该码表词条不是很多，很多近期的词语可能会没有，需要自己添加，可以使用配套工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
@@ -16,7 +19,6 @@ Rime 是个输入法集合，涵盖常用的三个平台 Windows、macOS、Linux
 
 ## 二、不同平台的输入法外观
 
-### 皮肤
 
 __macOS__
 
@@ -62,7 +64,7 @@ __Linux: Ubuntu__
 
 ## 四、安装
 
-### 1. 安装 鼠须管(macOS)
+### 1. 鼠须管（macOS）
 去 [官网下载](https://rime.im/download/)，按步骤安装即可
 
 1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
@@ -86,18 +88,18 @@ __Linux: Ubuntu__
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
-### 2. 配置 小狼毫（Windows）
+### 2. 小狼毫（Windows）
 
 Windows 中的配置方法：
-1. 点击【开始】
-2. 打开刚刚安装的小狼毫输入法程序目录，打开【用户文件夹】
+1. 点击<kbd>开始</kbd>
+2. 打开刚刚安装的小狼毫输入法程序目录，打开<kbd>用户文件夹</kbd>
 3. 把该项目中的文件复制到里面
-4. 点击开始菜单中的【部署】即可
+4. 点击开始菜单中的<kbd>部署</kbd>即可
 
 
-### 3. 配置 ibus-rime (Ubuntu)
+### 3. ibus-rime (Ubuntu)
 
-执行下面指令安装 ibus-rime 输入法
+执行下面指令安装 `ibus-rime` 输入法
 
 ```bash
 sudo apt-get install ibus-rime
