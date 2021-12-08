@@ -1,25 +1,20 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
 
-该库是 Rime 输入法的一个 86 版极点五笔的输入方案，支持多平台（Windows macOS Linux）
-并配有词条管理工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
+该库是 Rime 输入法的一个 86版极点五笔的输入方案，支持多平台（Windows macOS Linux）
 
 ## 一、前言
 
-**什么是 Rime 输入法**
+Rime 是个输入法集合，涵盖常用的三个平台 Windows、macOS、Linux，三个平台对应的输入法如上图。
+该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：全拼、双拼、五笔、仓颉，不同的输入习惯：二三候选、回车清码、z键拼音反查等等。
+正因为如此高的可自定义性，拉高了使用它的门槛，所以该库是 86五笔 常用的输入方案，使用习惯上比较接近于之前的极点五笔，码表也是使用的极点五笔的码表。
+由于三个平台使用的码表配置文件都是一样的，所以能在多个平台保持同一种输入习惯，用五笔的人都知道有一个自己熟悉的码表打起字来是多么舒服。
 
-Rime 是一款跨平台的优秀输入法的内核，不同平台的名字也有不同：
+该码表词条不是很多，很多近期的词语可能会没有，需要自己添加，可以使用配套工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
 
-- `Windows` - 小狼毫 ( `weasel` )
-- `macOS` - 鼠须管 ( `squirrel` )
-- `Linux` - 中州韵 ( `ibus-rime` )
-
-Rime 输入法的优势在于它高度的可自定义化，不单单可以定义输入法码表，还可以定义输入法翻译码表的方式，标点对应等等等等。
+> 好词库的特点是：减少特殊词的数量，增加通用词的频率。
 
 
-**用极点输入法的原因**
-
-用久了五笔的都知道，喜欢五笔的因为是五笔的重码少，如果码表太多重码体验就很差了。
-好词库的特点是：减少特殊词的数量，增加通用词的频率。
+## 二、不同平台的输入法外观
 
 ### 皮肤
 
@@ -30,6 +25,7 @@ __macOS__
 __Windows__
 
 皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
+
 ```yaml
 patch:
   style:
@@ -44,7 +40,7 @@ __Linux: Ubuntu__
 
 
 
-## 二、文件说明
+## 三、文件说明
 
 ```bash
 .
@@ -64,7 +60,7 @@ __Linux: Ubuntu__
 └── wubi86_jidian_extra.dict.yaml           # 词库文件 - 扩展词库
 ```
 
-## 三、安装
+## 四、安装
 
 ### 1. 安装 鼠须管(macOS)
 去 [官网下载](https://rime.im/download/)，按步骤安装即可
@@ -109,7 +105,7 @@ sudo apt-get install ibus-rime
 
 ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 
-## 四、使用说明
+## 五、使用说明
 
 ### 1. 选项菜单
 在输入状态时，<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单
@@ -158,7 +154,7 @@ ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
-## 五、常见自定义功能
+## 六、常见自定义功能
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
@@ -220,7 +216,7 @@ translator:
 ```
 
 
-## 六、其它相关链接
+## 七、其它相关链接
 
 __工具链接__
 - [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)
