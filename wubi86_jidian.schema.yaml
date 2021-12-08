@@ -17,7 +17,7 @@ switches:
 #    reset: 0
 #    states: [ 中文, 英文 ]
   - name: zh_trad
-    reset: 0    # 初始状态为 0: 简 -> 繁 1: 繁 -> 简
+    reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
     states: [ 简体, 繁体 ]
   - name: full_shape
     states: [ 半角, 全角 ]
