@@ -12,7 +12,6 @@ sort: original
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
-
 ## 应用名
 懂车帝	nlup
 阿里云盘	bjft
@@ -62,7 +61,6 @@ sort: original
 海澜	itiu
 舒尔	wfqi
 维迈通	xdce
-海澜之家	iipp
 戴森	fass
 格力	stlt
 
@@ -157,12 +155,10 @@ Oppo	oppo
 李元芳	sfay
 刘备	yjtl
 橘右京	sdyi
-韩信	fjwy
 安琪拉	pgru
 项羽	adnn
 甄姬	sfva
 扁鹊	ynaj
-鲁班七号	qgak
 赢政	yngh
 妲己	vjnn
 小乔	ihtd
@@ -216,7 +212,6 @@ Oppo	oppo
 明世隐	jabq
 梦奇	ssds
 苏烈	algq
-百里玄策	djyt
 大乔	ddtd
 
 ## 事件
@@ -228,16 +223,17 @@ Oppo	oppo
 N号房	nkyn
 
 ## emoji
-🙂	tmtt
-🙃	tmtt
-😆	ddtt
-😂	ttkk
-🤣	ttkk
-🥰	ep
+🙂	tmtt		微笑
+🙃	tmtt		微笑
+😆	ddtt		大笑
+😂	ttkk		笑哭
+🤣	ttkk		笑哭
+🥰	ep		爱
 🤩	kffg
 🥶	dndn
-🤗	tada
-👍	xk
+🤗	tada		tada
+👍	xk		强
+👍	rhk		牛
 😭	ddkk
 🥳	ydpy
 😎	tdgk
@@ -270,7 +266,6 @@ N号房	nkyn
 😴	htip
 😪	htip
 😪	htud
-👍	xk
 💀	meme
 💩	ococ
 👻	rqc
@@ -392,10 +387,8 @@ N号房	nkyn
 🍗	cqev
 🍭	ssoy
 🥢	tnbb
-🍺	kris
+🍺	kris		啤酒
 🍻	kris
-🍺	kjis
-🍻	kjis
 🥂	kjis
 🥮	eeqn
 
