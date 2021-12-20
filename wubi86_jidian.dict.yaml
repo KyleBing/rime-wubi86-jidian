@@ -762,6 +762,7 @@ encoder:
 菜	aes
 藤椅	aesd
 菜梗	aesg
+菜椒	aesh
 散板	aesr
 菜	aesu
 菜根	aesv
@@ -1734,6 +1735,7 @@ AirPower	airp
 草草	ajaj
 草黄	ajam
 墓茔	ajap
+蓝莓	ajat
 草莓	ajat
 草菇	ajav
 草芥	ajaw
@@ -11187,6 +11189,7 @@ u	copu
 面霜	dmfs
 面坊	dmfy
 硐	dmg
+胎压	ecdf
 正则表达式	gmga
 耍弄	dmga
 而至	dmgc
@@ -28396,6 +28399,9 @@ HDR	hdr
 漶	ikkn
 湂	ikkn
 澡	ikks
+河马	iscn
+蜘蛛网	jjmq
+螵虫	jsjh
 另当别论	kiky
 溃围	iklf
 举足轻重	iklt
@@ -45057,6 +45063,7 @@ MacbookPro	mbp
 飞檐	nusq
 飞升	nuta
 愱	nutd
+飞盘	nute
 飞船	nute
 飞行	nutf
 屏息	nuth
@@ -50768,6 +50775,7 @@ MacbookPro	mbp
 色彩	qces
 勾脸	qcew
 铎	qcf
+色域	qcfa
 勾魂	qcfc
 勾起	qcfh
 铎	qcfh
@@ -52311,6 +52319,7 @@ MacbookPro	mbp
 名氏	qkqa
 免	qkqb
 名角	qkqe
+鳄鱼	qkqg
 鸲	qkqg
 多吃多占	qkqh
 逸乐	qkqi
@@ -53528,6 +53537,7 @@ MacbookPro	mbp
 钧	qqug
 鈞	qqug
 多音	qquj
+独角兽	qqul
 多端	qqum
 憌	qqun
 多次	qquq
@@ -54234,6 +54244,7 @@ MacbookPro	mbp
 锈蚀	qtqn
 狍	qtqn
 多种多样	qtqs
+猩猩	qtqt
 猖獗	qtqt
 狡猾	qtqt
 狼狈	qtqt
@@ -57154,6 +57165,7 @@ MacbookPro	mbp
 挑明	rije
 排水量	rijg
 挑剔	rijq
+牛油果	rijs
 挑唆	rikc
 挡路	rikh
 热水器	rikk
@@ -63457,6 +63469,7 @@ MacbookPro	mbp
 模模糊糊	ssoo
 木料	ssou
 焚	ssou
+棒棒糖	ssoy
 榻榻米	ssoy
 樮	ssoy
 林农	sspe
@@ -63727,6 +63740,7 @@ MacbookPro	mbp
 西装革履	suan
 校区	suaq
 校医	suat
+西兰花	suaw
 校花	suaw
 梅兰芳	suay
 样子	subb
@@ -64033,6 +64047,7 @@ MacbookPro	mbp
 松花	swaw
 松蘑	sway
 枪	swb
+橙子	swbb
 松子	swbb
 检出	swbm
 枪	swbn
@@ -71577,6 +71592,7 @@ T恤	tntl
 冰城	uifd
 冰封	uiff
 冰块	uifn
+冰壶	uifp
 冰雹	uifq
 冰霜	uifs
 冰雾	uift
@@ -77684,6 +77700,7 @@ m³	uuyy
 全区	wgaq
 伊丽莎白	wgar
 倒茶	wgaw
+鸽子	wgbb
 例子	wgbb
 盒子	wgbb
 凳子	wgbb
@@ -78102,6 +78119,7 @@ m³	uuyy
 全优	wgwd
 全会	wgwf
 例会	wgwf
+便便	wgwg
 使命	wgwg
 愈合	wgwg
 全天候	wgwh
