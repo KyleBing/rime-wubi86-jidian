@@ -22,7 +22,7 @@ Rime 是个输入法集合，涵盖常用的三个平台 Windows、macOS、Linux
 
 __macOS__
 
-<img width="435" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/101584309-56833e80-3a18-11eb-9b83-a43204ad363c.png">
+<img width="330" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/149726120-1a066937-551c-4a43-b2e8-b081f6366c9d.png">
 
 __Windows__
 
@@ -34,11 +34,11 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="485" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
+<img width="500" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
 
 __Linux: Ubuntu__
 
-<img width="350" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
+<img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
 
 
