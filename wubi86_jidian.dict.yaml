@@ -1,7 +1,7 @@
 ---
 name: wubi86_jidian
 version: "4.3"
-sort: original # by_weight=权重 original=原始
+sort: by_weight # by_weight=权重 original=原始
 import_tables: # 此处是添加用户自定义词库的地方
   - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra               # 扩展词库
@@ -5674,11 +5674,14 @@ Apple	appl
 驾驶人	lcww
 辅道	lgut
 内存卡	mdhh
+刚发现	mngm
 祝福	pkpg
 祈祷	prpd
+神经衰弱	pxyx
 触底	qeyq
 提示框	rfsa
 返回值	rlwf
+抱拳	rqud
 横屏	sanu
 SD卡	sdhh
 查错	sjqa
@@ -75863,6 +75866,7 @@ m³	uuyy		立方
 嫁接	vpru
 嫔	vprw
 巡查	vpsj
+九宫格	vpst
 巡检	vpsw
 姹	vpt
 姹	vpta
