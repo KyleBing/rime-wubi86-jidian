@@ -76,7 +76,7 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
 
 key_binder:
   import_preset: default
