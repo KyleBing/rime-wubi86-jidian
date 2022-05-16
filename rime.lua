@@ -56,6 +56,11 @@ function date_translator(input, seg)
     -- %y	two-digit year (98) [00-99]
     -- %%	the character `%´
 
+    -- 输入完整日期
+    if (input == "datetime") then
+        yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), ""))
+    end
+
     -- 输入日期
     if (input == "date") then
         --- Candidate(type, start, end, text, comment)
