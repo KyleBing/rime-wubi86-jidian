@@ -15,7 +15,6 @@ end
 
 --- 计算器
 --- @KyleBing 2022-01-17
-
 function calculator(input, seg)
     if string.find(input, 'coco') ~= nil then -- 匹配 coco 开头的字符串
         local _, _, a, operation, b = string.find(input, "coco(%d+%.?%d*)([%+%-%*/])(%d+%.?%d*)")
@@ -75,7 +74,6 @@ function date_translator(input, seg)
         yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
     end
 
-
     -- 输入星期
     -- -- @JiandanDream
     -- -- https://github.com/KyleBing/rime-wubi86-jidian/issues/54
@@ -85,22 +83,12 @@ function date_translator(input, seg)
         yield(Candidate("week", seg.start, seg._end, "星期"..weakTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%A"), ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%a"), "缩写"))
-
-        --local weakTabEnShort = {"Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"}
-        --local weakTabEnFull = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}
-        --yield(Candidate("week", seg.start, seg._end, weakTabEnFull[tonumber(os.date("%w")+1)], ""))
-        --yield(Candidate("week", seg.start, seg._end, weakTabEnShort[tonumber(os.date("%w")+1)], "缩写"))
     end
 
     -- 输入月份英文
     if (input == "month") then
         yield(Candidate("month", seg.start, seg._end, os.date("%B"), ""))
         yield(Candidate("month", seg.start, seg._end, os.date("%b"), "缩写"))
-
-        --local monthTabEnShort = {"Jan.", "Feb.", "Mar.", "Apr.", "May","Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."}
-        --local monthTabEnFull = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"}
-        --yield(Candidate("month", seg.start, seg._end, monthTabEnFull[tonumber(os.date("%m"))], ""))
-        --yield(Candidate("month", seg.start, seg._end, monthTabEnShort[tonumber(os.date("%m"))], "缩写"))
     end
 end
 
