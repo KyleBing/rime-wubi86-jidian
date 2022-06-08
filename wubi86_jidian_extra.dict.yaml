@@ -7,7 +7,7 @@ dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 sort: original
 # 码表的排序方式: by_weight 权重，original 原始顺序
 
-# 码长内容格式：字词 键码  权重 （中间是tab，不是空格）
+# 码表内容格式：字词 键码  权重 （中间是tab，不是空格）
 # '#'开头的只是注释， 注释只能另起一行写，不能在词条后面写
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
@@ -16,9 +16,11 @@ sort: original
 单盘	ujte
 双盘	ccte
 胎压	ecdf
-排量	rdjg
+CBR500R	cbr
+GoPro	gop
+GSX250R	gsx
+曼岛TT	jlqy
 护杠	rysa
-摩托范	yrai
 摩托邦	yrdt
 
 ## 常用短语
@@ -128,7 +130,6 @@ yyds	yyds
 超意兴	fuiw
 迈森兰	dsuf
 恒源祥	nipy
-恒源祥	nipy
 赛羽	pfnn
 捷酷	rgsg
 海澜之家	iipp
@@ -139,7 +140,6 @@ yyds	yyds
 戴森	fass
 格力	stlt
 科大讯飞	tdyn
-五菱	ggaf
 
 ## 数码
 紫米	hxoy
@@ -209,21 +209,19 @@ Oppo	oppo
 肝硬化	edwx
 
 ## 地名
-万达	dndp
-雪野湖	fjid
-蟠龙山	jdmm
-泉城广场	rfyf
 莒县	akeg
-果庄	jsyf
-下屯	ghgb
 孙家庄	bpyf
-沂水	irii
 马家	cnpe
 马家小区	cpia
 台儿庄	cqyf
-领秀城	wtfd
+万达	dndp
 雪野湖	fjid
+下屯	ghgb
+沂水	irii
 蟠龙山	jdmm
+果庄	jsyf
+泉城广场	rfyf
+领秀城	wtfd
 
 ## 游戏名
 刺客信条	gpwt
@@ -512,11 +510,6 @@ N号房	nkyn
 🎮	iyca		游戏
 
 ## 摩托车
-单盘	ujte
-双盘	ccte
-胎压	ecdf
 排量	rdjg
-护杠	rysa
 摩托范	yrai
-摩托邦	yrdt
 
