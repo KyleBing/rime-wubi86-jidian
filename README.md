@@ -2,17 +2,21 @@
 
 该库是 Rime 输入法的一个 86版极点五笔的输入方案，支持多平台（Windows、macOS、Linux）
 
-## 一、前言
+## 一、概述
 
-Rime 是个输入法集合，涵盖常用的三个平台 Windows、macOS、Linux，三个平台对应的输入法如上图。
+Rime 是个输入法集合，涵盖常用的三个平台 **Windows**、**macOS**、**Linux**，三个平台对应的输入法如上图。
 
-该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：全拼、双拼、五笔、仓颉，设置不同的输入习惯：二三候选、回车清码、z键拼音反查等等。
+该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：**全拼**、**双拼**、**五笔**、**仓颉**，设置不同的输入习惯：**二三候选**、**回车清码**、**z键拼音反查**等等。
 
 正因为如此高的可自定义性，拉高了它的使用门槛。为了让更多的五笔用户更省心地使用 Rime 输入五笔，就有了这个86五笔输入方案，它的输入习惯比较接近于之前的极点五笔，码表也是使用的极点五笔的码表。
+> 单字的顺序严格对标原极点输入法词库： [五笔码表文件](https://github.com/KyleBing/wubi-jidan-dict)。 比如一级简码的二位候选： 
+> - `y`-`言`
+> - `h`-`目`
+> - `v`-`女` 
 
 由于三个平台使用的码表配置文件是一样的，所以能够在多个平台间保持同一种输入习惯，打起字来也会比较舒服。
 
-该码表词条不是很多，很多专业性的词语可能会没有，需要自己添加，可以使用配套工具 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
+该码表词条不是很多，很多专业性的词语可能会没有，需要自己添加，可以使用配套工具 [**五笔词条工具**](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
 
 
 ## 二、不同平台的输入法外观
@@ -34,7 +38,7 @@ patch:
 
 <img width="500" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
 
-__Linux: Ubuntu__
+__Ubuntu__
 
 <img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
@@ -62,7 +66,7 @@ __Linux: Ubuntu__
 
 ## 四、安装
 
-### 1. 鼠须管（macOS）
+### 1. macOS（鼠须管）
 去 [官网下载](https://rime.im/download/)，按步骤安装即可
 
 1. 下载 五笔配置文件 [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
@@ -86,7 +90,7 @@ __Linux: Ubuntu__
 > 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
 
 
-### 2. 小狼毫（Windows）
+### 2. Windows（小狼毫）
 
 Windows 中的配置方法：
 1. 右击状态栏中的小狼毫输入法图标，选择 <kbd>用户文件夹</kbd>
@@ -94,7 +98,7 @@ Windows 中的配置方法：
 3. 右击状态栏中的小狼毫输入法图标，选择 <kbd>重新部署</kbd> 即可
 
 
-### 3. ibus-rime (Ubuntu)
+### 3. Ubuntu (ibus-rime)
 
 执行下面指令安装 `ibus-rime` 输入法
 
@@ -102,7 +106,10 @@ Windows 中的配置方法：
 sudo apt-get install ibus-rime
 ```
 
-ubuntu 的配置文件目录在 `~/.config/ibus/rime/`
+ubuntu 的配置文件目录在 
+```bash
+~/.config/ibus/rime/
+```
 
 ## 五、使用说明
 
