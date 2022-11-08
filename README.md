@@ -123,7 +123,8 @@ ubuntu 的配置文件目录在
 默认的二三候选是 <kbd>;</kbd> <kbd>'</kbd> 两个键
 
 ### 4. 候选翻页
-方向 <kbd>上</kbd><kbd>下</kbd>、<kbd>-</kbd> <kbd>=</kbd>、<kbd>[</kbd> <kbd>]</kbd>
+方向 <kbd>上</kbd><kbd>下</kbd>、<kbd>[</kbd> <kbd>]</kbd>
+默认已关闭 <kbd>-</kbd> <kbd>=</kbd> 的上下翻页功能，如果需要请修改 `default.custom.yaml` 内容
 
 ### 5. 临时拼音输入
 在忘了某字的五笔编码时，<kbd>z</kbd>键可以进入临时拼音输入模式
