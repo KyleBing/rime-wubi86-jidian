@@ -28,7 +28,7 @@ patch:
   preset_color_schemes:   # 主题：颜色方案
     MacRoseo: # 玫红字体
       name: MacRoseo
-      author: "KyleBing <https://kylebing.cn>"
+      author: "KyleBing <http://kylebing.cn>"
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6
@@ -42,7 +42,7 @@ patch:
 
     MacRoseoAlt: # 玫红背景
       name: MacRoseo
-      author: "KyleBing <https://kylebing.cn>"
+      author: "KyleBing <http://kylebing.cn>"
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6
@@ -56,7 +56,7 @@ patch:
 
     WhiteAqua: # 水绿背景
       name: WhiteAqua
-      author: "KyleBing <https://kylebing.cn>"
+      author: "KyleBing <http://kylebing.cn>"
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6

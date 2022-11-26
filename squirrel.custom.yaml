@@ -19,7 +19,7 @@ patch:
   preset_color_schemes:
     roseo_maple:
       name: 玫枫 / Roseo Maple
-      author: "KyleBing <https://kylebing.cn>"
+      author: "KyleBing <http://kylebing.cn>"
       alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
       border_height: 5                          # 边距 - 面板上下
       border_width: 0                           # 宽度 - 边框
