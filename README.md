@@ -136,6 +136,7 @@ ubuntu 的配置文件目录在
 
 ### 5. 候选翻页
 方向 <kbd>上</kbd><kbd>下</kbd>、<kbd>[</kbd> <kbd>]</kbd>
+
 默认已关闭 <kbd>-</kbd> <kbd>=</kbd> 的上下翻页功能，如果需要请修改 `default.custom.yaml` 内容
 
 ### 6. 临时拼音输入
@@ -143,6 +144,7 @@ ubuntu 的配置文件目录在
 
 ### 7. 支持 简入繁出
 是以切换输入方案的形式实现的，使用时，调出菜单，选择 `简入繁出` 方案即可
+
 简繁转换的功能能实现：
 - 转繁体
 - 转香港繁体
@@ -158,6 +160,7 @@ ubuntu 的配置文件目录在
 
 ### 9. 支持大写数字输入：壹贰叁肆伍陆
 本库中包含一个可以输入大写数字的方案，名叫 `大写数字`，呼出菜单选择该方案即可。
+
 在这个模式下：具体可以看源文件 [`numbers.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/numbers.schema.yaml)
 
 
@@ -179,6 +182,7 @@ ubuntu 的配置文件目录在
 
 ### 1. 回车清码
 默认是开启的
+
 想要关闭，打开 `default.custom.yaml` 文件，找到下面这行，在前面添加 `#` 即可，如下
 
 ```yaml
@@ -206,7 +210,7 @@ ubuntu 的配置文件目录在
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
 另一种是使用工具。Rime 默认是没有词条管理工具的，所以就写了一个工具，基本满足日常需求，如果有什么其它需要的功能，可以跟我说。
-[五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
+> [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 <img width="812" alt="Screen Shot 2021-11-22 at 19 22 45" src="https://user-images.githubusercontent.com/12215982/143464548-0458c637-ce41-450e-8faa-e826dd1fa5f3.png">
 
@@ -214,6 +218,7 @@ ubuntu 的配置文件目录在
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
+
 具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
 
 ### 6. 开启自动造词
