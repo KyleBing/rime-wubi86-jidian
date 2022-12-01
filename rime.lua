@@ -50,7 +50,7 @@ function date_translator(input, seg)
     -- %p	either "am" or "pm" (pm)
     -- %S	second (10) [00-61]
     -- %w	weekday (3) [0-6 = Sunday-Saturday]
-    -- %W   week number in year (48) [01-52]
+    -- %W	week number in year (48) [01-52]
     -- %x	date (e.g., 09/16/98)
     -- %X	time (e.g., 23:48:10)
     -- %Y	full year (1998)
