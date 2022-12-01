@@ -84,9 +84,9 @@ function date_translator(input, seg)
     -- -- @JiandanDream
     -- -- https://github.com/KyleBing/rime-wubi86-jidian/issues/54
     if (input == "week") then
-        local weakTab = {'日', '一', '二', '三', '四', '五', '六'}
-        yield(Candidate("week", seg.start, seg._end, "周"..weakTab[tonumber(os.date("%w")+1)], ""))
-        yield(Candidate("week", seg.start, seg._end, "星期"..weakTab[tonumber(os.date("%w")+1)], ""))
+        local weekTab = {'日', '一', '二', '三', '四', '五', '六'}
+        yield(Candidate("week", seg.start, seg._end, "周"..weekTab[tonumber(os.date("%w")+1)], ""))
+        yield(Candidate("week", seg.start, seg._end, "星期"..weekTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%A"), ""))
         yield(Candidate("week", seg.start, seg._end, os.date("%a"), "缩写"))
         yield(Candidate("week", seg.start, seg._end, os.date("%W"), "周数"))
