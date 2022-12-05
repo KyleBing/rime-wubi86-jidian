@@ -52,6 +52,9 @@ engine:
     - simplifier@tradition
     # - lua_filter@single_char_first_filter # 单字优先方法
 
+
+# 自动造词功能：参阅： https://github.com/KyleBing/rime-wubi86-jidian#6-%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E9%80%A0%E8%AF%8D
+
 speller:
   max_code_length: 4                    # 四码上屏
   auto_select: true                     # 四码唯一时，自动上屏
@@ -61,9 +64,11 @@ translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
   enable_completion: true               # 是否显示编码未输入完整的词条
+
   enable_sentence: false                # 句子输入模式
   enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
   enable_encoder: false
+
   encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
   preedit_format:                       # 上屏码自定义
 #    - xform/.+//
