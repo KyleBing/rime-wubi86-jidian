@@ -15,15 +15,15 @@ patch:
     font_face: "Microsoft Yahei"                  # 字体 - 候选文字
     layout:
       min_width: 160
-      min_height: 30
+      min_height: 25
       border_width: 1       # 边框宽度
-      margin_x: 10          # 内容离边框的，左右边界
-      margin_y: 10          # 内容离边框的，上下边界
+      margin_x: 5          # 内容离边框的，左右边界
+      margin_y: 5          # 内容离边框的，上下边界
       spacing: 0            # 候选词之间的间隔
       candidate_spacing: 30
       hilite_spacing: 5     # 候选词背景宽度
-      hilite_padding: 15    # 候选词背景的边界宽度
-      round_corner: 0       # 选中的候选词背景
+      hilite_padding: 5    # 候选词背景的边界宽度
+      round_corner: 10       # 选中的候选词背景
 
   preset_color_schemes:   # 主题：颜色方案
     MacRoseo: # 玫红字体
@@ -67,3 +67,22 @@ patch:
       hilited_candidate_back_color: 0x9BAD23
       candidate_text_color: 0x000000
       comment_text_color: 0xBBCC27
+
+    win11dark: # win11 dark
+      name: "Win11Dark"
+      border_color:  0xc202020
+      back_color: 0x303030
+      hilited_back_color: 0x202020
+      hilited_candidate_back_color: 0x202020
+      candidate_back_color: 0x00303030
+
+      hilited_text_color: 0xf9f9f9
+      hilited_label_color: 0xf9f9f9
+      hilited_candidate_text_color:  0xf9f9f9
+      hilited_comment_text_color:   0xf9f9f9
+
+      text_color: 0xc9c9c9
+      label_color: 0xc9c9c9
+      candidate_text_color: 0xc9c9c9
+      comment_text_color: 0xc9c9c9
+      shadow_color: 0x16000000
