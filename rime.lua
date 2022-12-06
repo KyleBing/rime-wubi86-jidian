@@ -8,8 +8,20 @@ function single_char_first_filter(input)
             table.insert(l, cand)
         end
     end
-    for cand in ipairs(l) do
+    for i, cand in ipairs(l) do
         yield(cand)
+    end
+end
+
+--- 过滤器：只显示单字
+function single_char_only(input)
+    local l = {}
+    for cand in input:iter() do
+        if (utf8.len(cand.text) == 1) then
+            yield(cand)
+        else
+            table.insert(l, cand)
+        end
     end
 end
 
