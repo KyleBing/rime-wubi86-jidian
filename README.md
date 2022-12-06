@@ -242,6 +242,14 @@ translator:
 ```
 
 
+### 7. 单字派
+如果你是单字派，只打单字，可以修改 `wubi86_jidian.schema.yaml` 这个文件，将单字优先前的注释去掉，这样打字的时候单字就会自动在最前面
+```yaml
+  filters:
+    - lua_filter@single_char_first_filter # 单字优先方法
+```
+
+
 ## 七、其它相关链接
 
 __工具链接__
