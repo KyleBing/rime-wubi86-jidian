@@ -66,7 +66,8 @@ __Ubuntu__
 ├── wubi86_jidian_trad.schema.yaml          # 方案 - 五笔简入繁出
 ├── wubi86_jidian_trad_pinyin.schema.yaml   # 方案 - 五笔拼音混输 简入繁出
 ├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
-└── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库
+├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库
+└── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
 
 ```
 
@@ -117,7 +118,34 @@ ubuntu 的配置文件目录在
 ~/.config/ibus/rime/
 ```
 
-## 五、使用说明
+## 五、扩展词库
+
+默认已添加的词库有：
+```yaml
+  - wubi86_jidian_user                # 个人私有词库
+  - wubi86_jidian_extra               # 扩展词库
+  - wubi86_jidian_extra_district      # 扩展词库 - 行政区域
+```
+
+可以通过修改 `wubi86_jidian.dict.yaml` 文件头部的部分来启用、停用某一个词库。
+
+比如想停用 `行政区域` 这个词库，直接在其前面添加  `#` 或者直接删除该行，执行输入法的 `部署` 或 `Deploy` 操作后即可生效。
+
+**行政区域**
+`行政区域` 这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。
+
+```yaml
+# 天津市
+天津市	giym		120000
+天津市市辖区	giya		120100
+和平区	tgaq		120101
+河东区	iaaq		120102
+河西区	isaq		120103
+南开区	fgaq		120104
+河北区	iuaq		120105
+```
+
+## 六、使用说明
 
 ### 1. 选项菜单
 在输入状态时，<kbd>control</kbd> + <kbd>0</kbd> 或者 <kbd>shift</kbd> + <kbd>control</kbd> + <kbd>0</kbd> 弹出菜单
@@ -177,7 +205,7 @@ ubuntu 的配置文件目录在
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
-## 六、常见自定义功能
+## 七、常见自定义功能
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 回车清码
@@ -251,7 +279,7 @@ translator:
 ```
 
 
-## 七、其它相关链接
+## 八、其它相关链接
 
 __工具链接__
 - [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)

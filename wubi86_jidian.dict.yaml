@@ -5,6 +5,7 @@ sort: by_weight # by_weight=权重 original=原始
 import_tables: # 此处是添加用户自定义词库的地方
   - wubi86_jidian_user                # 个人私有词库
   - wubi86_jidian_extra               # 扩展词库
+#  - wubi86_jidian_extra_district      # 扩展词库 - 行政区域
 
 
 columns:    # 码表格式
