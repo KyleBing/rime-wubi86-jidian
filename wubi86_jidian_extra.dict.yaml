@@ -20,7 +20,14 @@ sort: original
 底库	yqyl
 旁通	upce
 延长线	ttxg	1
-　	cokg
+　	cokg		全角空格 co空格
+√	qctf		勾选
+困意	lsuj
+小笼包	itqn
+一泻千里	gitj
+夜猫	ywqt
+绿幕	xvaj
+U盘	utel
 
 ## 汽车
 朗逸	yvqk
@@ -39,6 +46,24 @@ sort: original
 自驾	thlk
 自驾游	tliy
 宝来	pggo
+手动档	rfsi
+新能源	ucid
+插电	rtjn
+混动	ijfc
+插混	rtij	1
+荣威	apdg
+哈弗	kwxj
+埃安	fcpv
+AION	aion
+记录仪	yvwy
+好猫	vbqt
+欧拉	aqru
+帝豪	upyp
+名爵	qkel
+纯电	xgjn	1
+零跑	fwkh
+奥特能	ttce
+改款	ntff
 
 ## 摩托车
 单盘	ujte
@@ -47,7 +72,7 @@ sort: original
 CBR500R	cbr
 GoPro	gop
 GSX250R	gsx
-曼岛TT	jlqy
+曼岛TT	jqtt
 排量	rdjg
 护杠	rysa
 摩托范	yrai
@@ -62,6 +87,9 @@ GSX250R	gsx
 闪退	uwve
 axios	axio
 保活	wkit
+
+## 小吃
+蒸饺	abqn
 
 ## 王者荣耀
 黄忠	amkh
@@ -181,6 +209,7 @@ axios	axio
 郑源	udid
 华晨宇	wjpg
 邓紫棋	chsa
+张蔷	xtaf
 
 ## 演员
 周韵	mfuj
@@ -269,16 +298,15 @@ axios	axio
 ## 品牌
 圣豪	cfyp
 良品	yvkk
-大华	ddwx
-威视	dgpy
-海康	ityv
+罗德	lqtf
 
-## 地名
+## 区域
 莒县	akeg
 孙家庄	bpyf
 马家	cnpe
 马家小区	cpia
 台儿庄	cqyf
+万达	dndp
 雪野湖	fjid
 下屯	ghgb
 沂水	irii
