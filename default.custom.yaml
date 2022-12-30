@@ -18,7 +18,7 @@ patch:
 
   # Menu
   menu:
-    page_size: 5                    # 候选词数量
+    page_size: 5                    # 候选词数量，最多支持 10 个
   switcher:
     hotkeys:        # 弹出菜单的快捷键
       - "Control+0"

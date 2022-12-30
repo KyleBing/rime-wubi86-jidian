@@ -213,7 +213,14 @@ ubuntu 的配置文件目录在
 ## 七、常见自定义功能
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
-### 1. 回车清码
+### 1. 候选个数
+默认是5，可以自定义候选面板中的候选词的个数，编辑  `default.custom.yaml` 中以下这段，修改成你想要的个数即可，最多支持10个
+```yaml
+  menu:
+      page_size: 5      # 候选词数量，最多支持 10 个
+```
+
+### 2. 回车清码
 默认是开启的
 
 想要关闭，打开 `default.custom.yaml` 文件，找到下面这行，在前面添加 `#` 即可，如下
@@ -223,13 +230,13 @@ ubuntu 的配置文件目录在
       - { when: composing, accept: Return, send: Escape }
 ```
 
-### 2. 空码时自动清码
+### 3. 空码时自动清码
 默认配置是不会自动清的，想要自动清码，修改文件  `wubi86_jidian.schema.yaml` 中 `speller` 这一栏，将前面的 `#` 号删除即可，如下
 ```yaml
   auto_clear: max_length                # 空码时自动清空
 ```
 
-### 3. 编码提示
+### 4. 编码提示
 默认是关闭的，
 想要开启，打开 `wubi86_jidian.schema.yaml` 编辑 `translator` -> `comment_format` 改成如下即可
 
@@ -238,7 +245,7 @@ ubuntu 的配置文件目录在
 #    - xform/.+//                       # 注释掉该行，即可显示词条编码
 ```
 
-### 4. 关于手动造词功能
+### 5. 关于手动造词功能
 一种方式是，手动往词库中添加词组，并重新部署
 > 这个操作要注意的是词组与编码之间的符号是`tab`，写错了这个词是不会被识别的
 
@@ -247,14 +254,14 @@ ubuntu 的配置文件目录在
 
 <img width="1362" alt="Screenshot 2022-12-16 at 21 28 54" src="https://user-images.githubusercontent.com/12215982/208109387-5062a921-8eef-4063-9936-42762197d6c8.png">
 
-### 5. 输出系统变量
+### 6. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
 
 文件 [`rime.lua`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 盛放的是调用的方法，你需要在相应的 `XXXX.schema.yaml` 文件的 `engine`/`translators` 字段添加一些东西，可以参阅本库的 [`wubi86_jidian.schema.yaml`](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/wubi86_jidian.schema.yaml) 文件。
 
 具体 `rime.lua` 文件说明参阅这里： [https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua](https://github.com/hchunhui/librime-lua/blob/master/sample/lua/date.lua)
 
-### 6. 开启自动造词
+### 7. 开启自动造词
 
 <img width="463" alt="auto-create-words" src="https://user-images.githubusercontent.com/12215982/114480534-4b922200-9c35-11eb-8d08-4c8eacb407a2.png">
 
@@ -275,7 +282,7 @@ translator:
 ```
 
 
-### 7. 单字派
+### 8. 单字派
 如果你是单字派，只打单字，可以修改 `wubi86_jidian.schema.yaml` 这个文件，找到以下位置，根据需要去除对应行前面的 `#`，重新部署即可生效
 ```yaml
   filters:
