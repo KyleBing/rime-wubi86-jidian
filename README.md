@@ -1,6 +1,6 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
 
-该库是 [Rime](https://rime.im/) 输入法的一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux）
+该库是 [Rime](https://rime.im/) 输入法一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux）
 
 ## 一、概述
 
@@ -18,14 +18,9 @@ Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Window
 由于三个平台使用的码表配置文件是一样的，所以能够在多个平台间保持同一种输入习惯，打起字来也会比较舒服。
 
 该码表词条不是很多，很多专业性的词语可能会没有，需要自己添加，可以使用配套工具 [**五笔词条工具**](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
-> 另外也可以通过这个工具分享你的常用词条，我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。
-
-> ![2022-12-29 09 09 39](https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png)
-
 
 
 ## 二、不同平台的输入法外观
-
 
 __macOS__
 
@@ -71,7 +66,7 @@ __Ubuntu__
 ├── wubi86_jidian_trad.schema.yaml          # 方案 - 五笔简入繁出
 ├── wubi86_jidian_trad_pinyin.schema.yaml   # 方案 - 五笔拼音混输 简入繁出
 ├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
-├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库
+├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库 - 实时更新的线上词库（需要使用 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) ）
 └── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
 
 ```
@@ -136,7 +131,20 @@ ubuntu 的配置文件目录在
 
 比如想停用 `行政区域` 这个词库，直接在其前面添加  `#` 或者直接删除该行，执行输入法的 `部署` 或 `Deploy` 操作后即可生效。
 
-**行政区域**
+### 1. 线上共享的扩展词库
+
+以基础码表为基础，所有后加的词都放置在了 `wubi86_jidian_extra` 这个扩展词库中，可以通过工具来实现实时更新线上最新的词库内容。
+
+这个词库是我维护的，你也可以将一些常用的词上传到线上。
+
+我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。
+
+![工具上传词条](https://user-images.githubusercontent.com/12215982/216496512-8f54658a-71cd-4de2-8e16-dbb86baf6df4.png)
+
+> ![2022-12-29 09 09 39](https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png)
+
+
+### 2. 行政区域
 `行政区域` 这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。
 
 ```yaml

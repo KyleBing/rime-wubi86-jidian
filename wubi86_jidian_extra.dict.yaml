@@ -28,6 +28,39 @@ sort: original
 夜猫	ywqt
 绿幕	xvaj
 U盘	utel
+水基	iiad
+灭火器	gokk
+水基灭火器	iagk
+看一下	rggh
+毫安时	ypjf
+雷雳	flfd
+前叉	uecy
+随机数	bsov
+运存	fcdh
+后视	rgpy
+红轴	xalm
+青轴	gelm
+茶轴	awlm	1
+黑轴	lflm	1
+白轴	rrlm
+博主	fgyg
+德邦	tfdt
+楼道	sout	1
+摊小便宜吃大亏	riwf
+懵逼	nagk
+滴滴	iuiu
+逢集	tdwy
+煎包	ueqn
+守岁	pfmq
+烤串	ofkk
+笑死	ttgq
+医保卡	awhh
+社保卡	pwhh
+烤肠	ofen
+螺蛳粉	jjow
+简简单单	ttuu
+竖版	jcth
+城东	fdai
 
 ## 汽车
 朗逸	yvqk
@@ -46,7 +79,7 @@ U盘	utel
 自驾	thlk
 自驾游	tliy
 宝来	pggo
-手动档	rfsi
+手动挡	rfri
 新能源	ucid
 插电	rtjn
 混动	ijfc
@@ -64,6 +97,33 @@ AION	aion
 零跑	fwkh
 奥特能	ttce
 改款	ntff
+高配	ymsg
+低配	wqsg	1
+车商	lgum
+朗行	yvtf
+三厢	dgds
+行车记录仪	tlyw
+CarPlay	carp
+挡位	riwu
+自动挡	tfri
+防滑链	biql
+临牌	jtth
+加满	lkia
+内饰	mwqn
+车损	lgrk
+授理	regj
+三者	dgft
+三者险	dfbw	1
+车标	lgsf
+全合成	wwdn
+底壳	yqfp
+点烟器	hokk
+区间测速	auig
+静电贴	gjmh
+高速费	ygxj
+过路费	fkxj
+途观	wtcm
+后备箱	rtts
 
 ## 摩托车
 单盘	ujte
@@ -157,6 +217,12 @@ axios	axio
 梦奇	ssds
 苏烈	algq
 大乔	ddtd
+桑启	ccyn
+戈娅	agvg
+海月	itee
+莱西奥	astm
+司空震	npfd
+云樱	fcsm
 
 ## 影视
 黑镜	lfqu
@@ -186,6 +252,8 @@ axios	axio
 夏洛特烦恼	ditn
 莫娣	ajvu
 隐入烟尘	btoi
+西虹市首富	sjyp
+满江红	iixa	1
 
 ## 歌手
 谢春花	ydaw
@@ -210,6 +278,9 @@ axios	axio
 华晨宇	wjpg
 邓紫棋	chsa
 张蔷	xtaf
+王心凌	gnuf
+蔡依林	awss
+孙燕姿	bauq
 
 ## 演员
 周韵	mfuj
@@ -260,6 +331,9 @@ axios	axio
 新风机	umsm
 漏水绳	iixk
 微模块	tsfn	1
+
+## 游戏名
+皇牌空战	rtph
 
 ## 品牌
 美特斯邦威	utad
@@ -499,6 +573,9 @@ N号房	nkyn
 时空伴随者	jpwf
 健康码	wydc
 封控	ffrp
+
+## emoji
+⭐	jtjt
 
 ## emoji水果
 🍏	agjs		苹果
