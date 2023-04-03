@@ -61,6 +61,55 @@ U盘	utel
 简简单单	ttuu
 竖版	jcth
 城东	fdai
+至亲	gcus
+生不如死	tgvg
+自理	thgj
+虚头巴脑	huce
+炸串	otkk
+顺风车	kmlg
+同款	mgff
+结痂	xful
+无氧运动	frff
+有氧运动	drff
+有氧	dern
+无氧	fqrn
+陀螺仪	bjwy
+无穷大	fpdd
+无穷小	fpih
+斗鸡眼	uchv
+炸货	otwx
+亲娘	usvy
+声线	fnxg	1
+惊悚	nyng
+静好	gevb
+岁月静好	megv
+买车	nulg
+卖车	fnlg
+广场舞	yfrl
+短链	tdql
+透明度	tjya
+充电线	yjxg
+也就是	byjg
+虚化	hawx
+亡命天涯	ywgi
+武士刀	gfvn
+电锯	jnqn
+手机卡	rshh
+占比	hkxx
+鬼压床	rdys
+纯音乐	xuqi
+美缝	ugxt
+稍安勿躁	tpqk
+翻找	tora
+吱嘎	kfkd
+落格	aist
+热力图	rllt
+知书达理	tndg
+常亮	ipyp
+浴火重生	iott
+沉得住气	itwr
+幸存者偏差	fdfu
+米粉节	ooab
 
 ## 汽车
 朗逸	yvqk
@@ -124,6 +173,20 @@ CarPlay	carp
 过路费	fkxj
 途观	wtcm
 后备箱	rtts
+
+## 口语
+姐们	vewu	1
+爷们儿	wwqt
+爷们	wqwu
+姐们儿	vwqt
+
+## 汽车
+烧胎	oaec
+前刹	ueqs
+后刹	rgqs
+车展	lgna
+火花塞	oapf
+滤芯	ihan
 
 ## 摩托车
 单盘	ujte
@@ -254,6 +317,7 @@ axios	axio
 隐入烟尘	btoi
 西虹市首富	sjyp
 满江红	iixa	1
+武林外传	gsqw
 
 ## 歌手
 谢春花	ydaw
@@ -281,6 +345,8 @@ axios	axio
 王心凌	gnuf
 蔡依林	awss
 孙燕姿	bauq
+莫叫姐姐	akvv
+徐怀钰	tnqg
 
 ## 演员
 周韵	mfuj
@@ -305,6 +371,7 @@ axios	axio
 大天篷	dgtt
 孤芒	bray
 伊兰爱情故事	wueg
+千千阙歌	ttus
 
 ## 游戏名
 刺客信条	gpwt
@@ -334,6 +401,9 @@ axios	axio
 
 ## 游戏名
 皇牌空战	rtph
+
+## 物联网
+逆变器	uykk
 
 ## 品牌
 美特斯邦威	utad
@@ -401,6 +471,8 @@ axios	axio
 窦道	pwut
 复方角菜酸脂软膏	tyqy
 安乃近	perp
+腰椎间盘突出	esub
+微创	tmwb
 
 ## 三四叠字
 众	cccc
@@ -440,6 +512,7 @@ axios	axio
 飝	cccc
 龘	cccc
 麤	cccc
+叕	cccc
 
 ## 化妆品
 奥洛菲	tiad
@@ -450,9 +523,6 @@ axios	axio
 魅力可诗	rlsy
 美肌颜	ueut
 
-## 三四叠字
-叕	cccc
-
 ## 社会事件
 新型冠状病毒	ugpg
 小汤山	iimm
@@ -460,6 +530,9 @@ axios	axio
 雷神山	fpmm
 汶川	iykt
 N号房	nkyn
+时空伴随者	jpwf
+健康码	wydc
+封控	ffrp
 
 ## emoji
 🙂	tmtt		微笑
@@ -568,57 +641,7 @@ N号房	nkyn
 🤦🏻‍♂️	kdb		呃
 🙏🏻	pypy		祈祷
 ⭐	ggjt		五星
-
-## 社会事件
-时空伴随者	jpwf
-健康码	wydc
-封控	ffrp
-
-## emoji
 ⭐	jtjt
-
-## emoji水果
-🍏	agjs		苹果
-🍎	agjs		苹果
-🍐	tjs		梨
-🍊	swbb		橙子
-🍋	spsa		柠檬
-🍌	tjaw		香蕉
-🍇	aqaq		葡萄
-🍓	ajat		草莓
-🫐	ajat		蓝莓
-🍈	kprc		哈密瓜
-🍒	smsi		樱桃
-🍑	sibb		桃子
-🥭	ayjs		芒果
-🍍	aial		菠萝
-🥥	sbbb		椰子
-🥝	qqsi		猕猴桃
-🍆	albb		茄子
-🥑	rijs		牛油果
-🥦	suaw		西兰花
-🥦	aeaw		菜花
-🥬	imae		油菜
-🥒	amrc		黄瓜
-🌶	ugsh		辣椒
-🫑	aesu		菜椒
-🌽	gyoy		玉米
-🥕	dahh		胡萝卜
-🧄	ddaf		大蒜
-🧄	afi		蒜
-🧅	iuaq		洋葱
-🥔	ffgk		土豆
-🍠	xaal		红薯
-🍠	fbrc		地瓜
-🥚	cqnh		鸡蛋
-🍗	cqev		鸡腿
-🍭	ssoy		棒棒糖
-🥢	tnbb		筷子
-🍺	kris		啤酒
-🍻	kris		啤酒
-🥂	kjis		啤酒
-🥂	kjis		干杯
-🥮	eeqn		月饼
 
 ## emoji动物
 🐶	qtqk		狗
@@ -698,6 +721,49 @@ N号房	nkyn
 🙈	rgew		捂脸
 🦔	gmqt		刺猬
 
+## emoji水果
+🍏	agjs		苹果
+🍎	agjs		苹果
+🍐	tjs		梨
+🍊	swbb		橙子
+🍋	spsa		柠檬
+🍌	tjaw		香蕉
+🍇	aqaq		葡萄
+🍓	ajat		草莓
+🫐	ajat		蓝莓
+🍈	kprc		哈密瓜
+🍒	smsi		樱桃
+🍑	sibb		桃子
+🥭	ayjs		芒果
+🍍	aial		菠萝
+🥥	sbbb		椰子
+🥝	qqsi		猕猴桃
+🍆	albb		茄子
+🥑	rijs		牛油果
+🥦	suaw		西兰花
+🥦	aeaw		菜花
+🥬	imae		油菜
+🥒	amrc		黄瓜
+🌶	ugsh		辣椒
+🫑	aesu		菜椒
+🌽	gyoy		玉米
+🥕	dahh		胡萝卜
+🧄	ddaf		大蒜
+🧄	afi		蒜
+🧅	iuaq		洋葱
+🥔	ffgk		土豆
+🍠	xaal		红薯
+🍠	fbrc		地瓜
+🥚	cqnh		鸡蛋
+🍗	cqev		鸡腿
+🍭	ssoy		棒棒糖
+🥢	tnbb		筷子
+🍺	kris		啤酒
+🍻	kris		啤酒
+🥂	kjis		啤酒
+🥂	kjis		干杯
+🥮	eeqn		月饼
+
 ## emoji运动
 ⚽️	khgf		足球
 🏀	tjgf		篮球
@@ -724,4 +790,11 @@ N号房	nkyn
 🥊	udfm		拳击
 🥋	kuut		跆拳道
 🎮	iyca		游戏
+
+## 特殊字符
+✓	qctf
+✓	cfkg
+²	guyy
+³	uuyy
+Ω	aqvx
 
