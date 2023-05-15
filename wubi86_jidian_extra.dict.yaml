@@ -21,7 +21,6 @@ sort: original
 旁通	upce
 延长线	ttxg	1
 　	cokg		全角空格 co空格
-√	qctf		勾选
 困意	lsuj
 小笼包	itqn
 一泻千里	gitj
@@ -110,6 +109,68 @@ U盘	utel
 沉得住气	itwr
 幸存者偏差	fdfu
 米粉节	ooab
+可可爱爱	ssee
+鼻血	thtl
+退朝	vefj
+方方面面	yydd
+榴莲	sqal
+正装	ghuf
+沙县小吃	ieik
+沙县	iieg
+中转站	kluh
+电竞椅	jusd
+电竞	jnuk
+床褥	yspu
+炒鸡	oicq
+氮气	rnrn
+操控台	rrck
+泡泡	iqiq
+邀请码	rydc
+布娃娃	dvvf
+副驾	gklk
+蛋炒饭	noqn
+双节棍	casj
+<kbd></kbd>	kbd
+狗拎刀	qrvn
+L/100km	imdi
+拉胯	rued	1
+L/100km	dwjf
+莱芜	agaf
+莱钢	agqm
+方正	yygh
+泗水	ilii
+虾线	jgxg
+小红书	ixnn
+双截棍	cfsj
+电商	jnum
+微商	tmum
+个自	whth
+主路	ygkh
+机动车道	sflu
+非机动车道	dsfu
+露营灯	faos
+贪吃蛇	wkjp
+玻璃水	ggii
+时好时坏	jvjf
+备付金	twqq
+神器	pykk
+微辣	tmug
+补漆	puis
+融创	gkwb
+融创茂	gwad
+人偶服	wweb
+合二为一	wfyg
+隐形眼镜	bghq
+日抛	jjrv
+月抛	eerv
+半年抛	urrv
+取决于	bugf
+游泳圈	iilu
+运动量	ffjg
+单页	ujdm
+道克	utdq
+金枕	qqsp
+金枕榴莲	qssa
 
 ## 汽车
 朗逸	yvqk
@@ -187,6 +248,7 @@ CarPlay	carp
 车展	lgna
 火花塞	oapf
 滤芯	ihan
+车缝	lgxt
 
 ## 摩托车
 单盘	ujte
@@ -318,6 +380,9 @@ axios	axio
 西虹市首富	sjyp
 满江红	iixa	1
 武林外传	gsqw
+赤焰战场	fohf
+银河护卫队	qirb
+驯龙高手	cdyr
 
 ## 歌手
 谢春花	ydaw
@@ -792,7 +857,7 @@ N号房	nkyn
 🎮	iyca		游戏
 
 ## 特殊字符
-✓	qctf
+✓	qctf		勾选
 ✓	cfkg
 ²	guyy
 ³	uuyy

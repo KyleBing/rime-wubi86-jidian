@@ -1,10 +1,10 @@
 ![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
 
-该库是 [Rime](https://rime.im/) 输入法一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux）
+该库是 [Rime](https://rime.im/) 输入法一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux、iOS）
 
 ## 一、概述
 
-Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** 三个常用系统平台的输入法，对应的输入法名如上图。
+Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** **iOS** 三个常用系统平台的输入法，对应的输入法名如上图。
 
 该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：**全拼**、**双拼**、**五笔**、**仓颉**，设置不同的输入习惯：**二三候选**、**回车清码**、**z键拼音反查**等等。
 
@@ -22,12 +22,10 @@ Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Window
 
 ## 二、不同平台的输入法外观
 
-__macOS__
-
+**macOS**  
 <img width="330" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/149726120-1a066937-551c-4a43-b2e8-b081f6366c9d.png">
 
-__Windows__
-
+**Windows**  
 皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
 
 ```yaml
@@ -38,11 +36,19 @@ patch:
 
 <img width="500" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
 
-__Ubuntu__
-
+**Ubuntu**  
 <img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
+**iOS**  
+**仓输入法**： 最近才发现一个非常好的 iOS 端的 Rime 内核输入法，可以使用当前库的配置文件，输入习惯跟电脑上一模一样，简直不要太爽。直接 AppStore 搜索下载即可。  
+但痛点还是一样，无法很方便的添加词汇。
 
+> 手机上用的时候建议关闭回车清码功能
+
+github 开源地址： [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster)
+
+**Android**   
+因为平时不用 Android 设备，不太了解，如果有好的可以推荐下
 
 ## 三、文件说明
 
@@ -297,6 +303,7 @@ translator:
 #   - lua_filter@single_char_first_filter # 单字优先
 #    - lua_filter@single_char_only # 纯单字
 ```
+
 
 
 ## 八、其它相关链接
