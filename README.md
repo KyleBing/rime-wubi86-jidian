@@ -1,10 +1,10 @@
-![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
+![rime_all](https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/fdc029e5-7844-4819-a8f8-ac9b59367f23)
 
 该库是 [Rime](https://rime.im/) 输入法一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux、iOS）
 
 ## 一、概述
 
-Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** **iOS** 三个常用系统平台的输入法，对应的输入法名如上图。
+Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** **iOS** 四个常用系统平台的输入法，对应的输入法名如上图。
 
 该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：**全拼**、**双拼**、**五笔**、**仓颉**，设置不同的输入习惯：**二三候选**、**回车清码**、**z键拼音反查**等等。
 
