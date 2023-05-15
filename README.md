@@ -115,6 +115,14 @@ Windows 中的配置方法：
 
 执行下面指令安装 `ibus-rime` 输入法
 
+
+### 4. 仓输入法 (iOS)
+
+1. AppStore 下载 仓输入法
+2. 打开仓输入法设置，选择【输入方案上传】，同一局域网内打开电脑将电脑上的 Rime 配置文件上传到 打开窗口中的 Rime 文件夹下
+3. 输入法上选择重新部署即可
+
+
 ```bash
 sudo apt-get install ibus-rime
 ```
