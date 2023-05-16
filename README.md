@@ -115,6 +115,14 @@ Windows 中的配置方法：
 
 执行下面指令安装 `ibus-rime` 输入法
 
+```bash
+sudo apt-get install ibus-rime
+```
+
+ubuntu 的配置文件目录在
+```bash
+~/.config/ibus/rime/
+```
 
 ### 4. 仓输入法 (iOS)
 
@@ -123,14 +131,6 @@ Windows 中的配置方法：
 3. 输入法上选择重新部署即可
 
 
-```bash
-sudo apt-get install ibus-rime
-```
-
-ubuntu 的配置文件目录在 
-```bash
-~/.config/ibus/rime/
-```
 
 ## 五、扩展词库
 
