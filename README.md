@@ -66,14 +66,15 @@ github 开源地址： [https://github.com/imfuxiao/Hamster](https://github.com/
 ├── pinyin_simp.dict.yaml                   # 词库 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml                 # 方案 - 简体拼音
 
-├── wubi86_jidian_pinyin.schema.yaml        # 方案 - 五笔拼音混输
+├── wubi86_jidian.ico                       # 输入法任务栏图标 for Windows
 ├── wubi86_jidian.schema.yaml               # 方案 - 极点五笔
 ├── wubi86_jidian.dict.yaml                 # 词库 - 极点五笔主码表
-├── wubi86_jidian_trad.schema.yaml          # 方案 - 五笔简入繁出
-├── wubi86_jidian_trad_pinyin.schema.yaml   # 方案 - 五笔拼音混输 简入繁出
 ├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
 ├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库 - 实时更新的线上词库（需要使用 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) ）
 └── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
+├── wubi86_jidian_pinyin.schema.yaml        # 方案 - 五笔拼音混输
+├── wubi86_jidian_trad.schema.yaml          # 方案 - 五笔简入繁出
+├── wubi86_jidian_trad_pinyin.schema.yaml   # 方案 - 五笔拼音混输 简入繁出
 
 ```
 

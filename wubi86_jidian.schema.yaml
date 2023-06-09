@@ -5,6 +5,8 @@ schema:
   schema_id: wubi86_jidian
   name: "极点五笔86"
   version: "1.0"
+  icon: "wubi86_jidian.ico"           # string 方案图标，格式： .ico
+  ascii_icon:                         # string
   author:
     - 创始人 王永民先生
   description: |
