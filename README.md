@@ -233,7 +233,7 @@ ubuntu 的配置文件目录在
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
-## 七、常见自定义功能
+## 七、个性配置
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 候选个数
@@ -313,6 +313,37 @@ translator:
 #    - lua_filter@single_char_only # 纯单字
 ```
 
+### 9. 隐藏候选窗口（Windows）
+有些追求极致的用户不喜欢有候选框的显示，平时打字也用不到候选窗口，候选窗口也是可以隐藏的。（Windows）
+编辑 `weasel.custom.yaml` 文件，定位到 `style.layout`，编辑 `margin_x` `margin_y` 将值设置成负值即可。
+
+```yaml
+      margin_x: -1               # int 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_y: -1               # int 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+```
+
+这样打起字来有点当年用黑莓 auto_text 打五笔的感觉了。
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/d440c7f0-8cde-49f6-b778-a3fc4aefe9da" width="500">
+
+### 10. 定义输入方案的图标（Windows）
+Windows 小狼毫 v0.15.0 版已经支持自定义某个方案的图标了，比如这个五笔方案就已经设置了自定义的图标。任务栏的图标不再是原来的 “中” 字，而是：
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/7377bde6-a36d-40ac-b0ad-0674d22a68a3" width="600">
+
+当按 <kbd>shift</kbd> 切换中英文输入的时候，就会显示这个图标。
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/88ff51b5-6098-4464-a70f-6feb9e09de4e" width="500">
+
+
+编辑某个你需要自定义图标的方案文件，比如我这个 `wubi86_jidian.schema.yaml`，编辑 `schema` 下的这两个位置，不过只使用第一个位置即可。
+
+```yaml
+  icon: "wubi86_jidian.ico"           # string 方案图标，格式： .ico
+  ascii_icon:                         # string
+```
+
+需要你自己准备一个 `.ico` 图标文件，然后放到 Rime 配置文件的根目录下，再将文件名填到上面的位置，重新部署即可。
 
 
 ## 八、其它相关链接
@@ -330,6 +361,7 @@ __配置教程链接__
 - [x] Rime 官网：   [https://rime.im/](https://rime.im/)
 - [x] 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 - [x] 簡繁配置說明關於 OpenCC ：[https://github.com/rime/home/issues/420](https://github.com/rime/home/issues/420)
+- [x] 小狼毫 v0.15.0 更新说明 [https://github.com/rime/weasel/blob/master/CHANGELOG.md#0150-2023-06-06](https://github.com/rime/weasel/blob/master/CHANGELOG.md#0150-2023-06-06)
 
 __本库 Wiki__
 - [x] [.schema.yaml 详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/Schema.yaml-%E8%AF%A6%E8%A7%A3)
