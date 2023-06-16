@@ -33,13 +33,13 @@ patch:
     layout:
       align_type: "center"        # string  "top" | "center" | "bottom" 序号、候选词、注释对齐方式
 
-      corner_radius: 5            # number  圆角大小 候选面板
+      corner_radius: 8            # number  圆角大小 候选面板
       enhanced_position: false    # bool 允许光标位置获取失败时，在当空窗口左上角绘制候选框（而不是桌面左上角）
 #      max_width: 10              # number  超出部分自动换行，如果显示有问题，请重启小狼毫算法服务程序
 #      max_height: 10             # number  超出部分自动换行
 
       # 阴影
-      shadow_radius: 5
+      shadow_radius: 8
       shadow_offset_x: 2          # number 阴影横向偏移量
       shadow_offset_y: 2          # number 阴影纵向偏移量
 
@@ -53,7 +53,7 @@ patch:
 
       candidate_spacing: 10      # number 候选之间的间隔
       hilite_spacing: 5          # number 序号与候选词之间的间隔 宽度
-      hilite_padding: 10         # number 候选词边界值 宽度
+      hilite_padding: 12         # number 候选词边界值 宽度
       round_corner: 0            # number 候选词的圆角
 
   preset_color_schemes:   # 主题：颜色方案
@@ -62,15 +62,17 @@ patch:
       author: KyleBing
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
-      border_color: 0x55000000                     # color 面板边框颜色
+      border_color: 0x33000000                     # color 面板边框颜色
       text_color: 0x000000
       candidate_text_color: 0x000000
       comment_text_color: 0xBBCC27
 
-      label_color: 0x666666                        # color 序号颜色 未选中的
-      shadow_color:  0x22000000                    # color 面板阴影
+      label_color: 0x999999                        # color 序号颜色 未选中的
+      shadow_color:  0x44000000                    # color 面板阴影
+
       nextpage_color:  0x000000                    # color
       prevpage_color:  0x000000                    # color
+
       candidate_back_color:  0xFFFFFF              # color 面板背景色
       candidate_shadow_color:  0x00000000          # color 面板阴影颜色
       candidate_border_color:  0x00000000          # color 面板边框颜色
@@ -83,7 +85,7 @@ patch:
       hilited_candidate_text_color: 0x4F11FA       # color 文字颜色 选中的候选
       hilited_candidate_back_color: 0x104F11FA     # color 背景色 选中的候选
       hilited_candidate_shadow_color:  0x004F11FA  # color aarrggbb
-      hilited_candidate_border_color:  0x4F11FA    # color 边框颜色 选中的候选
+      hilited_candidate_border_color:  0x004F11FA  # color 边框颜色 选中的候选
       hilited_mark_color:  0x000000                # color
 
 

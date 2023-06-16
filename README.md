@@ -34,7 +34,7 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="400" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/60fd9727-4548-406d-8447-00af3413f9dd"/>
+<img width="500" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/a8c658a4-a3ca-4888-9101-19022445d6bf"/>
 
 **Ubuntu**  
 <img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
