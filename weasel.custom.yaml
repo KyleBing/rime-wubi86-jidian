@@ -53,7 +53,7 @@ patch:
 
       candidate_spacing: 10      # number 候选之间的间隔
       hilite_spacing: 5          # number 序号与候选词之间的间隔 宽度
-      hilite_padding: 12         # number 候选词边界值 宽度
+      hilite_padding: 10         # number 候选词边界值 宽度
       round_corner: 0            # number 候选词的圆角
 
   preset_color_schemes:   # 主题：颜色方案
@@ -83,7 +83,7 @@ patch:
 
       hilited_label_color: 0x884F11FA              # color 序号颜色，选中的
       hilited_candidate_text_color: 0x4F11FA       # color 文字颜色 选中的候选
-      hilited_candidate_back_color: 0x104F11FA     # color 背景色 选中的候选
+      hilited_candidate_back_color: 0x004F11FA     # color 背景色 选中的候选
       hilited_candidate_shadow_color:  0x004F11FA  # color aarrggbb
       hilited_candidate_border_color:  0x004F11FA  # color 边框颜色 选中的候选
       hilited_mark_color:  0x000000                # color
