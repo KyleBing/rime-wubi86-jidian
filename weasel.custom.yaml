@@ -11,19 +11,16 @@ customization:
 patch:
   style:
     inline_preedit: true
-    color_scheme: WhiteAqua                 # 匹配正文的颜色方案，对应正文的颜色方案名
+    color_scheme: MacRoseo                 # 匹配正文的颜色方案，对应正文的颜色方案名
     display_tray_icon: false
     horizontal: true                        # 横向排列候选
     font_point: 12                          # 候选词 字号
     font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:12:15:bold"
 
-    # v0.15 新增
-    # 详见：https://github.com/rime/weasel/releases/tag/0.15.0
-
     label_font_face: "Microsoft Yahei"     # string 序号字体 标注
-    label_font_point: 12                   # int    序号字体 大小
+    label_font_point: 10                   # number    序号字体 大小
     comment_font_face: "Microsoft Yahei"   # string 解释字体
-    comment_font_point: 12                 # int    解释字体 大小
+    comment_font_point: 12                 # number    解释字体 大小
 
     vertical_text: false                   # bool  竖排候选内的文字
     vertical_text_left_to_right: false     # bool  候选列表从左到右
@@ -31,63 +28,68 @@ patch:
     vertical_auto_reverse: false           # bool
 
     preedit_type: "composition"            #  "composition" | "preview" | "preview_all"
-    mark_text: "华山"                       # 不知道这个是干嘛的，有知道的请告诉我
+    mark_text: ""                          # 不知道这个是干嘛的，有知道的请告诉我
 
     layout:
-      # v0.15 新增
       align_type: "center"        # string  "top" | "center" | "bottom" 序号、候选词、注释对齐方式
 
-      corner_radius: 5            # int  候选框圆角
+      corner_radius: 5            # number  圆角大小 候选面板
       enhanced_position: false    # bool 允许光标位置获取失败时，在当空窗口左上角绘制候选框（而不是桌面左上角）
-#      max_width: 10              # int  超出部分自动换行，如果显示有问题，请重启小狼毫算法服务程序
-#      max_height: 10             # int  超出部分自动换行
+#      max_width: 10              # number  超出部分自动换行，如果显示有问题，请重启小狼毫算法服务程序
+#      max_height: 10             # number  超出部分自动换行
 
       # 阴影
       shadow_radius: 5
-      shadow_offset_x: 2
-      shadow_offset_y: 2
+      shadow_offset_x: 2          # number 阴影横向偏移量
+      shadow_offset_y: 2          # number 阴影纵向偏移量
 
       min_width: 160
       min_height: 30
-      border_width: 1            # int 边框宽度
-      margin_x: 10               # int 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
-      margin_y: 10               # int 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
-      spacing: 20                # int 候选词之间的间隔
-      candidate_spacing: 30
-      hilite_spacing: 10         # int 候选词宽度
-      hilite_padding: 12         # int 候选词背景的边界宽度
-      round_corner: 0            # int 选中的候选词背景
+
+      border_width: 1            # number 边框宽度 候选边框、面板边框
+      margin_x: 0                # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_y: 0                # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      spacing: 10                # number 候选词之间的间隔
+
+      candidate_spacing: 10      # number 候选之间的间隔
+      hilite_spacing: 5          # number 序号与候选词之间的间隔 宽度
+      hilite_padding: 10         # number 候选词边界值 宽度
+      round_corner: 0            # number 候选词的圆角
 
   preset_color_schemes:   # 主题：颜色方案
     MacRoseo: # 玫红字体
       name: 玫红 / MacRoseo
-      author: KyleBing <https://kylebing.cn>
+      author: KyleBing
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
-      border_color: 0xD6D6D6
+      border_color: 0x55000000                     # color 面板边框颜色
       text_color: 0x000000
-      hilited_text_color: 0x000000
-      hilited_back_color: 0xFFFFFF
-      hilited_candidate_text_color: 0x4F11FA
-      hilited_candidate_back_color: 0xEDEDF9
       candidate_text_color: 0x000000
       comment_text_color: 0xBBCC27
 
-      # v0.15 新增属性
-#      shadow_color:  0x000000                      # color
-#      nextpage_color:  0x000000                    # color
-#      prevpage_color:  0x000000                    # color
-#      candidate_back_color:  0x000000              # color
-#      candidate_shadow_color:  0x000000            # color
-#      candidate_border_color:  0x000000            # color
-#      hilited_shadow_color:  0x000000              # color
-#      hilited_candidate_shadow_color:  0x000000    # color
-#      hilited_candidate_border_color:  0x000000    # color
-#      hilited_mark_color:  0x000000                # color
+      label_color: 0x666666                        # color 序号颜色 未选中的
+      shadow_color:  0x22000000                    # color 面板阴影
+      nextpage_color:  0x000000                    # color
+      prevpage_color:  0x000000                    # color
+      candidate_back_color:  0xFFFFFF              # color 面板背景色
+      candidate_shadow_color:  0x00000000          # color 面板阴影颜色
+      candidate_border_color:  0x00000000          # color 面板边框颜色
+
+      hilited_shadow_color:  0xcccccc              # color 阴影颜色 选中的候选
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xEDEDF9
+
+      hilited_label_color: 0x884F11FA              # color 序号颜色，选中的
+      hilited_candidate_text_color: 0x4F11FA       # color 文字颜色 选中的候选
+      hilited_candidate_back_color: 0x104F11FA     # color 背景色 选中的候选
+      hilited_candidate_shadow_color:  0x004F11FA  # color aarrggbb
+      hilited_candidate_border_color:  0x4F11FA    # color 边框颜色 选中的候选
+      hilited_mark_color:  0x000000                # color
+
 
     MacRoseoAlt: # 玫红背景
       name: MacRoseo
-      author: KyleBing <https://kylebing.cn>
+      author: KyleBing
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6
@@ -101,7 +103,7 @@ patch:
 
     WhiteAqua: # 水绿背景
       name: WhiteAqua
-      author: KyleBing <https://kylebing.cn>
+      author: KyleBing
       creat_time: "2021-07-26"
       back_color: 0xFFFFFF
       border_color: 0xD6D6D6
