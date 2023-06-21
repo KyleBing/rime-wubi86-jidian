@@ -14,13 +14,13 @@ patch:
     color_scheme: MacRoseo                 # 匹配正文的颜色方案，对应正文的颜色方案名
     display_tray_icon: false
     horizontal: true                        # 横向排列候选
-    font_point: 12                          # 候选词 字号
-    font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:12:15:bold"
+    font_point: 13                          # 候选词 字号
+    font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:13:15:bold"
 
     label_font_face: "Microsoft Yahei"     # string 序号字体 标注
-    label_font_point: 10                   # number    序号字体 大小
+    label_font_point: 12                   # number    序号字体 大小
     comment_font_face: "Microsoft Yahei"   # string 解释字体
-    comment_font_point: 12                 # number    解释字体 大小
+    comment_font_point: 13                 # number    解释字体 大小
 
     vertical_text: false                   # bool  竖排候选内的文字
     vertical_text_left_to_right: false     # bool  候选列表从左到右
