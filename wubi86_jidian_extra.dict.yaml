@@ -19,7 +19,7 @@ sort: original
 动效	fcuq
 底库	yqyl
 旁通	upce
-延长线	ttxg	1
+延长线	ttxg	100
 　	cokg		全角空格 co空格
 困意	lsuj
 小笼包	itqn
@@ -39,12 +39,12 @@ U盘	utel
 后视	rgpy
 红轴	xalm
 青轴	gelm
-茶轴	awlm	1
-黑轴	lflm	1
+茶轴	awlm	100
+黑轴	lflm	100
 白轴	rrlm
 博主	fgyg
 德邦	tfdt
-楼道	sout	1
+楼道	sout	100
 摊小便宜吃大亏	riwf
 懵逼	nagk
 滴滴	iuiu
@@ -78,7 +78,7 @@ U盘	utel
 斗鸡眼	uchv
 炸货	otwx
 亲娘	usvy
-声线	fnxg	1
+声线	fnxg	100
 惊悚	nyng
 静好	gevb
 岁月静好	megv
@@ -133,7 +133,7 @@ U盘	utel
 <kbd></kbd>	kbd
 狗拎刀	qrvn
 L/100km	imdi
-拉胯	rued	1
+拉胯	rued	100
 L/100km	dwjf
 莱芜	agaf
 莱钢	agqm
@@ -183,7 +183,7 @@ L/100km	dwjf
 水杯	iisg
 自研	thdg
 预判	cbud
-痛点	uchk	1
+痛点	uchk	100
 绿钻	xvqh
 黄钻	amqh
 黑钻	lfqh
@@ -195,20 +195,20 @@ L/100km	dwjf
 鸡毛掸子	ctrb
 Thunder	thun
 采样率	esyx
-飚车	mqlg	1
+飚车	mqlg	100
 浓浓	ipip
-图床	ltys	1
+图床	ltys	100
 奔狼	dfqt
-补卡	puhh	1
-常开	ipga	1
-像是	wqjg	1
+补卡	puhh	100
+常开	ipga	100
+像是	wqjg	100
 定睛一看	phgr
 甲抗	lhry
-户口本	yksg	1
-笼布	tddm	1
-糯米粉	ooow	1
-全网	wgmq	1
-撬棒	rtsd	1
+户口本	yksg	100
+笼布	tddm	100
+糯米粉	ooow	100
+全网	wgmq	100
+撬棒	rtsd	100
 如图所示	vlrf
 绿联	xvbu
 接头	ruud
@@ -217,7 +217,7 @@ Thunder	thun
 垃圾袋	ffwa
 嚼劲	keca
 过够	fpqk
-表头	geud	1
+表头	geud	100
 下来了	ggbn
 猫眼螺	qhjl
 不负此行	gqht
@@ -226,22 +226,37 @@ Thunder	thun
 群文件	vywr
 比心	xxny
 出生率	btyx
-偏光镜	wiqu	1
+偏光镜	wiqu	100
 夹片	guth
 片尾	thnt
 静下	gegh
 所处	rnth
 三条	dgts
-童心未泯	unfi	1
-从左到右	wdgd	1
+童心未泯	unfi	100
+从左到右	wdgd	100
 人民日报	wnjr
-戴眼镜	fhqu	1
+戴眼镜	fhqu	100
 法线	ifxg
 ℃	ijya
 %RH	ijya
-行不行	tgtf	1
+行不行	tgtf	100
 磁吸	duke
-Web	web	1
+Web	web	100
+淀粉肠	ioen
+破壁机	dnsm	100
+自由职业者	tmbf	100
+沉底	ipyq
+FinalCutPro	fina
+犄角旮旯	tqvj
+控制台	rrck	100
+直辖市	flym
+飙车	ddlg	100
+二货	fgwx	100
+app	app
+下架	ghlk
+狼人杀	qwqs
+液位	iywu	100
+液面	iydm	100
 
 ## 汽车
 朗逸	yvqk
@@ -253,7 +268,7 @@ Web	web	1
 上汽大众	hidw
 科三	tudg
 科二	tufg
-科一	tugg	1
+科一	tugg	100
 科四	tulh
 凌渡	ufiy
 迈腾	dneu
@@ -264,22 +279,22 @@ Web	web	1
 新能源	ucid
 插电	rtjn
 混动	ijfc
-插混	rtij	1
+插混	rtij	100
 荣威	apdg
 哈弗	kwxj
 埃安	fcpv
 AION	aion
-记录仪	yvwy	2
+记录仪	yvwy	40
 好猫	vbqt
 欧拉	aqru
 帝豪	upyp
 名爵	qkel
-纯电	xgjn	1
+纯电	xgjn	100
 零跑	fwkh
 奥特能	ttce
 改款	ntff
 高配	ymsg
-低配	wqsg	1
+低配	wqsg	100
 车商	lgum
 朗行	yvtf
 三厢	dgds
@@ -294,7 +309,7 @@ CarPlay	carp
 车损	lgrk
 授理	regj
 三者	dgft
-三者险	dfbw	1
+三者险	dfbw	100
 车标	lgsf
 全合成	wwdn
 底壳	yqfp
@@ -307,7 +322,7 @@ CarPlay	carp
 后备箱	rtts
 
 ## 口语
-姐们	vewu	1
+姐们	vewu	100
 爷们儿	wwqt
 爷们	wqwu
 姐们儿	vwqt
@@ -335,7 +350,7 @@ CBR500R	cbr
 GoPro	gop
 GSX250R	gsx
 曼岛TT	jqtt
-排量	rdjg	1
+排量	rdjg	100
 护杠	rysa
 摩托范	yrai
 摩托邦	yrdt
@@ -455,7 +470,7 @@ axios	axio
 莫娣	ajvu
 隐入烟尘	btoi
 西虹市首富	sjyp
-满江红	iixa	1
+满江红	iixa	100
 武林外传	gsqw
 赤焰战场	fohf
 银河护卫队	qirb
@@ -493,6 +508,7 @@ axios	axio
 孙燕姿	bauq
 莫叫姐姐	akvv
 徐怀钰	tnqg
+姫神	vapy
 
 ## 演员
 周韵	mfuj
@@ -507,6 +523,7 @@ axios	axio
 王洛丹	gimy
 孙红雷	bxfl
 沙溢	iiiu
+张艺谋	xaya
 
 ## 歌曲
 寄居蟹	pnqe
@@ -520,7 +537,7 @@ axios	axio
 千千阙歌	ttus
 
 ## 游戏名
-刺客信条	gpwt	1
+刺客信条	gpwt	100
 极品飞车	sknl
 塞尔达	pqdp
 英灵殿	avna
@@ -543,13 +560,17 @@ axios	axio
 音柱	ujsy
 新风机	umsm
 漏水绳	iixk
-微模块	tsfn	1
+微模块	tsfn	100
 
 ## 游戏名
 皇牌空战	rtph
 
 ## 物联网
 逆变器	uykk
+
+## 游戏名
+超级玛丽	fxgg
+球球大作战	ggdh
 
 ## 品牌
 美特斯邦威	utad
@@ -595,7 +616,10 @@ axios	axio
 海康	ityv
 
 ## 软件名
-下厨房	gdyn	1
+下厨房	gdyn	100
+
+## 品牌
+安踏	pvkh	100
 
 ## 区域
 莒县	akeg
@@ -615,6 +639,10 @@ axios	axio
 槐荫区	saaq
 济宁	iyps
 章丘	ujrg
+白洋淀	riip	100
+容城	pwfd	100
+文苑北庭	yauy	100
+环联夜市	gbyy
 
 ## 医学
 直肠癌	feuk

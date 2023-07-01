@@ -346,7 +346,18 @@ Windows 小狼毫 v0.15.0 版已经支持自定义某个方案的图标了，比
 需要你自己准备一个 `.ico` 图标文件，然后放到 Rime 配置文件的根目录下，再将文件名填到上面的位置，重新部署即可。
 
 
-## 八、其它相关链接
+## 八、词条权重
+该库的候选词排序方式是依据权重排序，权重是一个数量，数字越大权重越大，权重大的词靠前。为了让子码表也能在候选词中任意调整位置，主码表中的所有词都添加了权重，10为间隔。
+
+没有权重时，子码表无法自由定义在候选词中的位置
+
+<img width="800" alt="没有权重时" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/6e27527a-dfc0-45f5-8bde-6ad15f1c1c89">
+
+有了初始的权重后就可以定义任意位置了
+
+<img width="800" alt="有权重后" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/b80de286-66b9-4db7-8cfb-87f82b472b7a">
+
+## 九、其它相关链接
 
 __工具链接__
 - [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)
