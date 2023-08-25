@@ -45,7 +45,6 @@ U盘	utel
 博主	fgyg
 德邦	tfdt
 楼道	sout	100
-摊小便宜吃大亏	riwf
 懵逼	nagk
 滴滴	iuiu
 逢集	tdwy
@@ -257,6 +256,141 @@ app	app
 狼人杀	qwqs
 液位	iywu	100
 液面	iydm	100
+AirPods	airp
+AirPods Pro	airp
+AirPower	airp
+iPadOS	ipad	19
+出风口	bmkk	11
+靠前	tfue
+褪去	pufc	21
+晒伤	jswt
+盘库	teyl
+山河大学	midi
+烟味	olkf	20
+研磨剂	dyyj
+尼玛	nxgc
+非死即残	dgvg
+夜黑风高	ylmy
+别着急	kuqv	20
+还完	gipf	20
+一副	gggk
+一副没见过世面的样子	ggib
+挨个	rcwh	20
+两圈	gmlu	20
+物业费	toxj	20
+AirDrop	air	20
+嫌累	vulx	20
+回滚	lkiu	30
+弧角	xrqe
+自愈	thwg
+常去	ipfc
+陪跑	bukh	20
+小饭煲	iqwk
+小爱	ihep
+小爱同学	iemi
+Siri	siri
+天猫精灵	gqov
+床头灯	yuos
+体重秤	wttg
+折叠椅	rcsd
+篮球鞋	tgaf
+指甲刀	rlvn
+自充气	tyrn
+熨烫机	nism
+甜甜圈	ttlu
+每帧	txmh
+饭铲	qnqu
+吃土	ktff
+耳坠	bgbw	20
+爱思助手	eler
+生命周期	twma
+轮滑鞋	liaf
+饭叉	qncy	20
+心怀坦荡	nnfa	20
+心怀	nyng	19
+补胎	puec	20
+微软雅黑	tlal	20
+苹方	agyy	20
+团建	lfvf
+远星	fqjt
+助眠	eghn
+人教版	wfth	20
+束腿	gkev
+绿牌	xvth
+潜行	iftf	19
+洗发水	inii	29
+鸡哔	cqkx
+使然	wgqd	29
+面无表情	dfgn	20
+女孩纸	vbxq	20
+大舌头	dtud	20
+鸡皮	cqhc
+摆拍	rlrr
+握把	rnrc
+汉服	iceb
+找对象	rcqj
+谈恋爱	yyep	20
+车友	lgdc	20
+好点儿	vhqt
+好点	vbhk	20
+面食	dmwy
+财宝	mfpg
+奥特曼	ttjl	20
+纸杯	xqsg	20
+苹果醋	ajsg
+苍蝇拍	ajrr
+男主角	lyqe
+女主角	vyqe	20
+云图	fclt	5
+可喜可贺	sfsl
+诚不欺我	ygat
+束口	gkkk	20
+清漆	igis
+分瓶	wvua
+爆词	ojyn
+水泥地	iifb	20
+表显	gejo
+树洞	scim
+汽修	irwh
+木床	ssys
+践行	khtf	29
+炸裂	otgq	20
+飞机杯	nssg
+负显	qmjo
+逆天	ubgd
+地形图	fglt	20
+收件人	nwww
+iPadPro	ipad	19
+远焦	fqwy	19
+灯牌	osth
+回款	lkff	20
+前照灯	ujos
+文档云	ysfc	9
+奇奇怪怪	ddnn	9
+内镜	mwqu
+卡挡	hhri
+AirTag	airt
+ABS	abs
+AGV	agv	20
+Wikipedia	wiki
+Wiki	wiki
+Apple Watch	appl
+iCloud	iclo
+Pro	pro	20
+Max	max	20
+Plus	plu	20
+Plus	plus	20
+头型	udga	20
+湿滑	ijim	20
+美音	uguj	9
+截机	fasm	20
+打赏	rsip
+碎屏	dynu	20
+疯跑	umkh
+潘多拉	iqru
+心结	nyxf	20
+憋死	umgq	20
+天人两隔	gwgb	20
 
 ## 汽车
 朗逸	yvqk
@@ -272,7 +406,7 @@ app	app
 科四	tulh
 凌渡	ufiy
 迈腾	dneu
-自驾	thlk
+自驾	thlk	20
 自驾游	tliy
 宝来	pggo
 手动挡	rfri
@@ -284,7 +418,7 @@ app	app
 哈弗	kwxj
 埃安	fcpv
 AION	aion
-记录仪	yvwy	40
+记录仪	yvwy	20
 好猫	vbqt
 欧拉	aqru
 帝豪	upyp
@@ -300,7 +434,7 @@ AION	aion
 三厢	dgds
 行车记录仪	tlyw
 CarPlay	carp
-挡位	riwu
+挡位	riwu	20
 自动挡	tfri
 防滑链	biql
 临牌	jtth
@@ -341,6 +475,12 @@ CarPlay	carp
 挪车	rvlg
 加油卡	lihh
 审车	pjlg
+侧方位	wywu	30
+倒车入库	wlty	20
+福特	pytr
+皮卡	hchh
+斯巴鲁	acqg
+后驱	rgca	20
 
 ## 摩托车
 单盘	ujte
@@ -367,6 +507,11 @@ axios	axio
 
 ## 小吃
 蒸饺	abqn
+
+## 摩托车
+CBR650R	cbr
+试戴	yafa
+降挡	btri
 
 ## 王者荣耀
 黄忠	amkh
@@ -479,6 +624,7 @@ axios	axio
 疾速追杀	ugwq
 昆汀	jxis
 盖·里奇	ujds
+奥本海默	tsil
 
 ## 歌手
 谢春花	ydaw
@@ -509,6 +655,8 @@ axios	axio
 莫叫姐姐	akvv
 徐怀钰	tnqg
 姫神	vapy
+李玟	sbgy
+韩红	fjxa
 
 ## 演员
 周韵	mfuj
@@ -524,6 +672,8 @@ axios	axio
 孙红雷	bxfl
 沙溢	iiiu
 张艺谋	xaya
+郭达	ybdp
+尹正	vtgh	20
 
 ## 歌曲
 寄居蟹	pnqe
@@ -571,6 +721,7 @@ axios	axio
 ## 游戏名
 超级玛丽	fxgg
 球球大作战	ggdh
+库乐队	yqbw
 
 ## 品牌
 美特斯邦威	utad
@@ -620,6 +771,9 @@ axios	axio
 
 ## 品牌
 安踏	pvkh	100
+塔斯汀	fais
+高驰	ymcb
+Apex	apex
 
 ## 区域
 莒县	akeg
@@ -643,6 +797,17 @@ axios	axio
 容城	pwfd	100
 文苑北庭	yauy	100
 环联夜市	gbyy
+
+## 建筑
+角磨机	qysm
+三角钢	dqqm	20
+红砖	xadf
+青砖	gedf
+地漆	fbis
+
+## 区域
+果庄乡	jyxt
+下屯村	ggsf
 
 ## 医学
 直肠癌	feuk
