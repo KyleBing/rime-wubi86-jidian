@@ -66,7 +66,7 @@ patch:
       - { when: has_menu, accept: Tab, send: Page_Down }
 
       # 回车清码
-      - { when: composing, accept: Return, send: Escape }
+#      - { when: composing, accept: Return, send: Escape }
 
       # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       - { when: composing, accept: Control+p, send: Up }
@@ -128,7 +128,7 @@ patch:
       "'": {pair: ["‘", "’"]}
       "(": "（"
       ")": "）"
-      "*": ["·","×"]
+      "*": "*"
       "+": "+"
       ",": {commit: "，"}
       "-": {commit: "-"}

@@ -43,7 +43,6 @@ patch:
 **仓输入法**： 最近才发现一个非常好的 iOS 端的 Rime 内核输入法，可以使用当前库的配置文件，输入习惯跟电脑上一模一样，简直不要太爽。直接 AppStore 搜索下载即可。  
 但痛点还是一样，无法很方便的添加词汇。
 
-> 手机上用的时候建议关闭回车清码功能
 
 github 开源地址： [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster)
 
@@ -244,9 +243,9 @@ ubuntu 的配置文件目录在
 ```
 
 ### 2. 回车清码
-默认是开启的
+默认是关闭的
 
-想要关闭，打开 `default.custom.yaml` 文件，找到下面这行，在前面添加 `#` 即可，如下
+想要开启，打开 `default.custom.yaml` 文件，找到下面这行，去掉前面的 `#` 即可，如下
 
 ```yaml
       # 回车清码
