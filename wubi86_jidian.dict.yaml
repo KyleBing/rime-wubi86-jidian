@@ -29321,8 +29321,8 @@ iPhone	ipho	10
 峃	ipmj	10
 深山	ipmm	10
 沉	ipmn	10
+常见	ipmq	40
 觉	ipmq	30
-常见	ipmq	20
 党风	ipmq	10
 党内	ipmw	10
 涫	ipn	10
@@ -36999,7 +36999,7 @@ km/h	kmh	20
 囖	ktly	10
 响	ktm	10
 噢	ktmd	20
-川崎	ktmd	10
+川崎	ktmd	30
 川贝	ktmh	10
 响	ktmk	10
 听得见	ktmq	10
@@ -38445,7 +38445,7 @@ km/h	kmh	20
 车次	lguq	10
 车道	lgut	40
 辅道	lgut	30
-国产	lgut	20
+国产	lgut	50
 国道	lgut	10
 国立	lguu	10
 车门	lguy	20
@@ -42087,8 +42087,8 @@ MacbookPro	mbp	10
 敗	mty	10
 几度	mtya	10
 內	mtyi	10
-几遍	mtyn	20
-账户	mtyn	10
+几遍	mtyn	10
+账户	mtyn	20
 峰峦	mtyo	10
 贬义	mtyq	20
 凤毛麟角	mtyq	10
@@ -55197,8 +55197,8 @@ QQ	qq	10
 鸟语花香	qyat	10
 鑛	qyaw	10
 镦	qyb	10
-卵子	qybb	20
 勺子	qybb	10
+卵子	qybb	30
 留取	qybc	10
 锦衣卫	qybg	20
 錞	qybg	10
@@ -80902,7 +80902,7 @@ Windows	wind	10
 欲火	wwoo	20
 含含糊糊	wwoo	10
 谷粒	wwou	10
-个位数	wwov	20
+个位数	wwov	5
 人数	wwov	10
 谷米	wwoy	10
 从宽	wwpa	10

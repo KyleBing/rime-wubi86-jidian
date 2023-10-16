@@ -153,6 +153,8 @@ ubuntu 的配置文件目录在
 
 我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。
 
+需要注册码的 email 我获取即可： kylebing@163.com
+
 ![工具上传词条](https://user-images.githubusercontent.com/12215982/216496512-8f54658a-71cd-4de2-8e16-dbb86baf6df4.png)
 
 > ![2022-12-29 09 09 39](https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png)
