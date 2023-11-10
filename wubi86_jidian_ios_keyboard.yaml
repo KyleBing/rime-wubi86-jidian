@@ -1,0 +1,94 @@
+keyboards:
+  - name: "极点86"     # 键盘名
+    rowHeight: 40     # 行高
+    buttonInsets: left(3),bottom(4),top(8),right(3) # 内边距
+    rows:
+      - rowHeight: 40 # 行高
+      - keys:
+          - action: character(q)
+            width: 50            # 宽度
+            label: "手"
+            processByRIME: false # 是否经过 Rime 处理
+            swipe:
+              - direction: up
+                label: ""               # 划动显示的文本
+                action: character(1)
+                display: true           # 是否在键盘上显示
+                processByRIME: false    # 是否经过 Rime 处理
+          - action: character(q)
+            width: percentage(0.1)
+          - action: character(w)
+            width: percentage(0.1)
+          - action: character(e)
+            width: percentage(0.1)
+          - action: character(r)
+            width: percentage(0.1)
+          - action: character(t)
+            width: percentage(0.1)
+          - action: character(y)
+            width: percentage(0.1)
+          - action: character(u)
+            width: percentage(0.1)
+          - action: character(i)
+            width: percentage(0.1)
+          - action: character(o)
+            width: percentage(0.1)
+          - action: character(p)
+            width: percentage(0.1)
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            width: percentage(0.1)
+          - action: character(s)
+            width: percentage(0.1)
+          - action: character(d)
+            width: percentage(0.1)
+          - action: character(f)
+            width: percentage(0.1)
+          - action: character(g)
+            width: percentage(0.1)
+          - action: character(h)
+            width: percentage(0.1)
+          - action: character(j)
+            width: percentage(0.1)
+          - action: character(k)
+            width: percentage(0.1)
+          - action: character(l)
+            width: percentage(0.1)
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            width: percentage(0.1)
+          - action: character(x)
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+          - action: character(v)
+            width: percentage(0.1)
+          - action: character(b)
+            width: percentage(0.1)
+          - action: character(n)
+            width: percentage(0.1)
+          - action: character(m)
+            width: percentage(0.1)
+          - action: none
+            width: available
+          - action: backspace
+            width: percentage(0.13)
+      - keys:
+          - action: keyboardType(numericNineGrid)
+            width: percentage(0.2)
+          - action: character(,)
+            width: percentage(0.1)
+          - action: space
+            width: percentage(0.4)
+          - action: character(.)
+            width: percentage(0.1)
+          - action: enter
+            width: percentage(0.2)

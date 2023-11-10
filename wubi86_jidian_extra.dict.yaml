@@ -12,6 +12,313 @@ sort: original
 # `##` 两个 # 开头的会被识别为分组名，其后跟的词条就是该组的内容
 
 ...
+## 汽车
+朗逸	yvqk
+验车	cwlg
+一汽	ggir
+一汽大众	gidw
+速腾	gkeu
+上汽	hhir
+上汽大众	hidw
+科三	tudg
+科二	tufg
+科一	tugg	100
+科四	tulh
+凌渡	ufiy
+迈腾	dneu
+自驾	thlk	20
+自驾游	tliy
+宝来	pggo
+手动挡	rfri
+新能源	ucid
+插电	rtjn
+混动	ijfc
+插混	rtij	100
+荣威	apdg
+哈弗	kwxj
+埃安	fcpv
+AION	aion
+记录仪	yvwy	20
+好猫	vbqt
+欧拉	aqru
+帝豪	upyp
+名爵	qkel
+纯电	xgjn	100
+零跑	fwkh
+奥特能	ttce
+改款	ntff
+高配	ymsg
+低配	wqsg	100
+车商	lgum
+朗行	yvtf
+三厢	dgds
+行车记录仪	tlyw
+CarPlay	carp
+挡位	riwu	20
+自动挡	tfri
+防滑链	biql
+临牌	jtth
+加满	lkia
+内饰	mwqn
+车损	lgrk
+授理	regj
+三者	dgft
+三者险	dfbw	100
+车标	lgsf
+全合成	wwdn
+底壳	yqfp
+点烟器	hokk
+区间测速	auig
+静电贴	gjmh
+高速费	ygxj
+过路费	fkxj
+途观	wtcm
+后备箱	rtts
+烧胎	oaec
+前刹	ueqs
+后刹	rgqs
+车展	lgna
+火花塞	oapf
+滤芯	ihan
+车缝	lgxt
+车机	lgsm
+断轴	onlm
+易捷	jqrg
+挪车	rvlg
+加油卡	lihh
+审车	pjlg
+侧方位	wywu	30
+倒车入库	wlty	20
+福特	pytr
+皮卡	hchh
+斯巴鲁	acqg
+后驱	rgca	20
+马自达	ctdp	20
+炸街	ottf
+四驱	lhca	20
+两驱	gmca	20
+两驱车	gclg	20
+四驱车	lclg	20
+小齿	ihhw
+比亚迪	xgmp
+乘联会	tbwf
+
+## 摩托车
+单盘	ujte
+双盘	ccte
+胎压	ecdf
+CBR500R	cbr
+GoPro	gop
+GSX250R	gsx
+曼岛TT	jqtt
+排量	rdjg	100
+护杠	rysa
+摩托范	yrai
+摩托邦	yrdt
+CBR650R	cbr
+试戴	yafa
+降挡	btri
+挡把	rirc	20
+四缸	lhrm
+双D扣	cdrk
+禁摩	ssys
+死亡摇摆	gyrr
+横风	samq	20
+酒驾	islk	20
+醉驾	sglk	20
+起车	fhlg	8
+起车架	fllk
+起车钉	flqs
+高架桥	ylst
+钻车缝	qlxt
+防御性驾驶	btnc
+姜戈	ugag
+
+## 王者荣耀
+黄忠	amkh
+太乙真人	dnfw
+蔡文姬	ayva
+虞姬	hava
+李元芳	sfay
+刘备	yjtl
+橘右京	sdyi
+安琪拉	pgru
+项羽	adnn
+甄姬	sfva
+扁鹊	ynaj
+赢政	yngh
+妲己	vjnn
+小乔	ihtd
+元歌	fqsk
+娜可露露	vsff
+典韦	mafn
+钟无艳	qfdh
+赵云	fhfc
+关羽	udnn
+杨戬	sngo
+露娜	fkvv
+兰陵王	ubgg
+程咬金	tkqq
+白起	rrfh
+牛魔	rhys
+亚瑟	gogg
+夏侯惇	dwny
+韩信	fjwy
+老夫子	ffbb
+宫本武藏	psga
+阿轲	bsls
+不知火舞	gtor
+武则天	gmgd
+王昭君	gjvt
+高渐离	yiyb
+东皇太一	ardg
+狄仁杰	qwso
+鲁班七号	qgak
+百里守约	djpx
+百里玄策	djyt
+上官婉儿	hpvq
+公孙离	wbyb
+马超	cnfh
+芈月	gjee
+干将莫邪	fuaa
+沈梦溪	isie
+盾山	rfmm
+蒙犽	apqt
+鲁班大师	qgdj
+云中君	fkvt
+盘古	tedg
+李信	sbwy
+伽罗	wllq
+司马懿	ncfp
+孙策	bitg
+米莱狄	oaqt
+狂铁	qtqr
+弈星	yojt
+裴擒虎	drha
+杨玉环	sggg
+明世隐	jabq
+梦奇	ssds
+苏烈	algq
+大乔	ddtd
+桑启	ccyn
+戈娅	agvg
+海月	itee
+莱西奥	astm
+司空震	npfd
+云樱	fcsm
+
+## 影视
+黑镜	lfqu
+夏洛特烦恼	ditn
+你好，李焕英	soam
+危情三日	qndj
+时间旅行者的妻子	juyb
+星际穿越	jbpf
+无敌破坏王	ftdg
+盗梦空间	uspu
+黑客帝国	lpul
+利刃出鞘	tvba
+电锯惊魂	jqnf
+阿凡达	bmdp
+切尔诺贝利	aqyt
+极盗者	suft
+王牌特工	gtta
+暮光之城	aipf
+狼嚎	qtky
+冰海陷落	uiba
+灰猎犬号	dqdk
+触不可及	qgse
+铁齿铜牙纪晓岚	qhqm
+纪晓岚	xjmm
+和珅	tkgj
+男人帮	lwdt
+夏洛特烦恼	ditn
+莫娣	ajvu
+隐入烟尘	btoi
+西虹市首富	sjyp
+满江红	iixa	100
+武林外传	gsqw
+赤焰战场	fohf
+银河护卫队	qirb
+驯龙高手	cdyr
+血钻	tlqh
+疾速追杀	ugwq
+昆汀	jxis
+盖·里奇	ujds
+奥本海默	tsil
+生化危机	twqs
+钢铁侠	qqwg	20
+惊奇队长	ndbt
+哥斯拉	saru
+奇异博士	dnff
+绿巨人	xaww
+伸冤人	wpww
+变形金刚	ygqm
+
+## 歌手
+谢春花	ydaw
+王贰浪	gaiy
+王筝	ggtq
+阿悄	bsni
+薛之谦	apyu
+张碧晨	xgjd
+那英	vfam
+王菲	ggad
+庆庆	ydyd
+周杰伦	msww
+陈粒	baou
+解忧邵帅	qnvj
+龙梅子	dsbb
+张峰奇	xmds
+莫艳琳	adgs
+陈雪凝	bfux
+李荣浩	sait
+陈慧娴	bdvu
+郑源	udid
+华晨宇	wjpg
+邓紫棋	chsa
+张蔷	xtaf
+王心凌	gnuf
+蔡依林	awss
+孙燕姿	bauq
+莫叫姐姐	akvv
+徐怀钰	tnqg
+姫神	vapy
+李玟	sbgy
+韩红	fjxa
+郭顶	ybsd
+
+## 演员
+周韵	mfuj
+姜文	ugyy
+姜武	ugga
+舒淇	wfia
+赵薇	fhat
+葛尤	ajdn
+甄子丹	sbmy
+李连杰	slso
+姚晨	vijd
+王洛丹	gimy
+孙红雷	bxfl
+沙溢	iiiu
+张艺谋	xaya
+郭达	ybdp
+尹正	vtgh	20
+费翔	xjud
+
+## 歌曲
+寄居蟹	pnqe
+斑马	gycn
+醉清风	simq
+借我	watr
+无骨无花，无我无他	fmfw
+大天篷	dgtt
+孤芒	bray
+伊兰爱情故事	wueg
+千千阙歌	ttus
+依然范特西	wqas	20
+范特西	atsg	20
+
 ## 通用短语
 一两个月	ggwe
 母胎	xgec
@@ -518,372 +825,60 @@ AppleCare	ac	12
 房梁	yniv
 算了	thbn	20
 无码	fqdc
+GPS	gps
+Apple Watch	apw	9
+iMac	imac	20
+MacMini	macm
+凑热闹	uruy	20
+交通工具	ucah
+吃瓜	ktrc
+静息	geth
+私生子	ttbb
+来来来	gggo	20
+新家	uspe	12
+Android	andr
+AndroidStudio	andr
+APK	apk	9
+之多	ppqq
+之少	ppit
+apk	apk	8
+挡风遮雨	rmyf
+遮风挡雨	ymrf
+直说	fhyu	20
+泪点	ihhk	20
+emoji	emo
+emoji	emoj
+加沙	lkii	20
+甚少	adit
+甚多	adqq
+法器	ifkk
+街车	tflg
+挂挡	rfri
+亮堂堂	yiip
+前胎	ueec
+后胎	rgec
+付款码	wfdc	20
+收款码	nfdc	20
+赛博	pffg	20
+普票	uosf	20
+专票	fnsf	20
+隆菲尔	baqi	20
+贝肯特	mhtr	5
+DIDO	dido
+云平台	fgck
+八门神器	wupk
+杯垫	sgrv
+意想不到	usgg	20
+挺有	rtde	20
 
-## 汽车
-朗逸	yvqk
-验车	cwlg
-一汽	ggir
-一汽大众	gidw
-速腾	gkeu
-上汽	hhir
-上汽大众	hidw
-科三	tudg
-科二	tufg
-科一	tugg	100
-科四	tulh
-凌渡	ufiy
-迈腾	dneu
-自驾	thlk	20
-自驾游	tliy
-宝来	pggo
-手动挡	rfri
-新能源	ucid
-插电	rtjn
-混动	ijfc
-插混	rtij	100
-荣威	apdg
-哈弗	kwxj
-埃安	fcpv
-AION	aion
-记录仪	yvwy	20
-好猫	vbqt
-欧拉	aqru
-帝豪	upyp
-名爵	qkel
-纯电	xgjn	100
-零跑	fwkh
-奥特能	ttce
-改款	ntff
-高配	ymsg
-低配	wqsg	100
-车商	lgum
-朗行	yvtf
-三厢	dgds
-行车记录仪	tlyw
-CarPlay	carp
-挡位	riwu	20
-自动挡	tfri
-防滑链	biql
-临牌	jtth
-加满	lkia
-内饰	mwqn
-车损	lgrk
-授理	regj
-三者	dgft
-三者险	dfbw	100
-车标	lgsf
-全合成	wwdn
-底壳	yqfp
-点烟器	hokk
-区间测速	auig
-静电贴	gjmh
-高速费	ygxj
-过路费	fkxj
-途观	wtcm
-后备箱	rtts
-
-## 口语
-姐们	vewu	100
-爷们儿	wwqt
-爷们	wqwu
-姐们儿	vwqt
-
-## 汽车
-烧胎	oaec
-前刹	ueqs
-后刹	rgqs
-车展	lgna
-火花塞	oapf
-滤芯	ihan
-车缝	lgxt
-车机	lgsm
-断轴	onlm
-易捷	jqrg
-挪车	rvlg
-加油卡	lihh
-审车	pjlg
-侧方位	wywu	30
-倒车入库	wlty	20
-福特	pytr
-皮卡	hchh
-斯巴鲁	acqg
-后驱	rgca	20
-马自达	ctdp	20
-炸街	ottf
-四驱	lhca	20
-两驱	gmca	20
-两驱车	gclg	20
-四驱车	lclg	20
-小齿	ihhw
-比亚迪	xgmp
-乘联会	tbwf
-
-## 口语
-装逼	ufgk
-
-## 摩托车
-单盘	ujte
-双盘	ccte
-胎压	ecdf
-CBR500R	cbr
-GoPro	gop
-GSX250R	gsx
-曼岛TT	jqtt
-排量	rdjg	100
-护杠	rysa
-摩托范	yrai
-摩托邦	yrdt
-
-## 软件开发
-伪类	wyod
-西数	sgov
-外键	qhqv
-数据源	orid
-七牛云	arfc
-闪退	uwve
-axios	axio
-保活	wkit
-
-## 小吃
-蒸饺	abqn
-
-## 摩托车
-CBR650R	cbr
-试戴	yafa
-降挡	btri
-挡把	rirc	20
-四缸	lhrm
-双D扣	cdrk
-禁摩	ssys
-死亡摇摆	gyrr
-横风	samq	20
-酒驾	islk	20
-醉驾	sglk	20
-起车	fhlg	8
-起车架	fllk
-起车钉	flqs
-
-## 王者荣耀
-黄忠	amkh
-太乙真人	dnfw
-蔡文姬	ayva
-虞姬	hava
-李元芳	sfay
-刘备	yjtl
-橘右京	sdyi
-安琪拉	pgru
-项羽	adnn
-甄姬	sfva
-扁鹊	ynaj
-赢政	yngh
-妲己	vjnn
-小乔	ihtd
-元歌	fqsk
-娜可露露	vsff
-典韦	mafn
-钟无艳	qfdh
-赵云	fhfc
-关羽	udnn
-杨戬	sngo
-露娜	fkvv
-兰陵王	ubgg
-程咬金	tkqq
-白起	rrfh
-牛魔	rhys
-亚瑟	gogg
-夏侯惇	dwny
-韩信	fjwy
-老夫子	ffbb
-宫本武藏	psga
-阿轲	bsls
-不知火舞	gtor
-武则天	gmgd
-王昭君	gjvt
-高渐离	yiyb
-东皇太一	ardg
-狄仁杰	qwso
-鲁班七号	qgak
-百里守约	djpx
-百里玄策	djyt
-上官婉儿	hpvq
-公孙离	wbyb
-马超	cnfh
-芈月	gjee
-干将莫邪	fuaa
-沈梦溪	isie
-盾山	rfmm
-蒙犽	apqt
-鲁班大师	qgdj
-云中君	fkvt
-盘古	tedg
-李信	sbwy
-伽罗	wllq
-司马懿	ncfp
-孙策	bitg
-米莱狄	oaqt
-狂铁	qtqr
-弈星	yojt
-裴擒虎	drha
-杨玉环	sggg
-明世隐	jabq
-梦奇	ssds
-苏烈	algq
-大乔	ddtd
-桑启	ccyn
-戈娅	agvg
-海月	itee
-莱西奥	astm
-司空震	npfd
-云樱	fcsm
-
-## 影视
-黑镜	lfqu
-夏洛特烦恼	ditn
-你好，李焕英	soam
-危情三日	qndj
-时间旅行者的妻子	juyb
-星际穿越	jbpf
-无敌破坏王	ftdg
-盗梦空间	uspu
-黑客帝国	lpul
-利刃出鞘	tvba
-电锯惊魂	jqnf
-阿凡达	bmdp
-切尔诺贝利	aqyt
-极盗者	suft
-王牌特工	gtta
-暮光之城	aipf
-狼嚎	qtky
-冰海陷落	uiba
-灰猎犬号	dqdk
-触不可及	qgse
-铁齿铜牙纪晓岚	qhqm
-纪晓岚	xjmm
-和珅	tkgj
-男人帮	lwdt
-夏洛特烦恼	ditn
-莫娣	ajvu
-隐入烟尘	btoi
-西虹市首富	sjyp
-满江红	iixa	100
-武林外传	gsqw
-赤焰战场	fohf
-银河护卫队	qirb
-驯龙高手	cdyr
-血钻	tlqh
-疾速追杀	ugwq
-昆汀	jxis
-盖·里奇	ujds
-奥本海默	tsil
-生化危机	twqs
-钢铁侠	qqwg	20
-惊奇队长	ndbt
-哥斯拉	saru
-奇异博士	dnff
-绿巨人	xaww
-伸冤人	wpww
-变形金刚	ygqm
-
-## 歌手
-谢春花	ydaw
-王贰浪	gaiy
-王筝	ggtq
-阿悄	bsni
-薛之谦	apyu
-张碧晨	xgjd
-那英	vfam
-王菲	ggad
-庆庆	ydyd
-周杰伦	msww
-陈粒	baou
-解忧邵帅	qnvj
-龙梅子	dsbb
-张峰奇	xmds
-莫艳琳	adgs
-陈雪凝	bfux
-李荣浩	sait
-陈慧娴	bdvu
-郑源	udid
-华晨宇	wjpg
-邓紫棋	chsa
-张蔷	xtaf
-王心凌	gnuf
-蔡依林	awss
-孙燕姿	bauq
-莫叫姐姐	akvv
-徐怀钰	tnqg
-姫神	vapy
-李玟	sbgy
-韩红	fjxa
-郭顶	ybsd
-
-## 演员
-周韵	mfuj
-姜文	ugyy
-姜武	ugga
-舒淇	wfia
-赵薇	fhat
-葛尤	ajdn
-甄子丹	sbmy
-李连杰	slso
-姚晨	vijd
-王洛丹	gimy
-孙红雷	bxfl
-沙溢	iiiu
-张艺谋	xaya
-郭达	ybdp
-尹正	vtgh	20
-费翔	xjud
-
-## 歌曲
-寄居蟹	pnqe
-斑马	gycn
-醉清风	simq
-借我	watr
-无骨无花，无我无他	fmfw
-大天篷	dgtt
-孤芒	bray
-伊兰爱情故事	wueg
-千千阙歌	ttus
-依然范特西	wqas	20
-范特西	atsg	20
-
-## 游戏名
-刺客信条	gpwt	100
-极品飞车	sknl
-塞尔达	pqdp
-英灵殿	avna
-双人成行	cwdt
-
-## 物联网
-通断	ceon
-动环	fcgg
-声光报警器	firk
-声光	fniq
-天诚	gdyd
-列头柜	gusa
-一体机	gwsm
-风机	mqsm
-恒湿机	nism
-烟感	oldg
-灯带	osgk
-密集架	pwlk
-机柜	smsa
-音柱	ujsy
-新风机	umsm
-漏水绳	iixk
-微模块	tsfn	100
-
-## 游戏名
-皇牌空战	rtph
-
-## 物联网
-逆变器	uykk
-
-## 游戏名
-超级玛丽	fxgg
-球球大作战	ggdh
-库乐队	yqbw
+## 软件名
+懂车帝	nlup
+阿里云盘	bjft
+百度云	dyfc
+百度网盘	dymt
+欧路	aqkh
+点音	hkuj
+下厨房	gdyn	100
 
 ## 品牌
 美特斯邦威	utad
@@ -910,16 +905,6 @@ CBR650R	cbr
 戴森	fass
 格力	stlt
 科大讯飞	tdyn
-
-## 软件名
-懂车帝	nlup
-阿里云盘	bjft
-百度云	dyfc
-百度网盘	dymt
-欧路	aqkh
-点音	hkuj
-
-## 品牌
 圣豪	cfyp
 良品	yvkk
 罗德	lqtf
@@ -927,11 +912,6 @@ CBR650R	cbr
 喜家德	fptf
 徐志馍	tfqn
 海康	ityv
-
-## 软件名
-下厨房	gdyn	100
-
-## 品牌
 安踏	pvkh	100
 塔斯汀	fais
 高驰	ymcb
@@ -945,6 +925,7 @@ Apex	apex
 鱼跃	qgkh
 薛记	awyn	30
 沁牧园	itlf
+丹尼斯	mnad	20
 
 ## 区域
 莒县	akeg
@@ -968,15 +949,6 @@ Apex	apex
 容城	pwfd	100
 文苑北庭	yauy	100
 环联夜市	gbyy
-
-## 建筑
-角磨机	qysm
-三角钢	dqqm	20
-红砖	xadf
-青砖	gedf
-地漆	fbis
-
-## 区域
 果庄乡	jyxt
 下屯村	ggsf
 
@@ -994,175 +966,6 @@ Apex	apex
 肛痿	eaut
 打点滴	rhiu
 心梗	nysg
-
-## 三四叠字
-众	cccc
-厽	cccc
-刕	cccc
-㐂	cccc
-孨	cccc
-品	cccc
-姦	cccc
-森	cccc
-歮	cccc
-鑫	cccc
-淼	cccc
-尛	cccc
-焱	cccc
-垚	cccc
-壵	cccc
-惢	cccc
-𡘙	cccc
-猋	cccc
-犇	cccc
-掱	cccc
-舙	cccc
-晶	cccc
-瞐	cccc
-𤾩	cccc
-皛	cccc
-畾	cccc
-磊	cccc
-毳	cccc
-鱻	cccc
-驫	cccc
-骉	cccc
-羴	cccc
-矗	cccc
-䆐	cccc
-飝	cccc
-龘	cccc
-麤	cccc
-叕	cccc
-
-## 化妆品
-奥洛菲	tiad
-欧莱雅	aaah
-韩芬娜	favv
-春纪	dwxn
-碧思泉	glri
-魅力可诗	rlsy
-美肌颜	ueut
-
-## 社会事件
-新型冠状病毒	ugpg
-小汤山	iimm
-火神山	opmm
-雷神山	fpmm
-汶川	iykt
-N号房	nkyn
-时空伴随者	jpwf
-健康码	wydc
-封控	ffrp
-
-## emoji
-🙂	tmtt		微笑
-🙃	tmtt		微笑
-😆	ddtt		大笑
-😂	ttkk		笑哭
-🤣	ttkk		笑哭
-🥰	ep		爱
-🤩	kffg		哇
-🥶	dndn		尴尬
-🤗	tada		tada
-👍	xk		强
-👍	rhk		牛
-😭	ddkk		大哭
-🥳	ydpy		庆祝
-😎	tdgk		智囊
-😉	ryhv		挤眼
-😉	ryhv		眨眼
-😊	skep		可爱
-😏	klkl		嘿嘿
-😝	kftd		吐舌
-😛	kftd		吐舌
-😋	vbkt		好吃
-😚	usus		亲亲
-😘	epwq		爱你
-😗	usus		亲亲
-😙	usus		亲亲
-🤩	wow		wow
-😤	tgrn		生气
-😳	ks		呆
-😡	tgrn		生气
-🤬	kkww		骂人
-🤫	khag		嘘
-🤔	lnft		思考
-🤗	tada		tada
-🤗	wala		wala
-😓	ifh		汗
-🤮	tgug		生病
-🤒	ntoa		发烧
-🤧	thiu		鼻涕
-🤧	dgjh		感冒
-👽	qjww		外星人
-🤐	ufkh		闭嘴
-🥱	kwqw		哈欠
-🥱	lsbn		困了
-😴	htip		睡觉
-😪	htip		睡觉
-😪	htud		睡着
-💀	meme		骷髅
-💩	ococ		粑粑
-💩	wgwg		便便
-👻	rqc		鬼
-🙂	tmtt		微笑
-🙃	tmtt		微笑
-😆	ddtt		大笑
-😂	ttkk		笑哭
-🤣	ttkk		笑哭
-🥰	ep		爱
-🤩	kffg		哇
-🥶	dndn		尴尬
-🤗	tada		tada
-👍	xk		强
-👍	rhk		牛
-😭	ddkk		大哭
-🥳	ydpy		庆祝
-😎	tdgk		智囊
-😉	ryhv		挤眼
-😉	ryhv		眨眼
-😊	skep		可爱
-😏	klkl		嘿嘿
-😝	kftd		吐舌
-😛	kftd		吐舌
-😋	vbkt		好吃
-😚	usus		亲亲
-😘	epwq		爱你
-😗	usus		亲亲
-😙	usus		亲亲
-🤩	wow		wow
-😤	tgrn		生气
-😳	ks		呆
-😡	tgrn		生气
-🤬	kkww		骂人
-🤫	khag		嘘
-🤔	lnft		思考
-🤗	tada		tada
-🤗	wala		wala
-😓	ifh		汗
-🤮	tgug		生病
-🤒	ntoa		发烧
-🤧	thiu		鼻涕
-🤧	dgjh		感冒
-👽	qjww		外星人
-🤐	ufkh		闭嘴
-🥱	kwqw		哈欠
-🥱	lsbn		困了
-😴	htip		睡觉
-😪	htip		睡觉
-😪	htud		睡着
-💀	meme		骷髅
-💩	ococ		粑粑
-💩	wgwg		便便
-👻	rqc		鬼
-😈	ahgo		邪恶
-✌🏻	bbh		耶
-✌🏻	yeah		耶
-🤦🏻‍♂️	kdb		呃
-🙏🏻	pypy		祈祷
-⭐	ggjt		五星
-⭐	jtjt
 
 ## emoji动物
 🐶	qtqk		狗
@@ -1312,10 +1115,241 @@ N号房	nkyn
 🥋	kuut		跆拳道
 🎮	iyca		游戏
 
+## 社会事件
+新型冠状病毒	ugpg
+小汤山	iimm
+火神山	opmm
+雷神山	fpmm
+汶川	iykt
+N号房	nkyn
+时空伴随者	jpwf
+健康码	wydc
+封控	ffrp
+
+## emoji
+🙂	tmtt		微笑
+🙃	tmtt		微笑
+😆	ddtt		大笑
+😂	ttkk		笑哭
+🤣	ttkk		笑哭
+🥰	ep		爱
+🤩	kffg		哇
+🥶	dndn		尴尬
+🤗	tada		tada
+👍	xk		强
+👍	rhk		牛
+😭	ddkk		大哭
+🥳	ydpy		庆祝
+😎	tdgk		智囊
+😉	ryhv		挤眼
+😉	ryhv		眨眼
+😊	skep		可爱
+😏	klkl		嘿嘿
+😝	kftd		吐舌
+😛	kftd		吐舌
+😋	vbkt		好吃
+😚	usus		亲亲
+😘	epwq		爱你
+😗	usus		亲亲
+😙	usus		亲亲
+🤩	wow		wow
+😤	tgrn		生气
+😳	ks		呆
+😡	tgrn		生气
+🤬	kkww		骂人
+🤫	khag		嘘
+🤔	lnft		思考
+🤗	tada		tada
+🤗	wala		wala
+😓	ifh		汗
+🤮	tgug		生病
+🤒	ntoa		发烧
+🤧	thiu		鼻涕
+🤧	dgjh		感冒
+👽	qjww		外星人
+🤐	ufkh		闭嘴
+🥱	kwqw		哈欠
+🥱	lsbn		困了
+😴	htip		睡觉
+😪	htip		睡觉
+😪	htud		睡着
+💀	meme		骷髅
+💩	ococ		粑粑
+💩	wgwg		便便
+👻	rqc		鬼
+🙂	tmtt		微笑
+🙃	tmtt		微笑
+😆	ddtt		大笑
+😂	ttkk		笑哭
+🤣	ttkk		笑哭
+🥰	ep		爱
+🤩	kffg		哇
+🥶	dndn		尴尬
+🤗	tada		tada
+👍	xk		强
+👍	rhk		牛
+😭	ddkk		大哭
+🥳	ydpy		庆祝
+😎	tdgk		智囊
+😉	ryhv		挤眼
+😉	ryhv		眨眼
+😊	skep		可爱
+😏	klkl		嘿嘿
+😝	kftd		吐舌
+😛	kftd		吐舌
+😋	vbkt		好吃
+😚	usus		亲亲
+😘	epwq		爱你
+😗	usus		亲亲
+😙	usus		亲亲
+🤩	wow		wow
+😤	tgrn		生气
+😳	ks		呆
+😡	tgrn		生气
+🤬	kkww		骂人
+🤫	khag		嘘
+🤔	lnft		思考
+🤗	tada		tada
+🤗	wala		wala
+😓	ifh		汗
+🤮	tgug		生病
+🤒	ntoa		发烧
+🤧	thiu		鼻涕
+🤧	dgjh		感冒
+👽	qjww		外星人
+🤐	ufkh		闭嘴
+🥱	kwqw		哈欠
+🥱	lsbn		困了
+😴	htip		睡觉
+😪	htip		睡觉
+😪	htud		睡着
+💀	meme		骷髅
+💩	ococ		粑粑
+💩	wgwg		便便
+👻	rqc		鬼
+😈	ahgo		邪恶
+✌🏻	bbh		耶
+✌🏻	yeah		耶
+🤦🏻‍♂️	kdb		呃
+🙏🏻	pypy		祈祷
+⭐	ggjt		五星
+⭐	jtjt
+
+## 游戏名
+刺客信条	gpwt	100
+极品飞车	sknl
+塞尔达	pqdp
+英灵殿	avna
+双人成行	cwdt
+皇牌空战	rtph
+超级玛丽	fxgg
+球球大作战	ggdh
+库乐队	yqbw
+
+## 三四叠字
+众	cccc
+厽	cccc
+刕	cccc
+㐂	cccc
+孨	cccc
+品	cccc
+姦	cccc
+森	cccc
+歮	cccc
+鑫	cccc
+淼	cccc
+尛	cccc
+焱	cccc
+垚	cccc
+壵	cccc
+惢	cccc
+𡘙	cccc
+猋	cccc
+犇	cccc
+掱	cccc
+舙	cccc
+晶	cccc
+瞐	cccc
+𤾩	cccc
+皛	cccc
+畾	cccc
+磊	cccc
+毳	cccc
+鱻	cccc
+驫	cccc
+骉	cccc
+羴	cccc
+矗	cccc
+䆐	cccc
+飝	cccc
+龘	cccc
+麤	cccc
+叕	cccc
+
+## 化妆品
+奥洛菲	tiad
+欧莱雅	aaah
+韩芬娜	favv
+春纪	dwxn
+碧思泉	glri
+魅力可诗	rlsy
+美肌颜	ueut
+
+## 软件开发
+伪类	wyod
+西数	sgov
+外键	qhqv
+数据源	orid
+七牛云	arfc
+闪退	uwve
+axios	axio
+保活	wkit
+
+## 物联网
+通断	ceon
+动环	fcgg
+声光报警器	firk
+声光	fniq
+天诚	gdyd
+列头柜	gusa
+一体机	gwsm
+风机	mqsm
+恒湿机	nism
+烟感	oldg
+灯带	osgk
+密集架	pwlk
+机柜	smsa
+音柱	ujsy
+新风机	umsm
+漏水绳	iixk
+微模块	tsfn	100
+逆变器	uykk
+
+## 小吃
+蒸饺	abqn
+
+## 口语
+姐们	vewu	100
+爷们儿	wwqt
+爷们	wqwu
+姐们儿	vwqt
+装逼	ufgk
+
 ## 特殊字符
 ✓	qctf		勾选
 ✓	cfkg
 ²	guyy
 ³	uuyy
 Ω	aqvx
+
+## 建筑
+角磨机	qysm
+三角钢	dqqm	20
+红砖	xadf
+青砖	gedf
+地漆	fbis
+
+## 网红
+李佳琦	swgd	20
+陈一发	bgnt	20
 

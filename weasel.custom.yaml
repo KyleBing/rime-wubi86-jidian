@@ -1,4 +1,4 @@
-# encoding: utf-8
+﻿# encoding: utf-8
 
 customization:
   distribution_code_name: Weasel
@@ -116,3 +116,5 @@ patch:
       hilited_candidate_back_color: 0x9BAD23
       candidate_text_color: 0x000000
       comment_text_color: 0xBBCC27
+
+  style/layout/border_width: 1
