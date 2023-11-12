@@ -1,6 +1,4 @@
 keyboards:
-  - author: KyleBing
-  - lastUpdate: 2023-11-12
   - name: 极点86
     rows:
       - keys:
