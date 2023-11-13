@@ -35,24 +35,35 @@ keyboards:
           - action: character(y)
             width: percentage(0.1)
             swipe:
-              - action: character({})
+              - action: character({)
                 display: true
                 processByRIME: true
                 direction: up
+              - action: character()
+                display: true
+                processByRIME: true
+                direction: down
+          - action: character(u)
+            width: percentage(0.1)
+            swipe:
+              - action: character(})
+                display: true
+                processByRIME: true
+                direction: up
+          - action: character(i)
+            width: percentage(0.1)
+            swipe:
               - action: character(/)
                 display: true
                 processByRIME: true
-                direction: left
+                direction: up
+          - action: character(o)
+            width: percentage(0.1)
+            swipe:
               - action: character(\)
                 display: true
                 processByRIME: true
-                direction: right
-          - action: character(u)
-            width: percentage(0.1)
-          - action: character(i)
-            width: percentage(0.1)
-          - action: character(o)
-            width: percentage(0.1)
+                direction: up
           - action: character(p)
             width: percentage(0.1)
       - keys:
@@ -160,21 +171,21 @@ keyboards:
           - action: character(b)
             width: percentage(0.1)
             swipe:
-              - action: character(？)
+              - action: character()
                 display: true
                 processByRIME: true
                 direction: up
           - action: character(n)
             width: percentage(0.1)
             swipe:
-              - action: character(。)
+              - action: character()
                 display: true
                 processByRIME: true
                 direction: up
           - action: character(m)
             width: percentage(0.1)
             swipe:
-              - action: character(，)
+              - action: character(？)
                 display: true
                 processByRIME: true
                 direction: up
@@ -203,9 +214,16 @@ keyboards:
               portrait: percentage(0.5)
               landscape: percentage(0.4)
             label: 五笔
+          - action: character(，)
+            width: percentage(0.1)
+            swipe:
+              - action: character(。)
+                display: true
+                processByRIME: true
+                direction: up
           - action: enter
             width:
-              portrait: percentage(0.25)
+              portrait: percentage(0.15)
               landscape: percentage(0.2)
     buttonInsets: left(3),bottom(4),top(8),right(3)
   - name: 极点86-大小写数字
@@ -713,11 +731,6 @@ keyboards:
       - keys:
           - action: character(├)
             width: percentage(0.1)
-            swipe:
-              - action: character()
-                display: true
-                processByRIME: true
-                direction: up
           - action: character(┼)
             width: percentage(0.1)
           - action: character(┤)
