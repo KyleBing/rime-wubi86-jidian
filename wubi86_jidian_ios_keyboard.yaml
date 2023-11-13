@@ -39,10 +39,6 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-              - action: character()
-                display: true
-                processByRIME: true
-                direction: down
           - action: character(u)
             width: percentage(0.1)
             swipe:
