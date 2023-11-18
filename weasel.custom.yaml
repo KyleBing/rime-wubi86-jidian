@@ -56,7 +56,7 @@ patch:
       hilite_padding: 10         # number 候选词边界值 宽度
       round_corner: 0            # number 候选词的圆角
 
-  preset_color_schemes:   # 主题：颜色方案
+  "preset_color_schemes/+":   # 主题：颜色方案
     MacRoseo: # 玫红字体
       name: 玫红 / MacRoseo
       author: KyleBing
