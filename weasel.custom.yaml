@@ -1,4 +1,4 @@
-﻿# encoding: utf-8
+# encoding: utf-8
 
 customization:
   distribution_code_name: Weasel
@@ -9,54 +9,54 @@ customization:
   config_version: "0.22"
 
 patch:
-  style:
-    inline_preedit: true
-    color_scheme: MacRoseo                 # 匹配正文的颜色方案，对应正文的颜色方案名
-    display_tray_icon: false
-    horizontal: true                        # 横向排列候选
-    font_point: 12                          # 候选词 字号
-    font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:12:15:bold"
+#  style:
+#    inline_preedit: true
+#    color_scheme: MacRoseo                 # 匹配正文的颜色方案，对应正文的颜色方案名
+#    display_tray_icon: false
+#    horizontal: true                        # 横向排列候选
+#    font_point: 12                          # 候选词 字号
+#    font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:12:15:bold"
+#
+#    label_font_face: "Microsoft Yahei"     # string 序号字体 标注
+#    label_font_point: 11                   # number    序号字体 大小
+#    comment_font_face: "Microsoft Yahei"   # string 解释字体
+#    comment_font_point: 12                 # number    解释字体 大小
+#
+#    vertical_text: false                   # bool  竖排候选内的文字
+#    vertical_text_left_to_right: false     # bool  候选列表从左到右
+#    vertical_text_with_wrap: false         # bool  序号也竖向排列
+#    vertical_auto_reverse: false           # bool
+#
+#    preedit_type: "composition"            #  "composition" | "preview" | "preview_all"
+#    mark_text: ""                          # 不知道这个是干嘛的，有知道的请告诉我
+#
+#    layout:
+#      align_type: "center"        # string  "top" | "center" | "bottom" 序号、候选词、注释对齐方式
+#
+#      corner_radius: 8            # number  圆角大小 候选面板
+#      enhanced_position: false    # bool 允许光标位置获取失败时，在当空窗口左上角绘制候选框（而不是桌面左上角）
+##      max_width: 10              # number  超出部分自动换行，如果显示有问题，请重启小狼毫算法服务程序
+##      max_height: 10             # number  超出部分自动换行
+#
+#      # 阴影
+#      shadow_radius: 8
+#      shadow_offset_x: 2          # number 阴影横向偏移量
+#      shadow_offset_y: 2          # number 阴影纵向偏移量
+#
+#      min_width: 160
+#      min_height: 30
+#
+#      border_width: 1            # number 边框宽度 候选边框、面板边框
+#      margin_x: 0                # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+#      margin_y: 0                # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+#      spacing: 10                # number 候选词之间的间隔
+#
+#      candidate_spacing: 10      # number 候选之间的间隔
+#      hilite_spacing: 5          # number 序号与候选词之间的间隔 宽度
+#      hilite_padding: 10         # number 候选词边界值 宽度
+#      round_corner: 0            # number 候选词的圆角
 
-    label_font_face: "Microsoft Yahei"     # string 序号字体 标注
-    label_font_point: 11                   # number    序号字体 大小
-    comment_font_face: "Microsoft Yahei"   # string 解释字体
-    comment_font_point: 12                 # number    解释字体 大小
-
-    vertical_text: false                   # bool  竖排候选内的文字
-    vertical_text_left_to_right: false     # bool  候选列表从左到右
-    vertical_text_with_wrap: false         # bool  序号也竖向排列
-    vertical_auto_reverse: false           # bool
-
-    preedit_type: "composition"            #  "composition" | "preview" | "preview_all"
-    mark_text: ""                          # 不知道这个是干嘛的，有知道的请告诉我
-
-    layout:
-      align_type: "center"        # string  "top" | "center" | "bottom" 序号、候选词、注释对齐方式
-
-      corner_radius: 8            # number  圆角大小 候选面板
-      enhanced_position: false    # bool 允许光标位置获取失败时，在当空窗口左上角绘制候选框（而不是桌面左上角）
-#      max_width: 10              # number  超出部分自动换行，如果显示有问题，请重启小狼毫算法服务程序
-#      max_height: 10             # number  超出部分自动换行
-
-      # 阴影
-      shadow_radius: 8
-      shadow_offset_x: 2          # number 阴影横向偏移量
-      shadow_offset_y: 2          # number 阴影纵向偏移量
-
-      min_width: 160
-      min_height: 30
-
-      border_width: 1            # number 边框宽度 候选边框、面板边框
-      margin_x: 0                # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
-      margin_y: 0                # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
-      spacing: 10                # number 候选词之间的间隔
-
-      candidate_spacing: 10      # number 候选之间的间隔
-      hilite_spacing: 5          # number 序号与候选词之间的间隔 宽度
-      hilite_padding: 10         # number 候选词边界值 宽度
-      round_corner: 0            # number 候选词的圆角
-
-  "preset_color_schemes/+":   # 主题：颜色方案
+  preset_color_schemes/+:   # 主题：颜色方案
     MacRoseo: # 玫红字体
       name: 玫红 / MacRoseo
       author: KyleBing
@@ -118,3 +118,7 @@ patch:
       comment_text_color: 0xBBCC27
 
   style/layout/border_width: 1
+  style/color_scheme: MacRoseoAlt
+  style/layout/corner_radius: 10
+  style/layout/round_radius: 0
+  style/layout/min_width: 80

@@ -1,0 +1,138 @@
+# wubi86_jidian.custom.yaml
+# encoding: utf-8
+
+
+patch:
+  #-----------------------------------------------
+  # 中英文切换自定义
+  #-----------------------------------------------
+  # inline_ascii  在输入法的临时英文编辑区内输入字母，数字，符号，空格等，回车上屏后自动复位到中文
+  # commit_text   已输入的候选文字上屏并切换至英文输入模式
+  # commit_code   已输入的编码字符上屏并切换至英文输入模式
+  # -----------------------------------------------
+  # 参考链接： https://gist.github.com/lotem/2981316
+
+  ascii_composer:
+    good_old_caps_lock: true       # true: 在保持 cap 键原有的特征， false: 点击不会切换大小写
+    switch_key:
+      Caps_Lock: commit_code        # 如果想用 cap 键切换中英文输入，就修改为上面三种的任一一种，否则用 noop
+      Shift_L: commit_code          # macOs 上 shift 键不区别左右，设置参数同上
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
+
+  switches/+:
+    - name: ascii_mode
+      reset: 1
+      states: [ 中文, 英文 ]
+
+  key_binder:
+    bindings:
+#      - { when: has_menu, accept: comma, send: 2 }  # 候选2 用逗号选择 （修改的时候不要多加或少加空格，跟前面的对齐就好了）
+#      - { when: has_menu, accept: period, send: 3 } # 候选3 用句号选择
+      - { when: has_menu, accept: semicolon, send: 2 }  # 候选2 用分号
+      - { when: has_menu, accept: apostrophe, send: 3 } # 候选3 用单引号
+
+      # 上下翻页 [ ]
+      - { when: has_menu, accept: bracketleft, send: Page_Up }
+      - { when: has_menu, accept: bracketright, send: Page_Down }
+
+      # 上下翻页 - =
+#      - { when: has_menu, accept: minus, send: Page_Up }
+#      - { when: has_menu, accept: equal, send: Page_Down }
+      -
+      # 上下翻页 tab
+      - { when: has_menu, accept: Shift+Tab, send: Page_Up }
+      - { when: has_menu, accept: Tab, send: Page_Down }
+
+      # 回车清码
+#      - { when: composing, accept: Return, send: Escape }
+
+      # emacs key bindings, copy from https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+      - { when: composing, accept: Control+p, send: Up }
+      - { when: composing, accept: Control+n, send: Down }
+      - { when: composing, accept: Control+b, send: Left }
+      - { when: composing, accept: Control+f, send: Right }
+      - { when: composing, accept: Control+a, send: Home }
+      - { when: composing, accept: Control+e, send: End }
+      - { when: composing, accept: Control+d, send: Delete }
+      - { when: composing, accept: Control+k, send: Shift+Delete }
+      - { when: composing, accept: Control+h, send: BackSpace }
+      - { when: composing, accept: Control+g, send: Escape }
+      - { when: composing, accept: Control+bracketleft, send: Escape }
+      - { when: composing, accept: Alt+v, send: Page_Up }
+      - { when: composing, accept: Control+v, send: Page_Down }
+
+  punctuator:
+    full_shape: # 全角符号
+      " ": {commit: "　"}
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": ["＃", "⌘"]
+      "$": "￥"
+      "%": "％"
+      "&": "＆"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["＊", "・", "×"]
+      "+": "＋"
+      ",": {commit: "，"}
+      "-": "－"
+      .: {commit: "。"}
+      "/": ["／", "÷"]
+      ":": {commit: "："}            # commit 的意思是这个符号输入时，会将当前处于第一位的候选词上屏
+      ";": {commit: "；"}
+      "<": ["《", "〈", "«", "‹"]
+      "=": "＝"
+      ">": ["》", "〉", "»", "›"]
+      "?": {commit: "？"}
+      "@": "＠"
+      "[": ["「", "【", "〔", "［"]
+      "\\": ["、", "＼"]
+      "]": ["」", "】", "〕", "］"]
+      "^": {commit: "……"}
+      _: "——"
+      "`": "｀"
+      "{": ["『", "〖", "｛"]
+      "|": ["·", "｜", "§", "¦"]
+      "}": ["』", "〗", "｝"]
+      "~": "～"
+    half_shape: # 半角符号
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": "$"
+      "%": "%"
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": ["（", "("]
+      ")": ["）", ")"]
+      "*": "*"
+      "+": "+"
+      ",": {commit: "，"} # 中英文隔离
+      "-": {commit: "-"}
+      .: {commit: "。"} # 中英文隔离
+      "/": {commit: "、"} # 中英文隔离
+      ":": {commit: "："} # 中英文隔离
+      ";": {commit: "；"} # 中英文隔离
+      "<": ["《", "<"]
+      "=": {commit: "="}
+      ">": ["》", ">"]
+      "?": {commit: "？"}
+      "@": "@"
+      "[": {commit: "["}
+      "\\": {commit: "\\"}
+      "]": {commit: "]"}
+      "^": {commit: "^"}
+      _: {commit: "_"}
+      "`": "`"
+      "{": "{"
+      "|": "|"
+      "}": "}"
+      "~": "~"
+  recognizer:
+    patterns:  # 一些常见的英文组合，当正则匹配到这些时，都不会生成候选词，而只输入英文
+      email: "^[-_.0-9A-Za-z]+@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:|localhost).*$|^[a-z]+[.].+$"
