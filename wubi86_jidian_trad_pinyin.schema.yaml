@@ -43,11 +43,11 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
-    - lua_translator@date_translator # 自定义系统变量输出
+    - lua_translator@wubi_date_translator # 自定义系统变量输出
   filters:
     - simplifier@tradition
     - uniquifier
-#    - lua_filter@single_char_first_filter # 单字优先方法
+#    - lua_filter@wubi_single_char_first_filter # 单字优先方法
 
 speller:
 

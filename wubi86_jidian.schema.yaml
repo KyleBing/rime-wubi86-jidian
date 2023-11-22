@@ -48,12 +48,12 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
-    - lua_translator@date_translator # 自定义系统变量输出
-    - lua_translator@calculator # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
+    - lua_translator@wubi_date_translator # 自定义系统变量输出
+    - lua_translator@wubi_calculator # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
   filters:
     - simplifier@tradition
-#    - lua_filter@single_char_first_filter # 单字优先
-#    - lua_filter@single_char_only # 纯单字
+#    - lua_filter@wubi_single_char_first_filter # 单字优先
+#    - lua_filter@wubi_single_char_only # 纯单字
 
 
 # 自动造词功能：参阅： https://github.com/KyleBing/rime-wubi86-jidian#6-%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E9%80%A0%E8%AF%8D
@@ -120,4 +120,4 @@ recognizer:
   patterns:
 #    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
     reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
-    calculator: "^coco.*$" # 计算器
+    wubi_calculator: "^coco.*$" # 计算器
