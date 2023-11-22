@@ -133,6 +133,12 @@ CBR650R	cbr
 钻车缝	qlxt
 防御性驾驶	btnc
 姜戈	ugag
+九号E125	vtkg
+九号E200p	vtkg
+九号E200p mk2	vtkg
+九号E300p	vtkg
+Ninja400	ninj
+Ninja650	ninj
 
 ## 王者荣耀
 黄忠	amkh
@@ -310,6 +316,8 @@ CBR650R	cbr
 郭达	ybdp
 尹正	vtgh	20
 费翔	xjud
+周冬雨	mtfg
+宋丹丹	pmmy	20
 
 ## 歌曲
 寄居蟹	pnqe
@@ -898,6 +906,26 @@ DIDO	dido
 打你	rswq
 别客气	kprn
 行政复议	tgty	5
+最毒	jbgx
+紧接着	jrud
+两声	gmfn
+进气口	frkk
+进气孔	frbn
+排气孔	rrbn
+快捷指令	nrrw
+金鸡奖	qcuq
+内衬	mwpu
+硬核	dgsy	30
+年味	rhkf	20
+烤红薯	oxal
+Honda	hond
+嘶吼	kakb
+雪圈	fvlu
+添衣	igye
+长毛	tatf
+子非鱼	bdqg	20
+bilibili	bili	20
+帮你	dtwq	20
 
 ## 软件名
 懂车帝	nlup
@@ -907,6 +935,10 @@ DIDO	dido
 欧路	aqkh
 点音	hkuj
 下厨房	gdyn	100
+标题日记	sjjy
+JetBrains	jetb	10
+PyCharm	pych	10
+Github	gith	100
 
 ## 品牌
 美特斯邦威	utad
@@ -1332,6 +1364,12 @@ N号房	nkyn
 闪退	uwve
 axios	axio
 保活	wkit
+Capacitor	capa
+bash	bash
+vue	vue
+Vue	vue	2
+NPM	npm	2
+uniapp	unia
 
 ## 物联网
 通断	ceon
