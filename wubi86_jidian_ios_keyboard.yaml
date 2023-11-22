@@ -123,10 +123,10 @@ keyboards:
           - action: character(k)
             width: percentage(0.1)
             swipe:
-              - action: character(！)
+              - action: character(：)
                 display: true
                 processByRIME: false
-                direction: down
+                direction: up
           - action: character(l)
             width: percentage(0.1)
             swipe:
