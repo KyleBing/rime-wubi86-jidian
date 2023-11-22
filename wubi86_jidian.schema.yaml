@@ -18,6 +18,9 @@ switches:
 #  - name: ascii_mode
 #    reset: 0
 #    states: [ 中文, 英文 ]
+  - name: ascii_punct
+    reset: 1
+    states: [ 。，, ．， ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
     states: [ 简体, 繁体 ]
@@ -25,8 +28,9 @@ switches:
     states: [ 半角, 全角 ]
   - name: extended_charset
     states: [ 常用, 扩展 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    states: [ "🈚︎", "🈶️" ]
+    reset: 1
 
 engine:
   processors:
@@ -51,9 +55,16 @@ engine:
     - lua_translator@date_translator # 自定义系统变量输出
     - lua_translator@calculator # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
   filters:
+    - simplifier@emoji_suggestion
     - simplifier@tradition
 #    - lua_filter@single_char_first_filter # 单字优先
 #    - lua_filter@single_char_only # 纯单字
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: none
+  inherit_comment: false
 
 
 # 自动造词功能：参阅： https://github.com/KyleBing/rime-wubi86-jidian#6-%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E9%80%A0%E8%AF%8D
