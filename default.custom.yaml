@@ -10,11 +10,9 @@ patch:
   # 菜单中可选的方案列表，可根据喜好自行调整顺序，第一位为默认方案
   schema_list:
     - schema: wubi86_jidian             # 五笔
-    - schema: numbers                   # 大写数字
-    - schema: wubi86_jidian_pinyin      # 五笔拼音混输
-    - schema: wubi86_jidian_trad        # 五笔 - 简入繁出
-    - schema: wubi86_jidian_trad_pinyin # 五笔拼音混输 - 简入繁出
     - schema: pinyin_simp               # 普通拼音
+    - schema: rime_ice               # 雾凇拼音（全拼）
+
 
   # Menu
   menu:
