@@ -239,6 +239,11 @@ ubuntu 的配置文件目录在
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
+### 11. <kbd>z</kbd> 键重复上次输入内容
+
+<img width="435" alt="Screenshot 2024-01-25 at 09 56 53" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/8730a3f9-14d8-4ea7-92c8-75dfd220e65b">
+
+
 ## 七、个性配置
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
