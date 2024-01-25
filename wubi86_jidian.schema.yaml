@@ -18,6 +18,9 @@ switches:
 #  - name: ascii_mode
 #    reset: 0
 #    states: [ 中文, 英文 ]
+  - name: ascii_punct
+    reset: 1
+    states: [ 。，, ．， ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
     states: [ 简体, 繁体 ]
@@ -25,8 +28,9 @@ switches:
     states: [ 半角, 全角 ]
   - name: extended_charset
     states: [ 常用, 扩展 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    states: [ "🈚︎", "🈶️" ]
+    reset: 1
 
 
 engine:
@@ -53,9 +57,16 @@ engine:
     - lua_translator@calculator # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
   filters:
+    - simplifier@emoji_suggestion
     - simplifier@tradition
 #    - lua_filter@single_char_first_filter # 单字优先
 #    - lua_filter@single_char_only # 纯单字
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: none
+  inherit_comment: false
 
 
 
