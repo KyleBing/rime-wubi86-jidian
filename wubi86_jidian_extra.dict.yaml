@@ -14,20 +14,20 @@ sort: original
 ...
 ## 汽车
 朗逸	yvqk
-验车	cwlg
+验车	cglg
 一汽	ggir
 一汽大众	gidw
 速腾	gkeu
-上汽	hhir
+上汽	hgir
 上汽大众	hidw
 科三	tudg
 科二	tufg
 科一	tugg	100
 科四	tulh
-凌渡	ufiy
-迈腾	dneu
-自驾	thlk	20
-自驾游	tliy
+凌渡	ufio
+迈腾	gqeu
+自驾	thek	20
+自驾游	teiy
 宝来	pggo
 手动挡	rfri
 新能源	ucid
@@ -40,17 +40,17 @@ sort: original
 AION	aion
 记录仪	yvwy	20
 好猫	vbqt
-欧拉	aqru
-帝豪	upyp
+欧拉	arru
+帝豪	yuyk
 名爵	qkel
 纯电	xgjn	100
 零跑	fwkh
 奥特能	ttce
 改款	ntff
-高配	ymsg
+高配	yksg
 低配	wqsg	100
-车商	lgum
-朗行	yvtf
+车商	lgyu
+朗行	yvtg
 三厢	dgds
 行车记录仪	tlyw
 CarPlay	carp
@@ -58,7 +58,7 @@ CarPlay	carp
 自动挡	tfri
 防滑链	biql
 临牌	jtth
-加满	lkia
+加满	ekia
 内饰	mwqn
 车损	lgrk
 授理	regj
@@ -66,37 +66,37 @@ CarPlay	carp
 三者险	dfbw	100
 车标	lgsf
 全合成	wwdn
-底壳	yqfp
+底壳	oqfp
 点烟器	hokk
 区间测速	auig
 静电贴	gjmh
 高速费	ygxj
 过路费	fkxj
-途观	wtcm
+途观	wgcm
 后备箱	rtts
 烧胎	oaec
-前刹	ueqs
-后刹	rgqs
+前刹	uers
+后刹	rgrs
 车展	lgna
-火花塞	oapf
+火花塞	oapa
 滤芯	ihan
 车缝	lgxt
-车机	lgsm
+车机	lgsw
 断轴	onlm
 易捷	jqrg
-挪车	rvlg
-加油卡	lihh
+挪车	rnlg
+加油卡	eihg
 审车	pjlg
 侧方位	wywu	30
-倒车入库	wlty	20
-福特	pytr
-皮卡	hchh
+倒车入库	wlto	20
+福特	pytf
+皮卡	hchg
 斯巴鲁	acqg
-后驱	rgca	20
+后驱	rgcg	20
 马自达	ctdp	20
 炸街	ottf
-四驱	lhca	20
-两驱	gmca	20
+四驱	lhcg	20
+两驱	gmcg	20
 两驱车	gclg	20
 四驱车	lclg	20
 小齿	ihhw
@@ -104,32 +104,32 @@ CarPlay	carp
 乘联会	tbwf
 
 ## 摩托车
-单盘	ujte
+单盘	ulte
 双盘	ccte
 胎压	ecdf
 CBR500R	cbr
 GoPro	gop
 GSX250R	gsx
-曼岛TT	jqtt
-排量	rdjg	100
+曼岛TT	jq
+排量	rhjg	100
 护杠	rysa
-摩托范	yrai
-摩托邦	yrdt
+摩托范	orai
+摩托邦	ordt
 CBR650R	cbr
-试戴	yafa
+试戴	yafl
 降挡	btri
 挡把	rirc	20
 四缸	lhrm
-双D扣	cdrk
-禁摩	ssys
+双D扣	crk
+禁摩	ssos
 死亡摇摆	gyrr
-横风	samq	20
-酒驾	islk	20
-醉驾	sglk	20
+横风	sawr	20
+酒驾	isek	20
+醉驾	sgek	20
 起车	fhlg	8
-起车架	fllk
+起车架	flek
 起车钉	flqs
-高架桥	ylst
+高架桥	yest
 钻车缝	qlxt
 防御性驾驶	btnc
 姜戈	ugag
@@ -147,7 +147,7 @@ Ninja650	ninj
 虞姬	hava
 李元芳	sfay
 刘备	yjtl
-橘右京	sdyi
+橘右京	sdyk
 安琪拉	pgru
 项羽	adnn
 甄姬	sfva
@@ -162,30 +162,30 @@ Ninja650	ninj
 赵云	fhfc
 关羽	udnn
 杨戬	sngo
-露娜	fkvv
+露娜	fkvn
 兰陵王	ubgg
 程咬金	tkqq
 白起	rrfh
-牛魔	rhys
+牛魔	tgos
 亚瑟	gogg
 夏侯惇	dwny
 韩信	fjwy
 老夫子	ffbb
-宫本武藏	psga
+宫本武藏	psfa
 阿轲	bsls
-不知火舞	gtor
-武则天	gmgd
+不知火舞	dtor
+武则天	fmgd
 王昭君	gjvt
-高渐离	yiyb
+高渐离	yiyr
 东皇太一	ardg
 狄仁杰	qwso
 鲁班七号	qgak
 百里守约	djpx
 百里玄策	djyt
 上官婉儿	hpvq
-公孙离	wbyb
-马超	cnfh
-芈月	gjee
+公孙离	wbyr
+马超	cgfh
+芈月	hgee
 干将莫邪	fuaa
 沈梦溪	isie
 盾山	rfmm
@@ -194,17 +194,17 @@ Ninja650	ninj
 云中君	fkvt
 盘古	tedg
 李信	sbwy
-伽罗	wllq
+伽罗	welq
 司马懿	ncfp
 孙策	bitg
 米莱狄	oaqt
 狂铁	qtqr
 弈星	yojt
-裴擒虎	drha
-杨玉环	sggg
+裴擒虎	hrha
+杨玉环	sggd
 明世隐	jabq
 梦奇	ssds
-苏烈	algq
+苏烈	aegq
 大乔	ddtd
 桑启	ccyn
 戈娅	agvg
@@ -212,25 +212,25 @@ Ninja650	ninj
 莱西奥	astm
 司空震	npfd
 云樱	fcsm
-朵莉亚	mago
+朵莉亚	wago
 海诺	itya
 金蝉	qqju
 云缨	fcxm
-艾琳	aqgs
+艾琳	args
 
 ## 影视
 黑镜	lfqu
 夏洛特烦恼	ditn
-你好，李焕英	soam
+你好，李焕英	wvza
 危情三日	qndj
 时间旅行者的妻子	juyb
 星际穿越	jbpf
 无敌破坏王	ftdg
 盗梦空间	uspu
-黑客帝国	lpul
+黑客帝国	lpyl
 利刃出鞘	tvba
 电锯惊魂	jqnf
-阿凡达	bmdp
+阿凡达	bwdp
 切尔诺贝利	aqyt
 极盗者	suft
 王牌特工	gtta
@@ -238,9 +238,9 @@ Ninja650	ninj
 狼嚎	qtky
 冰海陷落	uiba
 灰猎犬号	dqdk
-触不可及	qgse
+触不可及	qdsb
 铁齿铜牙纪晓岚	qhqm
-纪晓岚	xjmm
+纪晓岚	xjmw
 和珅	tkgj
 男人帮	lwdt
 夏洛特烦恼	ditn
@@ -248,14 +248,14 @@ Ninja650	ninj
 隐入烟尘	btoi
 西虹市首富	sjyp
 满江红	iixa	100
-武林外传	gsqw
+武林外传	fsqw
 赤焰战场	fohf
 银河护卫队	qirb
 驯龙高手	cdyr
 血钻	tlqh
-疾速追杀	ugwq
+疾速追杀	ugwr
 昆汀	jxis
-盖·里奇	ujds
+盖·里奇	uzjd
 奥本海默	tsil
 生化危机	twqs
 钢铁侠	qqwg	20
@@ -275,9 +275,9 @@ Ninja650	ninj
 阿悄	bsni
 薛之谦	apyu
 张碧晨	xgjd
-那英	vfam
-王菲	ggad
-庆庆	ydyd
+那英	ngam
+王菲	ggah
+庆庆	odod
 周杰伦	msww
 陈粒	baou
 解忧邵帅	qnvj
@@ -299,33 +299,33 @@ Ninja650	ninj
 姫神	vapy
 李玟	sbgy
 韩红	fjxa
-郭顶	ybsd
+郭顶	yksd
 
 ## 演员
 周韵	mfuj
 姜文	ugyy
-姜武	ugga
+姜武	ugfh
 舒淇	wfia
 赵薇	fhat
 葛尤	ajdn
 甄子丹	sbmy
 李连杰	slso
-姚晨	vijd
+姚晨	vqjd
 王洛丹	gimy
 孙红雷	bxfl
 沙溢	iiiu
 张艺谋	xaya
-郭达	ybdp
+郭达	ykdp
 尹正	vtgh	20
-费翔	xjud
+费翔	xjug
 周冬雨	mtfg
 宋丹丹	pmmy	20
-秦岚	dwmm	5
+秦岚	dwmw	5
 
 ## 歌曲
 寄居蟹	pnqe
-斑马	gycn
-醉清风	simq
+斑马	gycg
+醉清风	siwr
 借我	watr
 无骨无花，无我无他	fmfw
 大天篷	dgtt
@@ -337,12 +337,12 @@ Ninja650	ninj
 
 ## 通用短语
 一两个月	ggwe
-母胎	xgec
+母胎	xnec
 网抑云	mrfc
-动效	fcuq
-底库	yqyl
-旁通	upce
-延长线	ttxg	100
+动效	fcyw
+底库	oqol
+旁通	yuce
+延长线	ttxf	100
 　	cokg		全角空格 co空格
 困意	lsuj
 小笼包	itqn
@@ -369,27 +369,27 @@ U盘	utel
 德邦	tfdt
 楼道	sout	100
 懵逼	nagk
-滴滴	iuiu
+滴滴	iyiy
 逢集	tdwy
 煎包	ueqn
 守岁	pfmq
 烤串	ofkk
 笑死	ttgq
-医保卡	awhh
-社保卡	pwhh
+医保卡	awhg
+社保卡	pwhg
 烤肠	ofen
 螺蛳粉	jjow
 简简单单	ttuu
 竖版	jcth
 城东	fdai
 至亲	gcus
-生不如死	tgvg
+生不如死	tdvg
 自理	thgj
 虚头巴脑	huce
 炸串	otkk
-顺风车	kmlg
+顺风车	kwlg
 同款	mgff
-结痂	xful
+结痂	xfue
 无氧运动	frff
 有氧运动	drff
 有氧	dern
@@ -400,33 +400,33 @@ U盘	utel
 斗鸡眼	uchv
 炸货	otwx
 亲娘	usvy
-声线	fnxg	100
+声线	fnxf	100
 惊悚	nyng
 静好	gevb
 岁月静好	megv
 买车	nulg
 卖车	fnlg
-广场舞	yfrl
+广场舞	ofrl
 短链	tdql
-透明度	tjya
-充电线	yjxg
+透明度	tjoa
+充电线	yjxf
 也就是	byjg
 虚化	hawx
 亡命天涯	ywgi
-武士刀	gfvn
+武士刀	ffvn
 电锯	jnqn
-手机卡	rshh
+手机卡	rshg
 占比	hkxx
-鬼压床	rdys
-纯音乐	xuqi
+鬼压床	rdos
+纯音乐	xutn
 美缝	ugxt
 稍安勿躁	tpqk
 翻找	tora
 吱嘎	kfkd
 落格	aist
-热力图	rllt
+热力图	relt
 知书达理	tndg
-常亮	ipyp
+常亮	ipyk
 浴火重生	iott
 沉得住气	itwr
 幸存者偏差	fdfu
@@ -442,14 +442,14 @@ U盘	utel
 中转站	kluh
 电竞椅	jusd
 电竞	jnuk
-床褥	yspu
+床褥	ospu
 炒鸡	oicq
 氮气	rnrn
 操控台	rrck
 泡泡	iqiq
 邀请码	rydc
 布娃娃	dvvf
-副驾	gklk
+副驾	gkek
 蛋炒饭	noqn
 双节棍	casj
 <kbd></kbd>	kbd
@@ -461,22 +461,22 @@ L/100km	dwjf
 莱钢	agqm
 方正	yygh
 泗水	ilii
-虾线	jgxg
+虾线	jgxf
 小红书	ixnn
 双截棍	cfsj
-电商	jnum
-微商	tmum
+电商	jnyu
+微商	tmyu
 个自	whth
 主路	ygkh
 机动车道	sflu
-非机动车道	dsfu
+非机动车道	hsfu
 露营灯	faos
 贪吃蛇	wkjp
 玻璃水	ggii
 时好时坏	jvjf
 备付金	twqq
 神器	pykk
-微辣	tmug
+微辣	tmud
 补漆	puis
 融创	gkwb
 融创茂	gwad
@@ -489,7 +489,7 @@ L/100km	dwjf
 取决于	bugf
 游泳圈	iilu
 运动量	ffjg
-单页	ujdm
+单页	uldm
 道克	utdq
 金枕	qqsp
 金枕榴莲	qssa
@@ -499,17 +499,17 @@ L/100km	dwjf
 啫喱	kfkd
 啫喱水	kkii
 蜜瓜	pnrc
-鹿皮巾	yhmh
-风噪	mqkk
+鹿皮巾	ohmh
+风噪	wrkk
 直射	fhtm
-水杯	iisg
+水杯	iisd
 自研	thdg
-预判	cbud
+预判	cnug
 痛点	uchk	100
 绿钻	xvqh
 黄钻	amqh
 黑钻	lfqh
-储物	wytr
+储物	wytq
 储物箱	wtts
 凉皮	uyhc
 凉面	uydm
@@ -517,11 +517,11 @@ L/100km	dwjf
 鸡毛掸子	ctrb
 Thunder	thun
 采样率	esyx
-飚车	mqlg	100
+飚车	wrlg	100
 浓浓	ipip
-图床	ltys	100
+图床	ltos	100
 奔狼	dfqt
-补卡	puhh	100
+补卡	puhg	100
 常开	ipga	100
 像是	wqjg	100
 定睛一看	phgr
@@ -529,12 +529,12 @@ Thunder	thun
 户口本	yksg	100
 笼布	tddm	100
 糯米粉	ooow	100
-全网	wgmq	100
+全网	wgmr	100
 撬棒	rtsd	100
 如图所示	vlrf
 绿联	xvbu
 接头	ruud
-丑萌	nfaj
+丑萌	nhaj
 点图	hklt
 垃圾袋	ffwa
 嚼劲	keca
@@ -542,10 +542,10 @@ Thunder	thun
 表头	geud	100
 下来了	ggbn
 猫眼螺	qhjl
-不负此行	gqht
+不负此行	dqht
 火龙果	odjs
 秒数	tiov
-群文件	vywr
+群文件	vywt
 比心	xxny
 出生率	btyx
 偏光镜	wiqu	100
@@ -558,44 +558,44 @@ Thunder	thun
 从左到右	wdgd	100
 人民日报	wnjr
 戴眼镜	fhqu	100
-法线	ifxg
+法线	ifxf
 ℃	ijya
 %RH	ijya
-行不行	tgtf	100
-磁吸	duke
+行不行	tdtg	100
+磁吸	dukb
 Web	web	100
 淀粉肠	ioen
-破壁机	dnsm	100
+破壁机	dnsw	100
 自由职业者	tmbf	100
-沉底	ipyq
+沉底	ipoq
 FinalCutPro	fina
 犄角旮旯	tqvj
 控制台	rrck	100
 直辖市	flym
-飙车	ddlg	100
+飙车	dylg	100
 二货	fgwx	100
 app	app
-下架	ghlk
-狼人杀	qwqs
+下架	ghek
+狼人杀	qwrs
 液位	iywu	100
 液面	iydm	100
 AirPods	airp
 AirPods Pro	airp
 AirPower	airp
 iPadOS	ipad	19
-出风口	bmkk	11
+出风口	bwkk	11
 靠前	tfue
 褪去	pufc	21
 晒伤	jswt
-盘库	teyl
+盘库	teol
 山河大学	midi
 烟味	olkf	20
-研磨剂	dyyj
+研磨剂	doyj
 尼玛	nxgc
-非死即残	dgvg
-夜黑风高	ylmy
+非死即残	hgvg
+夜黑风高	ylwy
 别着急	kuqv	20
-还完	gipf	20
+还完	dhpf	20
 一副	gggk
 一副没见过世面的样子	ggib
 挨个	rcwh	20
@@ -603,7 +603,7 @@ iPadOS	ipad	19
 物业费	toxj	20
 AirDrop	air	20
 嫌累	vulx	20
-回滚	lkiu	30
+回滚	lkiy	30
 弧角	xrqe
 自愈	thwg
 常去	ipfc
@@ -613,13 +613,13 @@ AirDrop	air	20
 小爱同学	iemi
 Siri	siri
 天猫精灵	gqov
-床头灯	yuos
+床头灯	ouos
 体重秤	wttg
 折叠椅	rcsd
-篮球鞋	tgaf
+篮球鞋	tgak
 指甲刀	rlvn
 自充气	tyrn
-熨烫机	nism
+熨烫机	nisw
 甜甜圈	ttlu
 每帧	txmh
 饭铲	qnqu
@@ -627,20 +627,20 @@ Siri	siri
 耳坠	bgbw	20
 爱思助手	eler
 生命周期	twma
-轮滑鞋	liaf
+轮滑鞋	liak
 饭叉	qncy	20
 心怀坦荡	nnfa	20
-心怀	nyng	19
+心怀	nynd	19
 补胎	puec	20
 微软雅黑	tlal	20
 苹方	agyy	20
-团建	lfvf
+团建	lfvg
 远星	fqjt
 助眠	eghn
 人教版	wfth	20
 束腿	gkev
 绿牌	xvth
-潜行	iftf	19
+潜行	iftg	19
 洗发水	inii	29
 鸡哔	cqkx
 使然	wgqd	29
@@ -651,7 +651,7 @@ Siri	siri
 摆拍	rlrr
 握把	rnrc
 汉服	iceb
-找对象	rcqj
+找对象	rcqk
 谈恋爱	yyep	20
 车友	lgdc	20
 好点儿	vhqt
@@ -659,14 +659,14 @@ Siri	siri
 面食	dmwy
 财宝	mfpg
 奥特曼	ttjl	20
-纸杯	xqsg	20
+纸杯	xqsd	20
 苹果醋	ajsg
 苍蝇拍	ajrr
 男主角	lyqe
 女主角	vyqe	20
 云图	fclt	5
-可喜可贺	sfsl
-诚不欺我	ygat
+可喜可贺	sfse
+诚不欺我	ydat
 束口	gkkk	20
 清漆	igis
 分瓶	wvua
@@ -675,10 +675,10 @@ Siri	siri
 表显	gejo
 树洞	scim
 汽修	irwh
-木床	ssys
-践行	khtf	29
+木床	ssos
+践行	khtg	29
 炸裂	otgq	20
-飞机杯	nssg
+飞机杯	nssd
 负显	qmjo
 逆天	ubgd
 地形图	fglt	20
@@ -691,7 +691,7 @@ iPadPro	ipad	19
 文档云	ysfc	9
 奇奇怪怪	ddnn	9
 内镜	mwqu
-卡挡	hhri
+卡挡	hgri
 AirTag	airt
 ABS	abs
 AGV	agv	20
@@ -706,10 +706,10 @@ Plus	plus	20
 头型	udga	20
 湿滑	ijim	20
 美音	uguj	9
-截机	fasm	20
+截机	fwsw	20
 打赏	rsip
 碎屏	dynu	20
-疯跑	umkh
+疯跑	uwkh
 潘多拉	iqru
 心结	nyxf	20
 憋死	umgq	20
@@ -717,12 +717,12 @@ Plus	plus	20
 心存	nydh	9
 愁死	togq	20
 相当于	sigf
-宅家	ptpe	20
-示廓灯	fyos	20
+宅家	ptpg	20
+示廓灯	foos	20
 外镜	qhqu	20
 换挡	rqri
 GoPro	gopr	20
-乱葬冢	tape	20
+乱葬冢	tapg	20
 静置	gelf	20
 声呐	fnkm	20
 github	git
@@ -732,32 +732,32 @@ github	gith
 调头	ymud	20
 电镐	jnqy
 候选框	wtsa
-磨片	ysth	20
+磨片	osth	20
 ETC	etc
 PhotoShop	ps
 借过	wafp	20
 悉知	totd
-不拘小节	gria	20
+不拘小节	dria	20
 影厅	jyds
 垃圾场	fffn	19
 十月一	fegg	20
 看完	rhpf	20
 花海	awit
-摩博会	yfwf	20
-千牛	tfrh
+摩博会	ofwf	20
+千牛	tftg
 回购	lkmq	20
-千牛	tfrh
+千牛	tftg
 回购	lkmq	20
 炸毛	ottf	20
 IP	ip	9
-内网	mwmq	20
+内网	mwmr	20
 自由落体	tmaw
 钻头	qhud	20
-单缸	ujrm
+单缸	ulrm
 双缸	ccrm
-猎杀	qtqs	20
+猎杀	qtrs	20
 尿点	nihk	20
-坏笑	fgtt	20
+坏笑	fdtt	20
 进气	fjrn
 嗅盐	ktfh	35
 旱厕	jfdm
@@ -769,27 +769,27 @@ USB	usb	20
 八爪鱼	wrqg
 朗姆酒	yvis	20
 搔首弄姿	rugu
-准驾	uwlk
+准驾	uwek
 完完全全	ppww
-牛肉干	rmfg	20
+牛肉干	tmfg	20
 砂轮片	dlth
 受得了	etbn	20
 录音笔	vutt	20
 讲价	yfww	30
 骨传导	mwnf	20
-增驾	fulk
+增驾	fuek
 恶补	gopu	20
 黑色素	lqgx	20
-备用机	tesm
+备用机	tesw
 握持	rnrf
 淤青	iyge
 带货	gkwx
 返佣	rcwe
 C-C	cc
 悬赏带货	eigw
-置物	lftr
+置物	lftq
 礼盒	pywg	20
-座充	ywyc	40
+座充	owyc	40
 WiFi	wifi
 安安静静	ppgg
 MagSafe	mag
@@ -811,8 +811,8 @@ iMessage	imes
 测速	imgk
 钉子户	qbyn
 樟子松	sbsw
-凡尔赛	mqpf
-董监高	ajym
+凡尔赛	wqpa
+董监高	ajyk
 西安事变	spgy
 越来越多	fgfq
 续命	xfwg
@@ -824,9 +824,9 @@ iMessage	imes
 美工刀	uavn
 秋裤	topu
 转接头	lrud
-奶思	veln
+奶思	vbln
 炸词	otyn
-羊毛	udtf
+羊毛	ugtf
 进销存	fqdh
 野路	jfkh
 体感	wsdg
@@ -846,25 +846,25 @@ Apple Watch	apw	9
 iMac	imac	20
 MacMini	macm
 凑热闹	uruy	20
-交通工具	ucah
+交通工具	ycah
 吃瓜	ktrc
 静息	geth
 私生子	ttbb
 来来来	gggo	20
-新家	uspe	12
+新家	uspg	12
 Android	andr
 AndroidStudio	andr
 APK	apk	9
 之多	ppqq
 之少	ppit
 apk	apk	8
-挡风遮雨	rmyf
-遮风挡雨	ymrf
+挡风遮雨	rwof
+遮风挡雨	owrf
 直说	fhyu	20
 泪点	ihhk	20
 emoji	emo
 emoji	emoj
-加沙	lkii	20
+加沙	ekii	20
 甚少	adit
 甚多	adqq
 法器	ifkk
@@ -875,28 +875,28 @@ emoji	emoj
 后胎	rgec
 付款码	wfdc	20
 收款码	nfdc	20
-赛博	pffg	20
+赛博	pafg	20
 普票	uosf	20
 专票	fnsf	20
 隆菲尔	baqi	20
-贝肯特	mhtr	5
+贝肯特	mhtf	5
 DIDO	dido
 云平台	fgck
 八门神器	wupk
-杯垫	sgrv
-意想不到	usgg	20
+杯垫	sdrv
+意想不到	usdg	20
 挺有	rtde	20
-膈应	egyi
+膈应	egoi
 食草	wyaj
 折耳根	rbsv
-没钱	imqg	20
-块钱	fnqg	20
-抖空竹	rptt
-空竹	pwtt
+没钱	iwqf	20
+块钱	fnqf	20
+抖空竹	rpth
+空竹	pwth
 刷到	nmgc
-拉不拉多	rgrq
+拉不拉多	rdrq
 洛基	itad
-挡风被	rmpu
+挡风被	rwpu
 逮虾户	vjyn
 两室一厅	gpgd
 自造词	ttyn
@@ -910,7 +910,7 @@ DIDO	dido
 别客气	kprn
 行政复议	tgty	5
 最毒	jbgx
-紧接着	jrud
+紧接着	jrug
 两声	gmfn
 进气口	frkk
 进气孔	frbn
@@ -926,21 +926,21 @@ Honda	hond
 雪圈	fvlu
 添衣	igye
 长毛	tatf
-子非鱼	bdqg	20
+子非鱼	bhqg	20
 bilibili	bili	20
 帮你	dtwq	20
 氧气管	rrtp
 请讲	ygyf	40
 外链	qhql
 挂绳	rfxk
-毫不相关	ygsu
+毫不相关	ydsu
 口鼻	kkth	12
 地暖	fbje	20
 网约车	mxlg	20
 碎碎平安	ddgp	20
 尾椎	ntsw	20
-劫机	fcsm	5
-包养	qnud	12
+劫机	fcsw	5
+包养	qnuf	12
 皮燕子	habb
 归属感	jndg	20
 山贼	mmma	20
@@ -949,18 +949,18 @@ bilibili	bili	20
 帮抢	dtrw	20
 划走	ajfh	20
 午觉	tfip	5
-不服不行	gegt	20
+不服不行	dedt	20
 异地恋	nfyo	20
 凉白开	urga	20
 全尸	wgnn	25
 溜冰场	iufn	25
 脑脊液	eiiy
 三无	dgfq	20
-空行	pwtf	12
-刚需	mqfd
+空行	pwtg	12
+刚需	mrfd
 咔咔	khkh	25
 拦截器	rfkk
-德行	tftf	35
+德行	tftg	35
 大贸	ddqy	20
 济郑	iyud
 济郑高铁	iuyq
@@ -972,10 +972,10 @@ CPU	cpu	20
 天降正义	gbgy	20
 准新	uwus	20
 云闪付	fuwf	20
-雨加雪	flfv	20
+雨加雪	fefv	20
 准新车	uulg	20
 倍焦	wuwy
-物联	trbu
+物联	tqbu
 api	API
 数字钱包	opqq
 饼状图	qult
@@ -983,7 +983,7 @@ api	API
 积碳	tkdm
 年终奖	rxuq
 拆了东墙补西墙	rbaf
-网贷	mqwa
+网贷	mrwa
 国际化	lbwx
 紧致	jcgc
 阶乘	bwtu	20
@@ -993,28 +993,28 @@ Flipper	flip
 逛逛	qtqt	20
 看出来	rbgo	20
 脱敏	eutx	20
-白狐	白狐	5
+白狐	rrqt	5
 吕子乔	kbtd	20
 单身狗	utqt	20
 学学	ipip	20
-非诚勿扰	dyqr	20
+非诚勿扰	hyqr	20
 脑回路	elkh	20
 小狗	ihqt	30
 一本	ggsg	20
-拼单	ruuj	10
+拼单	ruul	10
 结构体	xsws
 磕磕碰碰	dddd	25
-广发	yynt	5
+广发	oynt	5
 倍率	wuyx	5
-单片机	utsm	20
+单片机	utsw	20
 干鸟	fgqy
 跨年	khrh	25
 隔夜菜	byae
 致深	gcip
 青青子衿	ggbp
-青青子衿，悠悠我心	ggbp
+青青子衿，悠悠我心	ggbn
 聋哑人	dkww
-感染力	dilt
+感染力	dien
 西蓝花	saaw	10
 土豆丝	fgxx	10
 蒜苔	afac	20
@@ -1023,8 +1023,8 @@ Flipper	flip
 创作者	wwft	15
 跑酷	khsg	50
 拿破仑	wdwx
-载具	fahw
-好骑	vbcd
+载具	flhw
+好骑	vbcg
 墨水屏	linu
 后盖	rgug	20
 后壳	rgfp	20
@@ -1036,11 +1036,11 @@ Flipper	flip
 里外	jfqh
 
 ## 软件名
-懂车帝	nlup
+懂车帝	nlyu
 阿里云盘	bjft
-百度云	dyfc
-百度网盘	dymt
-欧路	aqkh
+百度云	dofc
+百度网盘	domt
+欧路	arkh
 点音	hkuj
 下厨房	gdyn	100
 标题日记	sjjy
@@ -1059,37 +1059,37 @@ Github	gith	100
 果唯依	jkwy
 凯迪拉克	mmrd
 迪卡侬	mhwp
-超意兴	fuiw
-迈森兰	dsuf
+超意兴	fuig
+迈森兰	gsud
 恒源祥	nipy
-赛羽	pfnn
+赛羽	pann
 捷酷	rgsg
 海澜之家	iipp
 海澜	itiu
 千图	tflt
 华莱士	wafg
 舒尔	wfqi
-维迈通	xdce
-戴森	fass
-格力	stlt
+维迈通	xgce
+戴森	flss
+格力	sten
 科大讯飞	tdyn
-圣豪	cfyp
+圣豪	cfyk
 良品	yvkk
 罗德	lqtf
 满香都	itft
 喜家德	fptf
 徐志馍	tfqn
-海康	ityv
+海康	itov
 安踏	pvkh	100
 塔斯汀	fais
-高驰	ymcb
+高驰	ykcg
 Apex	apex
 绿杰	xvso	20
-高通	ymce
+高通	ykce
 汉堡王	iwgg	20
 杜卡迪	shmp
 九牧王	vtgg
-万科	dntu
+万科	gqtu
 鱼跃	qgkh
 薛记	awyn	30
 沁牧园	itlf
@@ -1097,27 +1097,27 @@ Apex	apex
 
 ## 区域
 莒县	akeg
-孙家庄	bpyf
-马家	cnpe
+孙家庄	bpof
+马家	cgpg
 马家小区	cpia
-台儿庄	cqyf
-万达	dndp
+台儿庄	cqof
+万达	gqdp
 雪野湖	fjid
 下屯	ghgb
 沂水	irii
 蟠龙山	jdmm
-果庄	jsyf
-泉城广场	rfyf
+果庄	jsof
+泉城广场	rfof
 领秀城	wtfd
-台儿庄	cqyf
-槐荫区	saaq
+台儿庄	cqof
+槐荫区	saar
 济宁	iyps
 章丘	ujrg
 白洋淀	riip	100
 容城	pwfd	100
-文苑北庭	yauy	100
+文苑北庭	yauo	100
 环联夜市	gbyy
-果庄乡	jyxt
+果庄乡	joxt
 下屯村	ggsf
 
 ## 医学
@@ -1127,12 +1127,12 @@ Apex	apex
 褥疮	puuw
 窦道	pwut
 复方角菜酸脂软膏	tyqy
-安乃近	perp
+安乃近	pbrp
 腰椎间盘突出	esub
 微创	tmwb
 吊瓶	kmua
 肛痿	eaut
-打点滴	rhiu
+打点滴	rhiy
 心梗	nysg
 
 ## emoji动物
@@ -1289,9 +1289,9 @@ Apex	apex
 火神山	opmm
 雷神山	fpmm
 汶川	iykt
-N号房	nkyn
+N号房	kyn
 时空伴随者	jpwf
-健康码	wydc
+健康码	wodc
 封控	ffrp
 
 ## emoji
@@ -1412,7 +1412,7 @@ N号房	nkyn
 皇牌空战	rtph
 超级玛丽	fxgg
 球球大作战	ggdh
-库乐队	yqbw
+库乐队	otbw
 小小梦魇	iisd
 
 ## 三四叠字
@@ -1456,12 +1456,12 @@ N号房	nkyn
 叕	cccc
 
 ## 化妆品
-奥洛菲	tiad
+奥洛菲	tiah
 欧莱雅	aaah
-韩芬娜	favv
+韩芬娜	favn
 春纪	dwxn
 碧思泉	glri
-魅力可诗	rlsy
+魅力可诗	resy
 美肌颜	ueut
 
 ## 软件开发
@@ -1469,7 +1469,7 @@ N号房	nkyn
 西数	sgov
 外键	qhqv
 数据源	orid
-七牛云	arfc
+七牛云	atfc
 闪退	uwve
 axios	axio
 保活	wkit
@@ -1482,20 +1482,20 @@ uniapp	unia
 
 ## 物联网
 通断	ceon
-动环	fcgg
+动环	fcgd
 声光报警器	firk
-声光	fniq
+声光	fnig
 天诚	gdyd
 列头柜	gusa
-一体机	gwsm
-风机	mqsm
-恒湿机	nism
+一体机	gwsw
+风机	wrsw
+恒湿机	nisw
 烟感	oldg
 灯带	osgk
-密集架	pwlk
-机柜	smsa
+密集架	pwek
+机柜	swsa
 音柱	ujsy
-新风机	umsm
+新风机	uwsw
 漏水绳	iixk
 微模块	tsfn	100
 逆变器	uykk
@@ -1507,7 +1507,7 @@ uniapp	unia
 ## 口语
 姐们	vewu	100
 爷们儿	wwqt
-爷们	wqwu
+爷们	wrwu
 姐们儿	vwqt
 装逼	ufgk
 
@@ -1519,7 +1519,7 @@ uniapp	unia
 Ω	aqvx
 
 ## 建筑
-角磨机	qysm
+角磨机	qosw
 三角钢	dqqm	20
 红砖	xadf
 青砖	gedf
