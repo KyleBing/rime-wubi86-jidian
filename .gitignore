@@ -2,7 +2,7 @@
 .idea/*
 .git/*
 .DS_Store
-build/*
+build
 installation.yaml
 user.yaml
 sync/*
@@ -10,3 +10,5 @@ luna_pinyin.userdb/*
 wubi86_jidian.userdb
 user.txt
 pinyin_simp.userdb/*
+
+others
