@@ -164,7 +164,20 @@ iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击�
 
 下载安装，将词库添加到对应的文件夹中，再进行部署即可使用
 
+### 6. 网页版输入法
 
+梧桐输入法 : [https://github.com/LibreService/my_rime](https://github.com/LibreService/my_rime)
+
+1. 打开输入法网站 [https://my-rime.vercel.app/](https://my-rime.vercel.app/)
+2. 点击下方 <kbd>Add new schemas</kbd> 中的 <kbd>Micro Plum</kbd> 按钮
+3. 在弹出窗口的 **Schema URL** 不添加如下内容，点击 <kbd>Install</kbd> 即可
+    ```bash
+    https://raw.githubusercontent.com/KyleBing/rime-wubi86-jidian/master/wubi86_jidian.schema.yaml
+    ```
+4. 之后就可以在输入框里用这个码表进行打字了
+
+
+<img width="811" alt="Screenshot 2024-03-04 at 16 03 27" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/ddd23706-01c8-4d32-b1fc-ae184d6b088c">
 
 ## 五、扩展词库
 
