@@ -42,7 +42,7 @@ Rime 输入法具有高度可定制化的特性，通过读取不同的配置文
 
 ### 1. macOS
 
-<img width="330" alt="skin-macos" src="https://user-images.githubusercontent.com/12215982/149726120-1a066937-551c-4a43-b2e8-b081f6366c9d.png">
+<img width="525" alt="Screenshot 2024-03-17 at 07 59 12" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/7bb140ba-7d9f-44ca-a3b1-875aa008dbb1">
 
 ### 2. Windows
 皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
@@ -56,7 +56,7 @@ patch:
 <img width="500" alt="skin-windows" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/d3ab63d8-6d93-47f5-a599-5f4d9334dfab"/>
 
 ### 3. Ubuntu
-<img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
+<img width="200" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
 
 ## 三、文件说明
