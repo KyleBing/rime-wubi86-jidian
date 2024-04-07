@@ -368,8 +368,8 @@ translator:
 如果你是单字派，只打单字，可以修改 `wubi86_jidian.schema.yaml` 这个文件，找到以下位置，根据需要去除对应行前面的 `#`，重新部署即可生效
 ```yaml
   filters:
-#   - lua_filter@single_char_first_filter # 单字优先
-#    - lua_filter@single_char_only # 纯单字
+#    - lua_filter@*wubi86_jidian_single_char_first_filter # 单字优先
+#    - lua_filter@*wubi86_jidian_single_char_only # 纯单字
 ```
 
 ### 9. 隐藏候选窗口（Windows）
