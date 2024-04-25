@@ -1,0 +1,1702 @@
+keyboard:
+  colorSchemas:
+    - schemaName: wubi86_normal
+      name: 常规
+      author: KyleBing
+      back_color: "0xFFFFFF"
+      button_back_color: "0xFFFFFF"
+      button_pressed_back_color: "0xD0D0D0"
+      button_bubble_back_color: "0xD0D0D0"
+      button_foreground_color: "0x000000"
+      button_pressed_foreground_color: "0x000000"
+      button_swipe_foreground_color: "0x000000"
+      button_swipe_pressed_foreground_color: "0x000000"
+      corner_radius: 5
+      border_color: "0x000000"
+      border_size: 1
+      text_color: "0x000000"
+      lower_edge_color: "0x000000"
+      shadow_color: "0x000000"
+      shadow_size: 0
+      hilited_candidate_back_color: "0xFFFFFF"
+      hilited_candidate_text_color: "0x000000"
+      hilited_candidate_label_color: "0x000000"
+      hilited_comment_text_color: "0x000000"
+      candidate_text_color: "0xAA000000"
+      comment_text_color: "0xAA000000"
+      label_color: "0xAA000000"
+      hilited_callout_back_color: "0xFFFFFF"
+      hilited_callout_foreground_color: "0x000000"
+      action_callout_back_color: "0xD0D0D0"
+keyStyle: {}
+keyboards:
+  - name: 极点86
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "@"
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: w
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "&"
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: e
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: 【】
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: r
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ￥
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: t
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ……
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: y
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "{"
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: u
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "}"
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: i
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: /
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: o
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: \
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: p
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                display: true
+                processByRIME: true
+                direction: up
+      - keys:
+          - action: none
+            width: available
+          - action:
+              character:
+                char: a
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: s
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: "#"
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: d
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: $
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: f
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: 《》
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: g
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: （）
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: h
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ：
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: j
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ；
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: k
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ‘’
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: l
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: “”
+                display: true
+                processByRIME: false
+                direction: up
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.13
+          - action: none
+            width: available
+          - action:
+              character:
+                char: z
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: x
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: c
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: 、
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: v
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ！
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: b
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ？
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: n
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ，
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: m
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: 。
+                display: true
+                processByRIME: false
+                direction: up
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+            swipe:
+              - action:
+                  shortcutCommand: "#重输"
+                display: true
+                processByRIME: true
+                direction: up
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: "123"
+          - action:
+              shortcutCommand: "#中英切换"
+            width: available
+            label: En
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.4
+            label: 五笔
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.2
+            swipe:
+              - action:
+                  shortcutCommand: "#次选上屏"
+                display: true
+                processByRIME: true
+                direction: up
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-大写数字
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: 壹
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 贰
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 叁
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 肆
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 伍
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 陆
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 柒
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 捌
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 玖
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 零
+            width:
+              percentage: 0.1
+      - keys:
+          - action: none
+            width: available
+          - action:
+              character:
+                char: 拾
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 佰
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 仟
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 万
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 亿
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 元
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 圆
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 整
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ★
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ☆
+                display: true
+                processByRIME: false
+                direction: up
+          - action: none
+            width: available
+      - keys:
+          - action: none
+            width:
+              portrait:
+                percentage: 0.15
+              landscape: available
+          - action:
+              character:
+                char: 秒
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 分
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 时
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 日
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 月
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 年
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 世
+            width:
+              percentage: 0.1
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: "123"
+          - action: space
+            width:
+              portrait: available
+              landscape:
+                percentage: 0.1
+            label: 壹贰叁
+          - action:
+              character:
+                char: №
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.4
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.15
+              landscape:
+                percentage: 0.1
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-数学
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "2"
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ²
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: "3"
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ³
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: m³
+                display: true
+                processByRIME: false
+                direction: down
+          - action:
+              character:
+                char: "4"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "5"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "6"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "7"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "8"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "9"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "0"
+            width:
+              percentage: 0.1
+      - keys:
+          - action: none
+            width: available
+          - action:
+              character:
+                char: "%"
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ‰
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ±
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ×
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ÷
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: .
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: =
+            width:
+              percentage: 0.1
+          - action: none
+            width: available
+      - keys:
+          - action: none
+            width:
+              portrait:
+                percentage: 0.15
+              landscape: available
+          - action:
+              character:
+                char: ≈
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ≠
+                display: true
+                processByRIME: false
+                direction: up
+          - action:
+              character:
+                char: ">"
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ≥
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ≧
+                display: true
+                processByRIME: false
+                direction: down
+          - action:
+              character:
+                char: <
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ≤
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ≦
+                display: true
+                processByRIME: false
+                direction: down
+          - action:
+              character:
+                char: √
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ^
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ⊿
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ∠
+                display: true
+                processByRIME: false
+                direction: down
+          - action:
+              character:
+                char: π
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ∑
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: E
+                display: true
+                processByRIME: false
+                direction: down
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+            swipe:
+              - action:
+                  character:
+                    char: ∝
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ∞
+                display: true
+                processByRIME: false
+                direction: down
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: "123"
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.1
+            label: 数学
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.1
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-制表
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: ┌
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┬
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┐
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ─
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┏
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┳
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┓
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ━
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ╭
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ╮
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              character:
+                char: ├
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┼
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┤
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: │
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┣
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ╋
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┫
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┃
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ╰
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ╯
+            width: available
+      - keys:
+          - action:
+              character:
+                char: └
+            width:
+              portrait:
+                percentage: 0.1
+              landscape:
+                percentage: 0.13
+          - action:
+              character:
+                char: ┴
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┘
+            width:
+              percentage: 0.1
+          - action: none
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┗
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┻
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ┛
+            width:
+              percentage: 0.1
+          - action: none
+            width:
+              percentage: 0.1
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: "123"
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.1
+            label: 制表
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.1
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-符号-中
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "2"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "3"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "4"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "5"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "6"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "7"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "8"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "9"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "0"
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ：
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ；
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: （
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ）
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ￥
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "@"
+            width: available
+          - action:
+              character:
+                char: “
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ”
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中2
+            width:
+              percentage: 0.13
+            label: 符²
+          - action: none
+            width: available
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-大写数字
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 大写
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-数学
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 数学
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-制表
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 制表
+          - action:
+              character:
+                char: ？
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: ，
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: 。
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-英
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: ",."
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.4
+            label: 中文符号
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-符号-英
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "2"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "3"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "4"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "5"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "6"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "7"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "8"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "9"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "0"
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ":"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ;
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "@"
+            width: available
+          - action:
+              character:
+                char: "'"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: '"'
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中2
+            width:
+              percentage: 0.13
+            label: 符²
+          - action: none
+            width: available
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-大写数字
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 大写
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-数学
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 数学
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-制表
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: 制表
+          - action:
+              character:
+                char: "?"
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: ","
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: .
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: ，。
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.4
+            label: 英文符号
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 极点86-符号-中2
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: 【
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 】
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "{"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "}"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "#"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "%"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ^
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: =
+            width:
+              percentage: 0.1
+      - keys:
+          - action:
+              character:
+                char: _
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "@"
+            width: available
+          - action:
+              character:
+                char: \
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "|"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "~"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 《
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: 》
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+          - action:
+              character:
+                char: ·
+            width:
+              percentage: 0.1
+      - keys:
+          - action: none
+            width:
+              portrait:
+                percentage: 0.14
+              landscape: available
+          - action:
+              character:
+                char: .
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: ‰
+          - action:
+              character:
+                char: 
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: ⌘
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: "?"
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: "!"
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: .
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: ♫
+          - action: none
+            width: available
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86
+            width:
+              portrait:
+                percentage: 0.13
+              landscape:
+                percentage: 0.2
+            label: 五笔
+          - action:
+              keyboardType:
+                custom:
+                  named: 极点86-符号-中
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+            label: "123"
+          - action: space
+            width:
+              portrait:
+                percentage: 0.5
+              landscape:
+                percentage: 0.4
+            label: 特殊符号
+          - action: enter
+            width:
+              portrait:
+                percentage: 0.25
+              landscape:
+                percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3

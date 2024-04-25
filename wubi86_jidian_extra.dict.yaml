@@ -102,6 +102,10 @@ CarPlay	carp
 小齿	ihhw
 比亚迪	xgmp
 乘联会	tbwf
+主驾	yglk
+副驾驶	glck
+主驾驶	ylck
+安全带	pwgk	30
 
 ## 摩托车
 单盘	ujte
@@ -243,7 +247,6 @@ Ninja650	ninj
 纪晓岚	xjmm
 和珅	tkgj
 男人帮	lwdt
-夏洛特烦恼	ditn
 莫娣	ajvu
 隐入烟尘	btoi
 西虹市首富	sjyp
@@ -268,6 +271,7 @@ Ninja650	ninj
 鹊刀门	avuy	20
 海王	itgg	30
 功夫熊猫	afcq
+沈墨	iplf
 
 ## 歌手
 谢春花	ydaw
@@ -323,6 +327,8 @@ Ninja650	ninj
 周冬雨	mtfg
 宋丹丹	pmmy	20
 秦岚	dwmm	5
+于和伟	gtwf
+王子文	gbyy
 
 ## 歌曲
 寄居蟹	pnqe
@@ -748,8 +754,6 @@ PhotoShop	ps
 摩博会	yfwf	20
 千牛	tfrh
 回购	lkmq	20
-千牛	tfrh
-回购	lkmq	20
 炸毛	ottf	20
 IP	ip	9
 内网	mwmq	20
@@ -1088,7 +1092,6 @@ IT	it	5
 对她	cfvb	20
 游标卡尺	ishn	20
 补铁	puqr
-小浪底	小浪底	5
 爆表	ojge	20
 定速巡航	pgvt
 尾流	ntiy	20
@@ -1147,6 +1150,46 @@ SwiftUI	swif
 偷税漏税	wtit
 博眼球	fhgf
 货拉拉	wrru
+小浪底水库	iiyy
+毛绒	tfxa
+ 遛弯儿	qyqt	20
+踏春	khdw	20
+横纵比	sxxx
+水豚	iiee
+蹭流量	kijg
+没必要	insv
+动不动	fgfc
+后槽牙	rsah
+百思不得其解	dlgq
+本地化	sfwx	20
+莓粉	atow
+相比之下	sxpg
+脚指	efrx
+内六	mwuy	20
+像极	wqse
+慢动作	nfwt	20
+老丈人	fdww	30
+娘炮	vyoq	30
+爬楼	rhso
+挺大	rtdd	20
+原路返回	dkrl
+强身健体	xtww	20
+倒垃圾	wffe
+车内	lgmw	15
+夏初	dhpu
+野山	jfmm
+自建房	tvyn
+测距仪	ikwy
+叫停	knwy	35
+全键盘	wqte	25
+可不可以	sgsn	20
+时间线	juxg	20
+小脑	ihey	20
+过山车	fmlg	20
+单人床	uwys	20
+短视频	tphi
+电子表	jbge
+CAD	cad
 
 ## 软件名
 懂车帝	nlup
@@ -1212,6 +1255,8 @@ Apex	apex
 两面针	gdqf
 安慕希	paqd
 拓竹	rdtt	15
+Ulanzi	ulan
+钱江	qgia	20
 
 ## 区域
 莒县	akeg
@@ -1227,7 +1272,6 @@ Apex	apex
 果庄	jsyf
 泉城广场	rfyf
 领秀城	wtfd
-台儿庄	cqyf
 槐荫区	saaq
 济宁	iyps
 章丘	ujrg
@@ -1255,7 +1299,7 @@ Apex	apex
 肛周	eamf
 肛周炎	emoo
 肛瘘	eauo	20
-幽门螺杆菌	xuja
+幽门螺旋杆菌	xuja
 
 ## emoji动物
 🐶	qtqk		狗
@@ -1415,6 +1459,7 @@ N号房	nkyn
 时空伴随者	jpwf
 健康码	wydc
 封控	ffrp
+提灯定损	ropr
 
 ## emoji
 🙂	tmtt		微笑
@@ -1668,4 +1713,4 @@ Kotlin	kot
 雷军	flpl
 周星驰	mjcb
 刘亦菲	yyad
-
+王朔	ggub
