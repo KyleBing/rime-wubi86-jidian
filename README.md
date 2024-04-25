@@ -438,6 +438,10 @@ Windows 小狼毫 v0.15.0 版已经支持自定义某个方案的图标了，比
 > 具体实现步骤参见 wiki:   
 > [如何通过 iCloud 实现词库多端同步，Windows、iOS、macOS](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87-iCloud-%E5%AE%9E%E7%8E%B0%E8%AF%8D%E5%BA%93%E5%A4%9A%E7%AB%AF%E5%90%8C%E6%AD%A5%EF%BC%8CWindows%E3%80%81iOS%E3%80%81macOS)
 
+
+![rime](https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/221203d7-a7c0-4995-9530-b4970097a812)
+
+
 ## 十、其它相关链接
 
 __工具链接__
