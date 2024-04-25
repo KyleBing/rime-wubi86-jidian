@@ -15,9 +15,9 @@ schema:
 #    - pinyin_simp
 
 switches:
-#  - name: ascii_mode
-#    reset: 0
-#    states: [ 中文, 英文 ]
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
     states: [ 简体, 繁体 ]
