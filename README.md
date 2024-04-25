@@ -434,7 +434,9 @@ Windows 小狼毫 v0.15.0 版已经支持自定义某个方案的图标了，比
 ## 九、macOS、Windows、iOS 同步
 - 可以通过共用同一个 iCloud 地址来实现 `macOS`、`Windows`、`iOS` 实时同步。
 - 这个地址就选用 iOS 仓输入法的方案盛放地址。
-- <未完待写>
+
+> 具体实现步骤参见 wiki:   
+> [如何通过 iCloud 实现词库多端同步，Windows、iOS、macOS](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87-iCloud-%E5%AE%9E%E7%8E%B0%E8%AF%8D%E5%BA%93%E5%A4%9A%E7%AB%AF%E5%90%8C%E6%AD%A5%EF%BC%8CWindows%E3%80%81iOS%E3%80%81macOS)
 
 ## 十、其它相关链接
 
