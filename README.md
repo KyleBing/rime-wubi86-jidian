@@ -8,13 +8,13 @@
 
 `Rime` 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux**、**iOS**、**Android** 五个常用操作系统的输入法，对应如下：
 
-|  操作系统   | 对应的输入法 | github                                                                     |
-|:-------:|:------:|----------------------------------------------------------------------------|
-| Windows |  小狼毫   | [https://github.com/rime/weasel](https://github.com/rime/weasel)           |
-|  macOS  |  鼠须管   | [https://github.com/rime/squirrel](https://github.com/rime/squirrel)       |
-| Ubuntu  |  中州韵   | [https://github.com/rime/ibus-rime](https://github.com/rime/ibus-rime)     |
-|   iOS   |  仓输入法  | [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) |
-| Android | 同文输入法  | [https://github.com/osfans/trime](https://github.com/osfans/trime)         |
+|  操作系统   | 对应的输入法 | github                                                                     |    收费状态     |
+|:-------:|:------:|----------------------------------------------------------------------------|:-----------:|
+| Windows |  小狼毫   | [https://github.com/rime/weasel](https://github.com/rime/weasel)           |     免费      |
+|  macOS  |  鼠须管   | [https://github.com/rime/squirrel](https://github.com/rime/squirrel)       |     免费      |
+| Ubuntu  |  中州韵   | [https://github.com/rime/ibus-rime](https://github.com/rime/ibus-rime)     |     免费      |
+|   iOS   |  仓输入法  | [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) | 免费(高级功能收费)  |
+| Android | 同文输入法  | [https://github.com/osfans/trime](https://github.com/osfans/trime)         |     免费      |
 
 所有由 `Rime` 内核开发过来的输入法都可以共用一套输入方案。  
 由于五个输入平台使用的码表是一样的，所以能够在多个平台间保持同一种输入习惯，这一点对五笔输入而言尤为重要，打到最后，其实记的都是词频。
@@ -68,6 +68,8 @@ patch:
 ├── imgs
 │   ├── icon.ai                       # 图标设计稿
 │   └── logo.png                      # logo
+├── 仓键盘布局
+│   └── wubi86_jidian_ios_keyboard.yaml # 仓输入法键盘布局
 ├── lua  # lua 脚本
 │   ├── wubi86_jidian_calculator.lua
 │   ├── wubi86_jidian_date_translator.lua
@@ -335,6 +337,18 @@ iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击�
 > [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor)
 
 <img width="1362" alt="Screenshot 2022-12-16 at 21 28 54" src="https://user-images.githubusercontent.com/12215982/208109387-5062a921-8eef-4063-9936-42762197d6c8.png">
+
+
+> #### iOS 仓输入法使用快捷指令实现临时添加用户词的功能
+> 
+> 快捷指令链接： [https://www.icloud.com/shortcuts/a8243310b25f46878a7ea38b87cc3df2](https://www.icloud.com/shortcuts/a8243310b25f46878a7ea38b87cc3df2)
+> 
+> 为了解决 iOS 端无法编辑词库文本实现新增词的问题，写了一个快捷指令操作，实现的功能是：
+> 1. 在仓输入法目录下的 Rime 目录中的 `wubi86_jidian_user_hamster.dict.yaml` 文件的末尾处添加你要添加的 `词` `编码` `权重` 到
+> 2. 根据新文件重新部署仓输入法
+> 
+> 当你通过 iCloud 实现多端同步之后，这些新增的词也会出同步现在其它平台上。  
+> 之后有时间了再通过 PC 整理这些词条到你的个人分类词库中即可。
 
 ### 6. 输出系统变量
 自 Rime `v0.13` 之后可自定义输出系统变量，如日期等
