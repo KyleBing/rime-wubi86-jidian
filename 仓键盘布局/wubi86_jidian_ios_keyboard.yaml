@@ -51,109 +51,46 @@ keyboards:
                 char: w
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "&"
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: e
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: 【】
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: r
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ￥
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: t
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ……
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: y
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "{"
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: u
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "}"
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: i
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: /
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: o
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: \
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: p
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: "%"
-                display: true
-                processByRIME: true
-                direction: up
       - keys:
           - action: none
             width: available
@@ -162,102 +99,53 @@ keyboards:
                 char: a
             width:
               percentage: 0.1
-          - action:
-              character:
-                char: s
-            width:
-              percentage: 0.1
             swipe:
               - action:
                   character:
                     char: "#"
                 display: true
-                processByRIME: false
+                processByRIME: true
                 direction: up
+          - action:
+              character:
+                char: s
+            width:
+              percentage: 0.1
           - action:
               character:
                 char: d
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: $
-                display: true
-                processByRIME: true
-                direction: up
           - action:
               character:
                 char: f
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: 《》
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: g
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: （）
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: h
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ：
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: j
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ；
-                display: true
-                processByRIME: true
-                direction: up
           - action:
               character:
                 char: k
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: ‘’
-                display: true
-                processByRIME: false
-                direction: up
           - action:
               character:
                 char: l
             width:
               percentage: 0.1
-            swipe:
-              - action:
-                  character:
-                    char: “”
-                display: true
-                processByRIME: false
-                direction: up
           - action: none
             width: available
       - keys:
@@ -1187,38 +1075,8 @@ keyboards:
           - action: none
             width: available
           - action:
-              keyboardType:
-                custom:
-                  named: 极点86-大写数字
-            width:
-              portrait:
-                percentage: 0.12
-              landscape:
-                percentage: 0.1
-            label: 大写
-          - action:
-              keyboardType:
-                custom:
-                  named: 极点86-数学
-            width:
-              portrait:
-                percentage: 0.12
-              landscape:
-                percentage: 0.1
-            label: 数学
-          - action:
-              keyboardType:
-                custom:
-                  named: 极点86-制表
-            width:
-              portrait:
-                percentage: 0.12
-              landscape:
-                percentage: 0.1
-            label: 制表
-          - action:
               character:
-                char: ？
+                char: 。
             width:
               portrait:
                 percentage: 0.12
@@ -1234,7 +1092,31 @@ keyboards:
                 percentage: 0.1
           - action:
               character:
-                char: 。
+                char: 、
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: ？
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: ！
+            width:
+              portrait:
+                percentage: 0.12
+              landscape:
+                percentage: 0.1
+          - action:
+              character:
+                char: .
             width:
               portrait:
                 percentage: 0.12
@@ -1399,35 +1281,29 @@ keyboards:
           - action: none
             width: available
           - action:
-              keyboardType:
-                custom:
-                  named: 极点86-大写数字
+              character:
+                char: "&"
             width:
               portrait:
                 percentage: 0.12
               landscape:
                 percentage: 0.1
-            label: 大写
           - action:
-              keyboardType:
-                custom:
-                  named: 极点86-数学
+              character:
+                char: +
             width:
               portrait:
                 percentage: 0.12
               landscape:
                 percentage: 0.1
-            label: 数学
           - action:
-              keyboardType:
-                custom:
-                  named: 极点86-制表
+              character:
+                char: ","
             width:
               portrait:
                 percentage: 0.12
               landscape:
                 percentage: 0.1
-            label: 制表
           - action:
               character:
                 char: "?"
@@ -1438,7 +1314,7 @@ keyboards:
                 percentage: 0.1
           - action:
               character:
-                char: ","
+                char: "!"
             width:
               portrait:
                 percentage: 0.12
