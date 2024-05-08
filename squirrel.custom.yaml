@@ -1,42 +1,43 @@
+#-----------------#
+#    颜色使用说明   #
+#-----------------#
+# 我们平常一般用到的颜色都是 `RGB` 顺序的，如 `D1635D` 就是 `red: D1 | green: 63 | blue: 5D`
+# 而这里面用到的颜色可以有两种表达方式：
+# 一种是带透明度的 `ABGR` ，`A` 代码透明度，范围也是从 `00 - FF`，`00` 是透明 `FF` 是不透明；另一种是 `BGR`。
+# 那么上面这个颜色在这里面就可以写成 `0x5D63D1` `0xFF5D63D1`
+
+#-----------------#
+#     字体说明     #
+#-----------------#
+# 只要是你本地有的字体就可以，可以打开 FontBook.app 查看
+# 一般字体不需要指定，指定后的字体可能会出现候选框被拉伸成过高的情况，因为不同字体的纵向高度不同，默认字体适配最好
+
 patch:
   style:
-    color_scheme: roseo_maple               # 写当前名，也就是下面皮肤的 name 内容
-
-  #-----------------#
-  #    颜色使用说明   #
-  #-----------------#
-  # 我们平常一般用到的颜色都是 `RGB` 顺序的，如 `D1635D` 就是 `red: D1 | green: 63 | blue: 5D`
-  # 而这里面用到的颜色可以有两种表达方式：
-  # 一种是带透明度的 `ABGR` ，`A` 代码透明度，范围也是从 `00 - FF`，`00` 是透明 `FF` 是不透明；另一种是 `BGR`。
-  # 那么上面这个颜色在这里面就可以写成 `0x5D63D1` `0xFF5D63D1`
-
-  #-----------------#
-  #     字体说明     #
-  #-----------------#
-  # 只要是你本地有的字体就可以，可以打开 FontBook.app 查看
-  # 一般字体不需要指定，指定后的字体可能会出现候选框被拉伸成过高的情况，因为不同字体的纵向高度不同，默认字体适配最好
-
+    color_scheme: roseo_maple   # 写当前名，也就是下面皮肤的 name 内容
   preset_color_schemes:
     roseo_maple:
       name: 玫枫 / Roseo Maple
-      author: "KyleBing <http://kylebing.cn>"
-      alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
-      border_height: 5                          # 边距 - 面板上下
+      # v0.18 新增 ------ start  -----
+      status_message_type: mix # long | short | mix
+      memorize_size: true # 控制选项标是否在接触屏幕边缘时有粘性
+      # ----------------  end  -------
+      alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤，0 时隐藏候选框
+      border_height: 3                          # 边距 - 面板上下
       border_width: 0                           # 宽度 - 边框
       border_color: 0xffffff                    # 颜色 - 边框
       back_color: 0xF4F4F6                      # 颜色 - 面板背景
+      corner_radius: 5                          # 候选框圆角大小
       label_color: 0xaaaaaa                     # 颜色 - 候选序号
-#      font_face: PingFang SC Semibold                    # 字体 - 候选文字
       font_point: 18                            # 字体大小 - 候选
+#      font_face: PingFang SC Semibold                    # 字体 - 候选文字
 #      label_font_face: Skia                     # 字体 - 候选数字
 #      label_font_point: 18                      # 字体大小 - 候选序号
-      corner_radius: 5                          # 候选框圆角大小
-
 
       # %c 是候选序号 %@ 是候选词
       candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
 
-      horizontal: true                         # 是否横向 true 或 false
+      horizontal: true                         # 是否横向 true | false
       line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
       base_offset: 0                           # 文字基线调整
 
@@ -56,30 +57,6 @@ patch:
       # inline_preedit 为 false 时
       hilited_text_color: 0x8E8E93              # 颜色 - 输入中 - 编码
       hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
-
-    calm:
-      name: "安静"
-      border_height: 5
-      border_width: 10
-      border_color: 0x8E8E93
-      back_color: 0xEFEFF4
-      label_color: 0x8E8E93
-      font_point: 20
-      label_font_point: 18
-      corner_radius: 5
-      candidate_format: "%c %@ "
-      horizontal: true
-      line_spacing: 5
-      hilited_candidate_text_color: 0x000000
-      hilited_candidate_back_color: 0x00ffffff
-      hilited_candidate_label_color: 0x888888
-      hilited_comment_text_color: 0xF19C38
-      candidate_text_color: 0x888888
-      comment_text_color: 0x5AC461
-      inline_preedit: true
-      spacing: 5
-      hilited_text_color: 0x8E8E93
-      hilited_back_color: 0xEFEFF4
 
 
 # --- 特定程序定义初始状态的英文输入 ---

@@ -119,7 +119,7 @@ GSX250R	gsx
 护杠	rysa
 摩托范	yrai
 摩托邦	yrdt
-CBR650R	cbr
+CBR650R	cbr	10
 试戴	yafa
 降挡	btri
 挡把	rirc	20
@@ -357,7 +357,7 @@ Ninja650	ninj
 一泻千里	gitj
 夜猫	ywqt
 绿幕	xvaj
-U盘	utel
+U盘	utel	20
 水基	iiad
 灭火器	gokk
 水基灭火器	iagk
@@ -1190,6 +1190,21 @@ SwiftUI	swif
 短视频	tphi
 电子表	jbge
 CAD	cad
+值当	wfiv
+晒水袋	jiwa
+忙慌	nyna	15
+着急忙慌	uqnn	15
+刺挠	gmra
+除噪	bwkk	20
+顶格	sdst
+族谱	ytyu
+灵魂出窍	vfbp	20
+穿越机	pfsm
+呆萌	ksaj
+勒芒	afay
+总览	ukjt
+BRZ	brz
+老毛桃	ftsi
 
 ## 软件名
 懂车帝	nlup
@@ -1257,6 +1272,7 @@ Apex	apex
 拓竹	rdtt	15
 Ulanzi	ulan
 钱江	qgia	20
+卡赫	hhfo
 
 ## 区域
 莒县	akeg
@@ -1714,3 +1730,4 @@ Kotlin	kot
 周星驰	mjcb
 刘亦菲	yyad
 王朔	ggub
+
