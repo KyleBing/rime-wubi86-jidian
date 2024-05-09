@@ -47,7 +47,7 @@ patch:
       min_height: 30
 
       border_width: 1            # number 边框宽度 候选边框、面板边框
-      margin_x: 0                # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_x: 15               # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
       margin_y: 0                # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
       spacing: 10                # number 候选词之间的间隔
 
@@ -86,7 +86,7 @@ patch:
       hilited_candidate_back_color: 0x004F11FA     # color 背景色 选中的候选
       hilited_candidate_shadow_color:  0x004F11FA  # color aarrggbb
       hilited_candidate_border_color:  0x004F11FA  # color 边框颜色 选中的候选
-      hilited_mark_color:  0x000000                # color
+#      hilited_mark_color:  0xEDEDF9                # color 候选项前面的高亮颜色
 
 
     MacRoseoAlt: # 玫红背景
