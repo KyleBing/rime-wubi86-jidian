@@ -14,50 +14,55 @@
 
 patch:
   style:
-    color_scheme: roseo_maple   # 写当前名，也就是下面皮肤的 name 内容
+    color_scheme: roseo_maple      # 写当前名，也就是下面皮肤的 name 内容
   preset_color_schemes:
     roseo_maple:
       name: 玫枫 / Roseo Maple
+      # v1.00 之后新增  ------ start  -----
+      candidate_format: "[label]. [candidate] [comment]"   # 候选词格式， label:序号，candidate：候选词，comment: 词条注释
+      candidate_list_layout: linear                        # stacked | linear
+      text_orientation: horizontal                         # horizontal | vertical
       # v0.18 新增 ------ start  -----
       status_message_type: mix # long | short | mix
       memorize_size: true # 控制选项标是否在接触屏幕边缘时有粘性
       # ----------------  end  -------
+
       alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤，0 时隐藏候选框
-      border_height: 3                          # 边距 - 面板上下
-      border_width: 0                           # 宽度 - 边框
-      border_color: 0xffffff                    # 颜色 - 边框
-      back_color: 0xF4F4F6                      # 颜色 - 面板背景
+      border_height: 0                          # 边距 - 面板上下
+      border_width: 0                           # 边框宽度
+      border_color: 0xffffff                    # 边框颜色
+      back_color: 0xF4F4F6                      # 背景颜色 - 面板
       corner_radius: 5                          # 候选框圆角大小
-      label_color: 0xaaaaaa                     # 颜色 - 候选序号
+
       font_point: 18                            # 字体大小 - 候选
-#      font_face: PingFang SC Semibold                    # 字体 - 候选文字
-#      label_font_face: Skia                     # 字体 - 候选数字
-#      label_font_point: 18                      # 字体大小 - 候选序号
+#      font_face: PingFang SC Semibold           # 字体 - 候选文字
 
-      # %c 是候选序号 %@ 是候选词
-      candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
-
-      horizontal: true                         # 是否横向 true | false
       line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
       base_offset: 0                           # 文字基线调整
-
       preedit_back_color: 0x364572
-      hilited_corner_radius: 5                  # 圆角 - 首选候选词
-      hilited_candidate_text_color: 0x4F11FA    # 颜色 - 首选候选词 - 文字
-      hilited_candidate_back_color: 0xEDEDF9    # 颜色 - 首选候选词 - 背景  8位的前两位是颜色透明度，00就是透明，FF就是不透明
-      hilited_candidate_label_color: 0x884F11FA # 颜色 - 首选候选词 - 序号
-      hilited_comment_text_color: 0xF19C38      # 颜色 - 首选候选词 - 提示编码
-      candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
-      comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
-      comment_font_face: PingFang SC            # 字体 - 候选词编码的提示
-      comment_font_point: 16                    # 字体大小 - 候选词编码的提示
+
+      hilited_corner_radius: 5                  # 圆角大小 - 高亮候选词
+      hilited_candidate_text_color: 0x4F11FA    # 字体颜色 - 高亮候选词
+      hilited_candidate_back_color: 0xEDEDF9    # 背景颜色 - 高亮候选词  8位的前两位是颜色透明度，00就是透明，FF就是不透明
+      hilited_candidate_label_color: 0x884F11FA # 字体颜色 - 高亮候选词
+
+      label_font_face: PingFang SC              # 字体    - 序号
+      label_font_point: 17                      # 字体大小 - 序号
+      label_color: 0xaaaaaa                     # 字体颜色 - 序号
+
+      candidate_text_color: 0x222222            # 字体颜色 - 候选词
+      candidate_font_face: PingFang SC          # 字体    - 候选词
+      candidate_font_point: 16                  # 字体大小 - 候选词
+
+      comment_font_face: PingFang SC            # 字体    - 候选词
+      comment_font_point: 16                    # 字体大小 - 候选词
+      comment_text_color: 0x5AC461              # 字体颜色 - 候选词
 
       inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
       spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
       # inline_preedit 为 false 时
       hilited_text_color: 0x8E8E93              # 颜色 - 输入中 - 编码
       hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
-
 
 # --- 特定程序定义初始状态的英文输入 ---
   app_options:
