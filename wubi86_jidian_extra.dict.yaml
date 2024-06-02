@@ -272,6 +272,7 @@ Ninja650	ninj
 海王	itgg	30
 功夫熊猫	afcq
 沈墨	iplf
+死神来了	gpgb
 
 ## 歌手
 谢春花	ydaw
@@ -306,6 +307,7 @@ Ninja650	ninj
 韩红	fjxa
 郭顶	ybsd
 麻园诗人	ylyw	20
+五月天	gegd
 
 ## 演员
 周韵	mfuj
@@ -418,7 +420,7 @@ U盘	utel	20
 短链	tdql
 透明度	tjya
 充电线	yjxg
-也就是	byjg
+也就是	byjg	20
 虚化	hawx
 亡命天涯	ywgi
 武士刀	gfvn
@@ -1143,7 +1145,6 @@ HDMI	hdmi
 摆件	rlwr
 除冰	bwui
 新生儿	utqt	10
-Mega	mega
 夏雨荷	dfaw
 Swift	swif
 SwiftUI	swif
@@ -1205,6 +1206,51 @@ CAD	cad
 总览	ukjt
 BRZ	brz
 老毛桃	ftsi
+未读	fiyf	20
+已读	nnyf	20
+折返	rrrc	20
+搞不懂	rgna
+老是	ftjg
+白叫	rrkn	20
+十月怀胎	fene	20
+肘子	efbb	20
+电饼铛	jqqi
+倒放	wgyt
+补帧	pumh
+回看	lkrh	20
+街巷	tfaw	20
+刷碗	nmdp
+大图	ddlt	20
+掉渣饼	riqn	15
+雅黑	ahlf
+续期	xfad
+豆浆机	gusm
+开胶	gaeu	20
+天梯图	gslt
+人保	wwwk
+闪屏	uwnu
+阅读器	uykk
+轨迹球	lygf	30
+菌群	alvt	30
+标配	sfsg
+线稿	xgty
+线框	xgsa
+高数	ymov
+常伴	ipwu
+色彩平衡	qegt
+色阶	qcbw
+恩雅	ldah
+班得瑞	gtgm
+电蚊拍	jjrr
+剁手	msrt
+入坑	tyfy
+入局	tynn
+PDF	pdf
+闪迪	uwmp
+走走	fhfh	20
+把子肉	rbmw	20
+开箱	gats
+童话镇	uyqf
 
 ## 软件名
 懂车帝	nlup
@@ -1597,6 +1643,13 @@ N号房	nkyn
 球球大作战	ggdh
 库乐队	yqbw
 小小梦魇	iisd
+俄罗斯方块	wlaf
+双截龙	cfdx
+忍者神龟	vfpq
+兵蜂	rgjt	20
+沙罗曼蛇	iljj	20
+MiyooMini+	miyo
+Miyoo	miyo
 
 ## 三四叠字
 众	cccc
@@ -1731,3 +1784,12 @@ Kotlin	kot
 刘亦菲	yyad
 王朔	ggub
 
+## 摄影
+定焦	pgwy
+全画幅	wgmh	14
+半画幅	ugmh	20
+视景窗	pjpw
+套机	ddsm
+哈苏	kwal
+自提	thrj	20
+远焦	fqwg	20
