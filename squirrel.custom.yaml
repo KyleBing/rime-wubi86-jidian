@@ -14,7 +14,8 @@
 
 patch:
   style:
-    color_scheme: roseo_maple      # 写当前名，也就是下面皮肤的 name 内容
+    color_scheme: roseo_maple       # 写当前名，也就是下面皮肤的 name 内容
+    color_scheme_dark: roseo_maple  # 暗黑模式下启用的皮肤
   preset_color_schemes:
     roseo_maple:
       name: 玫枫 / Roseo Maple
