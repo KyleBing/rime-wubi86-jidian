@@ -60,7 +60,7 @@ patch:
       # 上下翻页 - =
 #      - { when: has_menu, accept: minus, send: Page_Up }
 #      - { when: has_menu, accept: equal, send: Page_Down }
-      -
+      
       # 上下翻页 tab
       - { when: has_menu, accept: Shift+Tab, send: Page_Up }
       - { when: has_menu, accept: Tab, send: Page_Down }
