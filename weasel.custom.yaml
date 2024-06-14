@@ -25,12 +25,17 @@ patch:
 
     layout:
       align_type: "bottom"        # string  "top" | "center" | "bottom" 序号、候选词、注释纵向对齐方式
-      corner_radius: 6            # number  圆角大小 候选面板
+      corner_radius: 3            # number  圆角大小 候选面板
       enhanced_position: false    # bool 允许光标位置获取失败时，在当空窗口左上角绘制候选框（而不是桌面左上角）
-      shadow_radius: 6
+      shadow_radius: 3
       shadow_offset_x: 2          # number 阴影横向偏移量
       shadow_offset_y: 2          # number 阴影纵向偏移量
       border_width: 1             # number 边框宽度 候选边框、面板边框
+      candidate_spacing: 10       # number 候选之间的间隔
+      hilite_spacing: 3           # number 序号与候选词之间的间隔 宽度
+      hilite_padding: 0           # number 候选词边界值 宽度
+      margin_x: 9                 # number 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_y: 5                 # number 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
 
   preset_color_schemes:   # 主题：颜色方案
     MacRoseo: # 玫红字体
