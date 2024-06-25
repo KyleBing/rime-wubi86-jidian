@@ -9,6 +9,7 @@ customization:
   config_version: "0.22"
 
 patch:
+  show_notifications_time: 200            # 部署通知、中英切换标识  显示时长 ms
   style:
     inline_preedit: true
     color_scheme: MacRoseo                 # 匹配正文的颜色方案，对应正文的颜色方案名
