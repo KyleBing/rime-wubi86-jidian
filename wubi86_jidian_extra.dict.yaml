@@ -106,6 +106,10 @@ CarPlay	carp
 副驾驶	glck
 主驾驶	ylck
 安全带	pwgk	30
+凯美瑞	mugm
+日系	jjtx	20
+德系	tftx	20
+兰博基尼	ufan	20
 
 ## 摩托车
 单盘	ujte
@@ -275,6 +279,7 @@ Ninja650	ninj
 死神来了	gpgb
 死侍	gqwf	30
 五月槐花香	gest
+变相怪杰	ysns
 
 ## 歌手
 谢春花	ydaw
@@ -613,7 +618,7 @@ iPadOS	ipad	19
 挨个	rcwh	20
 两圈	gmlu	20
 物业费	toxj	20
-AirDrop	air	20
+AirDrop	aird	20
 嫌累	vulx	20
 回滚	lkiu	30
 弧角	xrqe
@@ -1275,6 +1280,17 @@ Adobe	adob	20
 灯珠	osgr
 安防	pvby
 无边记	flyn	20
+选择困难症	trlu	20
+借还	wagi	20
+已出	nnbm
+驴唇不对马嘴	cdgk	20
+洗面奶	idve
+黑不溜秋	lgit	20
+平衡车	gtlg	20
+盲道	ynut
+折纸	rrxq
+氢气	rnrn	25
+干锅	fgqk
 
 ## 软件名
 懂车帝	nlup
@@ -1746,6 +1762,7 @@ NPM	npm	2
 uniapp	unia
 AM	am
 Kotlin	kot
+ElementUI	elem
 
 ## 物联网
 通断	ceon
@@ -1770,6 +1787,9 @@ Kotlin	kot
 
 ## 小吃
 蒸饺	abqn
+米村拌饭	osrq
+拌饭	ruqn	20
+犟骨头	xmud	20
 
 ## 口语
 姐们	vewu	100
@@ -1780,7 +1800,7 @@ Kotlin	kot
 
 ## 特殊字符
 ✓	qctf		勾选
-✓	cfkg
+✓	cfkg		对号
 ²	guyy
 ³	uuyy
 Ω	aqvx
@@ -1827,3 +1847,6 @@ Kotlin	kot
 热靴	rvaf	15
 快拆	nnrr	20
 柔光罩	cilh
+三脚架	delk	20
+柔光箱	cits	20
+长焦	tawy
