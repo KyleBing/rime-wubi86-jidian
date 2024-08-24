@@ -82,7 +82,6 @@ patch:
 ├── 仓键盘布局
 │   └── wubi86_jidian_ios_keyboard.yaml # 仓输入法键盘布局
 ├── lua  # lua 脚本
-│   ├── wubi86_jidian_calculator.lua
 │   ├── wubi86_jidian_date_translator.lua
 │   ├── wubi86_jidian_single_char_first_filter.lua
 │   └── wubi86_jidian_single_char_only.lua

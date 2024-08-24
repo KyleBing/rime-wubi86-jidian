@@ -50,7 +50,6 @@ engine:
     - reverse_lookup_translator
     - table_translator
     - lua_translator@*wubi86_jidian_date_translator # 日期、时间、星期
-    - lua_translator@*wubi86_jidian_calculator # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
   filters:
     - simplifier@tradition
@@ -123,7 +122,6 @@ recognizer:
   patterns:
 #    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
     reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
-    calculator: "^coco.*$" # 计算器
 
 # 重复上一次输入
 repeat_last_input:
