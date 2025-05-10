@@ -1,0 +1,17 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: plum/full
+  args:
+  description: >-
+    全量安装、更新
+install_files: >-
+  imgs/*.*
+  lua/*.*
+  仓键盘布局/*.*
+  default.custom.yaml
+  squirrel.custom.yaml
+  weasel.custom.yaml
+  numbers.schema.yaml
+  pinyin_simp*.yaml
+  wubi86_jidian*.*
