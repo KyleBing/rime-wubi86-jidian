@@ -7900,9 +7900,9 @@ B站	buh	10
 ー	cojp	30
 ヽ	cojp	20
 ヾ	cojp	10
-←	cojt	80
-↑	cojt	70
-→	cojt	60
+→	cojt	80
+←	cojt	70
+↑	cojt	60
 ↓	cojt	50
 ↖	cojt	40
 ↗	cojt	30
@@ -35394,6 +35394,7 @@ iPod	ipod	10
 中叶	khkf	10
 中号	khkg	20
 呫	khkg	10
+蹒跚	khkh
 跳跃	khkh	60
 踊跃	khkh	50
 跟踪	khkh	40
@@ -50720,6 +50721,7 @@ MacbookPro	mbp	10
 铹	qapl	10
 包藏祸心	qapn	10
 错案	qapv	10
+猫猫	qaqa
 金戈铁马	qaqc	10
 铙钹	qaqd	10
 鐕	qaqj	10
@@ -53629,6 +53631,7 @@ QQ	qq	10
 铮铮铁骨	qqqm	10
 钓饵	qqqn	10
 狰狞	qqqp	10
+狗狗	qqqq
 金	qqqq	10
 急匆匆	qqqr	10
 铆钉	qqqs	10
@@ -54397,6 +54400,8 @@ QQ	qq	10
 锈蚀	qtqn	20
 狍	qtqn	10
 多种多样	qtqs	10
+猫猫	qtqt
+狗狗	qtqt
 猩猩	qtqt	60
 猖獗	qtqt	50
 狡猾	qtqt	40
