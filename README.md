@@ -168,7 +168,7 @@ ubuntu 的配置文件目录在
 iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击该链接添加使用即可
 > [https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a](https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a)
 
-关于自定义的键盘使用说明 → **[仓输入法自定义键盘布局使用说明](./docs/仓输入法自定义键盘布局使用说明.md)**
+关于自定义的键盘使用说明 → **[仓输入法自定义键盘布局使用说明](仓键盘布局/README.md)**
 
 ### 5. Android
 > 同文安卓输入法 github：[https://github.com/osfans/trime](https://github.com/osfans/trime)  
