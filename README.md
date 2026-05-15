@@ -80,7 +80,7 @@ patch:
 │   ├── icon.ai                       # 图标设计稿
 │   └── logo.png                      # logo
 ├── 仓键盘布局
-│   └── wubi86_jidian_ios_keyboard.yaml # 仓输入法键盘布局
+│   └── ios-仓输入法键盘布局-2026-05-15.yaml # 仓输入法键盘布局
 ├── lua  # lua 脚本
 │   ├── wubi86_jidian_date_translator.lua
 │   ├── wubi86_jidian_single_char_first_filter.lua
@@ -98,7 +98,6 @@ patch:
 ├── wubi86_jidian.dict.yaml                 # 词库 - 极点五笔主码表
 ├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
 
-├── wubi86_jidian_ios_keyboard.yaml         # 仓输入法键盘布局
 ├── wubi86_jidian_user_hamster.dict.yaml    # 词库 - iOS 通过快捷指令添加的词条将添加到这里 分享地址：[https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a](https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a)
 
 ├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库 - 实时更新的线上词库（需要使用 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) ）
@@ -169,6 +168,7 @@ ubuntu 的配置文件目录在
 iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击该链接添加使用即可
 > [https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a](https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a)
 
+关于自定义的键盘使用说明 → **[仓输入法自定义键盘布局使用说明](./docs/仓输入法自定义键盘布局使用说明.md)**
 
 ### 5. Android
 > 同文安卓输入法 github：[https://github.com/osfans/trime](https://github.com/osfans/trime)  
