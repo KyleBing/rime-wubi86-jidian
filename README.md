@@ -16,6 +16,9 @@
 |   iOS   |  仓输入法  | [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) | 免费(高级功能收费) |          |
 | Android | 同文输入法  | [https://github.com/osfans/trime](https://github.com/osfans/trime)         |     免费     |          |
 
+另外我开发了一套基于 librime 的输入法，目标是涵盖常用平台，保持统一输入习惯，有兴趣可以看一下：  
+[https://kylebing.cn/wubi/](https://kylebing.cn/wubi/)
+
 所有由 `Rime` 内核开发过来的输入法都可以共用一套输入方案。  
 由于五个输入平台使用的码表是一样的，所以能够在多个平台间保持同一种输入习惯，这一点对五笔输入而言尤为重要，打到最后，其实记的都是词频。
 
