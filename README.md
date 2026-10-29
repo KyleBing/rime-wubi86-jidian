@@ -16,8 +16,8 @@
 |   iOS   |  仓输入法  | [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster) | 免费(高级功能收费) |          |
 | Android | 同文输入法  | [https://github.com/osfans/trime](https://github.com/osfans/trime)         |     免费     |          |
 
-另外我开发了一套基于 librime 的输入法，目标是涵盖常用平台，保持统一输入习惯，有兴趣可以看一下：  
-[https://kylebing.cn/wubi/](https://kylebing.cn/wubi/)
+> 另外我开发了一套基于 librime 的输入法，目标是涵盖常用平台，保持统一输入习惯，有兴趣可以看一下：  
+> [https://kylebing.cn/wubi/](https://kylebing.cn/wubi/)
 
 所有由 `Rime` 内核开发过来的输入法都可以共用一套输入方案。  
 由于五个输入平台使用的码表是一样的，所以能够在多个平台间保持同一种输入习惯，这一点对五笔输入而言尤为重要，打到最后，其实记的都是词频。
@@ -79,11 +79,6 @@ patch:
 .
 ├── LICENSE                                 # MIT license
 ├── README.md                               # 当前说明文档
-├── imgs
-│   ├── icon.ai                       # 图标设计稿
-│   └── logo.png                      # logo
-├── 仓键盘布局
-│   └── ios-仓输入法键盘布局-2026-05-15.yaml # 仓输入法键盘布局
 ├── default.custom.yaml                     # 配置 - 自定义一些输入法的功能：标点，二三候选等
 ├── squirrel.custom.yaml                    # 配置 - 鼠须管（for macOS）输入法候选词界面
 ├── weasel.custom.yaml                      # 配置 - 小狼毫（for Windows）输入法候选词界面
@@ -96,8 +91,6 @@ patch:
 ├── wubi86_jidian.schema.yaml               # 方案 - 极点五笔
 ├── wubi86_jidian.dict.yaml                 # 词库 - 极点五笔主码表
 ├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
-
-├── wubi86_jidian_user_hamster.dict.yaml    # 词库 - iOS 通过快捷指令添加的词条将添加到这里 分享地址：[https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a](https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a)
 
 ├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库 - 实时更新的线上词库（需要使用 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) ）
 └── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
@@ -129,7 +122,7 @@ patch:
 ```
 
 > **注意**：对于不熟悉命令行操作的朋友， `~` 代表的是当前用户的主目录，比如我的用户名是 `kyle`, `~` 就代表 `/Users/kyle/` 这个绝对路径。
-> 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下，了然否？
+> 需要将你下载的文件放入 `/Users/你用户名/Library/Rime` 这个目录下
 
 
 ### 2. Windows ( 小狼毫 )
@@ -154,41 +147,15 @@ ubuntu 的配置文件目录在
 ```
 
 ### 4. 仓输入法 ( iOS )
-**仓输入法**： 一个开源免费的 iOS 端的 Rime 内核输入法，很棒，直接 AppStore 搜索下载即可。
+**仓输入法**： 一个开源免费的 iOS 端的 Rime 内核输入法，直接 AppStore 搜索下载即可。
 > github： [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster)
 
-我已经将该输入方案上传到了仓的可选输入法方案列表中，可能这样添加使用：
-1. 打开仓输入法，选择 <kbd>输入方案设置</kbd>
-2. 点击右上角的<kbd>+</kbd>号，选择 <kbd>方案下载</kbd>
-3. 在列表中找到 `五笔86-极点方案`，然后选择 <kbd>覆盖并部署</kbd> 即可完成安装
-4. 就能正常打字了
-
-但痛点还是一样，无法很方便的添加词汇。所以我才在该方案中添加了一个名为 `wubi86_jidian_ios_keyboard.yaml` 的码表来接收 iOS 添加的一些词。
-iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击该链接添加使用即可
-> [https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a](https://www.icloud.com/shortcuts/a87901f7a9fa48f3986241ee74ddc74a)
-
-关于自定义的键盘使用说明 → **[仓输入法自定义键盘布局使用说明](仓键盘布局/README.md)**
 
 ### 5. Android
 > 同文安卓输入法 github：[https://github.com/osfans/trime](https://github.com/osfans/trime)  
 > 输入法版本 release：[https://github.com/osfans/trime/releases](https://github.com/osfans/trime/releases)
 
 下载安装，将词库添加到对应的文件夹中，再进行部署即可使用
-
-### 6. 网页版输入法
-
-梧桐输入法 : [https://github.com/LibreService/my_rime](https://github.com/LibreService/my_rime)
-
-1. 打开输入法网站 [https://my-rime.vercel.app/](https://my-rime.vercel.app/)
-2. 点击下方 <kbd>Add new schemas</kbd> 中的 <kbd>Micro Plum</kbd> 按钮
-3. 在弹出窗口的 **Schema URL** 不添加如下内容，点击 <kbd>Install</kbd> 即可
-    ```bash
-    https://raw.githubusercontent.com/KyleBing/rime-wubi86-jidian/master/wubi86_jidian.schema.yaml
-    ```
-4. 之后就可以在输入框里用这个码表进行打字了
-
-
-<img width="811" alt="Screenshot 2024-03-04 at 16 03 27" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/ddd23706-01c8-4d32-b1fc-ae184d6b088c">
 
 ## 五、扩展词库
 
@@ -202,57 +169,6 @@ iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击�
 可以通过修改 `wubi86_jidian.dict.yaml` 文件头部的部分来启用、停用某一个词库。
 
 比如想停用 `行政区域` 这个词库，直接在其前面添加  `#` 或者直接删除该行，执行输入法的 `部署` 或 `Deploy` 操作后即可生效。
-
-[//]: # ()
-[//]: # (### 1. 线上共享的扩展词库)
-
-[//]: # (不再动原来的主词库，除非发现一些很没有必要的词才会进行删除操作，不会进行添加操作。  )
-
-[//]: # (以后新增的词都都放置在了 `wubi86_jidian_extra` 这个扩展词库中，可以通过工具来实现实时更新线上最新的词库内容。)
-
-[//]: # ()
-[//]: # (这个词库是我维护的，你也可以将一些常用的词上传到线上。  )
-
-[//]: # (我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。)
-
-[//]: # ()
-[//]: # (需要注册码的 email 我获取即可： kylebing@163.com，来信请注明来意。  )
-
-[//]: # (> 线上管理地址在:  [http://kylebing.cn/manager/#/wubi-words]&#40;http://kylebing.cn/manager/#/wubi-words&#41;)
-
-[//]: # ()
-[//]: # (![工具上传词条]&#40;https://user-images.githubusercontent.com/12215982/216496512-8f54658a-71cd-4de2-8e16-dbb86baf6df4.png&#41; )
-
-[//]: # ()
-[//]: # ()
-[//]: # (> ![2022-12-29 09 09 39]&#40;https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png&#41;)
-
-[//]: # ()
-[//]: # ()
-[//]: # (### 2. 行政区域)
-
-[//]: # (`行政区域` 这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。)
-
-[//]: # ()
-[//]: # (```yaml)
-
-[//]: # (# 天津市)
-
-[//]: # (天津市	        giym		120000)
-
-[//]: # (天津市市辖区	    giya		120100)
-
-[//]: # (和平区	        tgaq		120101)
-
-[//]: # (河东区	        iaaq		120102)
-
-[//]: # (河西区	        isaq		120103)
-
-[//]: # (南开区	        fgaq		120104)
-
-[//]: # (河北区	        iuaq		120105)
-
-[//]: # (```)
 
 ## 六、使用说明
 
@@ -357,17 +273,6 @@ iOS 添加词时需要用到 `快捷指令`，我已做了分享，直接点击�
 
 <img width="1362" alt="Screenshot 2022-12-16 at 21 28 54" src="https://user-images.githubusercontent.com/12215982/208109387-5062a921-8eef-4063-9936-42762197d6c8.png">
 
-
-> #### iOS 仓输入法使用快捷指令实现临时添加用户词的功能
-> 
-> 快捷指令链接： [https://www.icloud.com/shortcuts/a8243310b25f46878a7ea38b87cc3df2](https://www.icloud.com/shortcuts/a8243310b25f46878a7ea38b87cc3df2)
-> 
-> 为了解决 iOS 端无法编辑词库文本实现新增词的问题，写了一个快捷指令操作，实现的功能是：
-> 1. 在仓输入法目录下的 Rime 目录中的 `wubi86_jidian_user_hamster.dict.yaml` 文件的末尾处添加你要添加的 `词` `编码` `权重` 到
-> 2. 根据新文件重新部署仓输入法
-> 
-> 当你通过 iCloud 实现多端同步之后，这些新增的词也会出同步现在其它平台上。  
-> 之后有时间了再通过 PC 整理这些词条到你的个人分类词库中即可。
 
 ### 6. 开启自动造词
 
@@ -477,13 +382,6 @@ __本库 Wiki__
 - [x] [关于编辑词库时的 tab 问题](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E5%85%B3%E4%BA%8E%E7%BC%96%E8%BE%91%E8%AF%8D%E5%BA%93%E6%97%B6-tab-%E7%9A%84%E9%97%AE%E9%A2%98)
 - [x] [皮肤配置详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E7%9A%AE%E8%82%A4%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3)
 - [x] [如何启用 ` fh` 这种特殊符号输入](https://github.com/KyleBing/rime-wubi86-jidian/wiki/%E5%A6%82%E4%BD%95%E5%90%AF%E7%94%A8-%5B-%E7%AC%A6%E5%8F%B7-%5D-%60fh%60-%E8%BF%99%E7%A7%8D%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7%E8%BE%93%E5%85%A5)
-
-
-
-## 支持
-感谢 [JetBrains](https://www.jetbrains.com/?from=rime-wubi86-jidian@KyleBing) 提供的工具支持
-
-![JetBrains](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_ga=2.54620846.401568951.1648434626-301403838.1648434626)
 
 
 > **始于** 2019年02月28日
