@@ -77,7 +77,7 @@ patch:
 
 ```bash
 .
-├── LICENSE                                 # license
+├── LICENSE                                 # MIT license
 ├── README.md                               # 当前说明文档
 ├── imgs
 │   ├── icon.ai                       # 图标设计稿
